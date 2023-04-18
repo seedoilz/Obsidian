@@ -1,0 +1,12 @@
+{
+  "theme": "obsidian",
+  "accentColor": "",
+  "cssTheme": "Things",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "Yin and Yang"
+  ],
+  "showViewHeader": true,
+  "baseFontSize": 16,
+  "nativeMenus": true
+}
