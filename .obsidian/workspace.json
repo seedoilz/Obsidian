@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ff7bebbe13496b1b",
+        "id": "13c801bf016bd57a",
         "type": "tabs",
         "children": [
           {
-            "id": "0e99116933348be8",
+            "id": "1683cb06ad795e89",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tags/theory.md",
+                "file": "软件系统设计/Quality Attributes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MTBF",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tags/theory.md",
+                "file": "软件系统设计/Quality Attributes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tags/theory.md",
+                "file": "软件系统设计/Quality Attributes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tags/theory.md"
+                "file": "软件系统设计/Quality Attributes.md"
               }
             }
           }
@@ -136,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,16 +148,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0e99116933348be8",
+  "active": "1683cb06ad795e89",
   "lastOpenFiles": [
+    "软件系统设计/Quality Attributes.md",
+    "软件系统设计/软件系统设计.md",
+    "软件系统设计/Defensive Programming.md",
+    "软件系统设计/防御式编程.md",
+    "软件系统设计/Assertions.md",
+    "templates/aliases.md",
+    "软件系统设计/未命名.md",
+    "templates",
     "tags/theory.md",
     "机器学习/EntitySet.md",
     "机器学习/Deep Feature Synthesis.md",
-    "软件系统设计/Defensive Programming.md",
     "机器学习/Featuretools.md",
     "机器学习/机器学习.md",
-    "软件系统设计/防御式编程.md",
-    "软件系统设计/软件系统设计.md",
     "软件系统设计/Structual Pattern.md",
     "软件系统设计/Bridge and Decorator.md",
     "软件系统设计/代理模式.md",
@@ -170,10 +177,6 @@
     "软件系统设计/策略模式.md",
     "软件系统设计/中介者模式.md",
     "软件系统设计/适配器模式.md",
-    "软件系统设计/模板方法模式.md",
-    "软件系统设计/命令模式.md",
-    "软件系统设计/建造者模式.md",
-    "软件系统设计/简单工厂模式.md",
     "tags",
     "机器学习/input",
     "软件系统设计/input",
@@ -183,7 +186,6 @@
     "软件设计/设计模式",
     "软件设计/设计原则",
     "软件设计",
-    "未命名.canvas",
-    "机器学习"
+    "未命名.canvas"
   ]
 }

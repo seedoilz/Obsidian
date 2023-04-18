@@ -9,23 +9,7 @@
       "key": "="
     }
   ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "="
-    }
-  ],
   "editor:toggle-code": [],
-  "workspace:toggle-pin": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "\\"
-    }
-  ],
   "editor:toggle-source": [
     {
       "modifiers": [
@@ -167,12 +151,38 @@
         "Mod"
       ],
       "key": "W"
-    },
+    }
+  ],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "workspace:new-tab": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "-"
+      "key": "T"
+    }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
     }
   ]
 }

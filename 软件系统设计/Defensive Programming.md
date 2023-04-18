@@ -1,6 +1,6 @@
 #input
 
-# 1. [[防御式编程]] Defensive Programming
+# 1. 防御式编程 Defensive Programming
 
 ## 1.1. 可用、正确和优秀的代码
 1. 编写大多数情况下都能用 (可用)的代码很容易：但是提供意外输入会崩溃。
