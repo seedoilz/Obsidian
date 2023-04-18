@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/Quality Attributes.md",
+                "file": "软件系统设计/抽象工厂模式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,13 +66,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/Quality Attributes.md",
+                "file": "软件系统设计/抽象工厂模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/Quality Attributes.md",
+                "file": "软件系统设计/抽象工厂模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/Quality Attributes.md"
+                "file": "软件系统设计/抽象工厂模式.md"
               }
             }
           }
