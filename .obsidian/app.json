@@ -3,6 +3,8 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "promptDelete": true,
-  "userIgnoreFilters": null,
+  "userIgnoreFilters": [
+    "tags/"
+  ],
   "strictLineBreaks": false
 }
