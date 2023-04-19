@@ -392,16 +392,10 @@ body:not(.is-mobile)
 }
 
 /* Code blocks */
+.cm-inline-code,
 .cm-s-obsidian .HyperMD-codeblock,
 .markdown-preview-view.markdown-preview-view :is(pre, code) {
   --codeblock-border: var(--color-base-30);
-  --codeblock-roundness: var(--radius-s);
-  --code-block-alt-bg: var(--color-base-30);
-  --slight-code-roundish: var(--radius-xs);
-}
-
-.cm-inline-code :is(pre, code) {
-  --codeblock-border: #e06c75;
   --codeblock-roundness: var(--radius-s);
   --code-block-alt-bg: var(--color-base-30);
   --slight-code-roundish: var(--radius-xs);
