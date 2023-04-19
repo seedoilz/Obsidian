@@ -8,28 +8,28 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "#project",
+      "query": "tag:#project",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "#input",
+      "query": "tag:#input",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "#theory/softwaredesign",
+      "query": "tag:#theory/softwaredesign",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "#practice",
+      "query": "tag:#computer/machinelearning",
       "color": {
         "a": 1,
         "rgb": 5431378

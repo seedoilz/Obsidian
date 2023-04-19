@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/XGBoost.md",
+                "file": "决策树.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,8 +73,7 @@
           "state": {}
         }
       }
-    ],
-    "currentTab": 0
+    ]
   },
   "right": {
     "id": "b0de52966bd29dd6",
@@ -86,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "机器学习/XGBoost.md",
+            "file": "决策树.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "机器学习/XGBoost.md",
+            "file": "决策树.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -115,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "机器学习/XGBoost.md"
+            "file": "决策树.md"
           }
         }
       }
@@ -132,9 +131,11 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "决策树.md",
+    "机器学习/Deep Feature Synthesis.md",
+    "机器学习/XGBoost.md",
     "软件系统设计/享元模式.md",
     "软件系统设计/抽象工厂模式.md",
-    "机器学习/Deep Feature Synthesis.md",
     "软件系统设计/Defensive Programming.md",
     "软件系统设计/软件系统设计.md",
     "软件系统设计/设计模式/中介者模式.md",
@@ -160,8 +161,6 @@
     "Linux/Linux考纲.md",
     "机器学习/特征提取.md",
     "软件设计.md",
-    "Linux/Lec1-Linux Basics.md",
-    "机器学习/机器学习.md",
     "Linux",
     "Excalidraw"
   ]
