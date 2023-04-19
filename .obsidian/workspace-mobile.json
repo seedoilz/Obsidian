@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/享元模式.md",
+                "file": "机器学习/XGBoost.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "软件系统设计/享元模式.md",
+            "file": "机器学习/XGBoost.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "软件系统设计/享元模式.md",
+            "file": "机器学习/XGBoost.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "软件系统设计/享元模式.md"
+            "file": "机器学习/XGBoost.md"
           }
         }
       }
@@ -132,6 +132,7 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "软件系统设计/享元模式.md",
     "软件系统设计/抽象工厂模式.md",
     "机器学习/Deep Feature Synthesis.md",
     "软件系统设计/Defensive Programming.md",
@@ -161,7 +162,6 @@
     "软件设计.md",
     "Linux/Lec1-Linux Basics.md",
     "机器学习/机器学习.md",
-    "Linux/Lec4-Kernel Driver.md",
     "Linux",
     "Excalidraw"
   ]

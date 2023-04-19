@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/XGBoost.md",
+                "file": "机器学习/Featuretools.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/XGBoost.md",
+                "file": "机器学习/Featuretools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习/XGBoost.md",
+                "file": "机器学习/Featuretools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,17 +127,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/XGBoost.md"
+                "file": "机器学习/Featuretools.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,8 +147,8 @@
   },
   "active": "3f7d5c9f37a0c3c2",
   "lastOpenFiles": [
-    "机器学习/XGBoost.md",
     "机器学习/机器学习.md",
+    "机器学习/XGBoost.md",
     "机器学习/Featuretools.md",
     "机器学习/Deep Feature Synthesis.md",
     "机器学习/EntitySet.md",
