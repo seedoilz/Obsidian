@@ -3,6 +3,9 @@ aliases: [xgb]
 ---
 #computer/machinelearning 
 
+## 原理
+本质基于[[决策树]]
+
 ## 使用
 ### 引入基本库
 ```python
