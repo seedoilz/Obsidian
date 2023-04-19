@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a801175732fe274",
+        "id": "c7831a9ad867bde5",
         "type": "tabs",
         "children": [
           {
-            "id": "3f7d5c9f37a0c3c2",
+            "id": "aa76b56c5efc5e9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/随机森林.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56ef908ef4a8b543",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "机器学习/机器学习.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/随机森林.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习/随机森林.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/随机森林.md"
+                "file": "软件系统设计/软件系统设计.md"
               }
             }
           }
@@ -159,15 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3f7d5c9f37a0c3c2",
+  "active": "aa76b56c5efc5e9f",
   "lastOpenFiles": [
     "机器学习/XGBoost.md",
-    "机器学习/随机森林.md",
-    "机器学习/机器学习.md",
-    "软件系统设计/未命名.md",
+    "机器学习/Woodwork.md",
     "机器学习/Featuretools.md",
-    "机器学习/Deep Feature Synthesis.md",
     "机器学习/EntitySet.md",
+    "机器学习/机器学习.md",
+    "机器学习/随机森林.md",
+    "软件系统设计/未命名.md",
+    "机器学习/Deep Feature Synthesis.md",
     "软件系统设计/抽象工厂模式.md",
     "软件系统设计/Quality Attributes.md",
     "软件系统设计/软件系统设计.md",
@@ -187,7 +175,6 @@
     "软件系统设计/装饰模式.md",
     "软件系统设计/桥接模式.md",
     "软件系统设计/hung.md",
-    "软件系统设计/策略模式.md",
     "tags",
     "机器学习/input",
     "软件系统设计/input",
