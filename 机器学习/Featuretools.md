@@ -1,15 +1,14 @@
 ---
 aliases: [featuretools]
 ---
-#computer/machinelearning 
+#input 
 
 # [[Deep Feature Synthesis]]
 
-## 结构化数据
+##  [[EntitySet]] (不是必要的)
 深度特征合成需要结构化数据集才能执行特征工程。
 在执行 [[Deep Feature Synthesis]]，需要将数据转化为 [[EntitySet]] 。
 
-### [[EntitySet]]
 一个 [[EntitySet]] 是 dataframes 及其关系的集合。
 
 #### 原始数据的处理
@@ -35,6 +34,7 @@ add_dataframe 方法将数据框架中的每列与 [[Woodwork]] 逻辑类型相�
 `normalize_dataframe()` 函数可以将这样的数据表进行规范化，即将包含相同实体的多个行分割成独立的数据表，并创建新的实体和关系。这样，我们就可以更好地利用 Featuretools 中自动生成的特征，以便更好地进行机器学习建模。
 
 ## 运行 [[Deep Feature Synthesis|DFS]]
+
 ```python
 feature_matrix, feature_defs = ft.dfs(
     entityset=es,
@@ -51,7 +51,7 @@ feature_matrix
 修改运行 [[Deep Feature Synthesis|DFS]] 时所使用的 max_depth，使用不同深度得到的信息不同。
 深度特征的生成是基于实体和实体之间的关系图形模型的，因此更深层次的深度特征可以包含浅层次的深度特征所包含的信息。在生成深度特征时，Featuretools会自动组合浅层次的特征，生成更深层次的特征。
 
-# Woodwork Typing in Featuretools
+# [[Woodwork]] Typing in Featuretools
 除去 Woodwork 中的 Physical Type 和 Logical Type 以外，Featuretools 额外定义了 Featuretools-defined Semantic Tags。
 
 ### Woodwork in DFS
