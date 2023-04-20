@@ -4,7 +4,8 @@
   "newFileLocation": "current",
   "promptDelete": true,
   "userIgnoreFilters": [
-    "tags/"
+    "tags/",
+    "templates/"
   ],
   "strictLineBreaks": false
 }
