@@ -11,8 +11,13 @@
             "id": "81b2c4a3952b264d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/Featuretools.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "；",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,11 +66,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "机器学习/Featuretools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "机器学习/Featuretools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "机器学习/Featuretools.md"
+              }
             }
           }
         ],
@@ -137,14 +148,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "81b2c4a3952b264d",
+  "active": "aba6bcdf15b01633",
   "lastOpenFiles": [
+    "机器学习/EntitySet.md",
     "GRE/better answer.md",
     "GRE/排序配料.md",
     "GRE/模考题目.md",
     "GRE/大小关系.md",
     "机器学习/XGBoost.md",
-    "机器学习/EntitySet.md",
     "机器学习/随机森林.md",
     "机器学习/Deep Feature Synthesis.md",
     "软件系统设计/软件系统设计.md",

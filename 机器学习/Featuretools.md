@@ -1,7 +1,7 @@
 ---
 aliases: [featuretools]
 ---
-#input 
+#computer/machinelearning  
 
 # [[Deep Feature Synthesis]]
 
