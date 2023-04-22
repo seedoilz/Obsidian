@@ -11,8 +11,13 @@
             "id": "d9fbe5e05161be71",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件系统设计.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -21,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Deep Feature Synthesis.md",
+                "file": "GRE/better answer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,13 +80,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -97,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Deep Feature Synthesis.md",
+                "file": "GRE/better answer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习/Deep Feature Synthesis.md",
+                "file": "GRE/better answer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Deep Feature Synthesis.md"
+                "file": "GRE/better answer.md"
               }
             }
           }
@@ -159,15 +162,18 @@
   },
   "active": "12d1fd4fe3967f3c",
   "lastOpenFiles": [
+    "GRE/排序配料.md",
+    "GRE/模考题目.md",
+    "GRE/大小关系.md",
+    "机器学习/XGBoost.md",
+    "机器学习/EntitySet.md",
+    "机器学习/随机森林.md",
     "机器学习/Deep Feature Synthesis.md",
+    "软件系统设计/软件系统设计.md",
     "机器学习/Woodwork.md",
     "机器学习/Featuretools.md",
     "机器学习/决策树.md",
-    "软件系统设计/软件系统设计.md",
-    "机器学习/XGBoost.md",
-    "机器学习/EntitySet.md",
     "机器学习/机器学习.md",
-    "机器学习/随机森林.md",
     "软件系统设计/未命名.md",
     "软件系统设计/抽象工厂模式.md",
     "软件系统设计/Quality Attributes.md",
@@ -183,9 +189,6 @@
     "软件系统设计/享元模式.md",
     "软件系统设计/原型模式.md",
     "软件系统设计/外观模式.md",
-    "tags/gre.md",
-    "软件系统设计/装饰模式.md",
-    "软件系统设计/桥接模式.md",
     "tags",
     "机器学习/input",
     "软件系统设计/input",
