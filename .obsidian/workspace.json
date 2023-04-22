@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Featuretools.md",
+                "file": "机器学习/机器学习.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,13 +66,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Featuretools.md",
+                "file": "机器学习/机器学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习/Featuretools.md",
+                "file": "机器学习/机器学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Featuretools.md"
+                "file": "机器学习/机器学习.md"
               }
             }
           }
@@ -148,8 +146,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aba6bcdf15b01633",
+  "active": "81b2c4a3952b264d",
   "lastOpenFiles": [
+    "机器学习/Featuretools.md",
     "机器学习/EntitySet.md",
     "GRE/better answer.md",
     "GRE/排序配料.md",
@@ -160,7 +159,6 @@
     "机器学习/Deep Feature Synthesis.md",
     "软件系统设计/软件系统设计.md",
     "机器学习/Woodwork.md",
-    "机器学习/Featuretools.md",
     "机器学习/决策树.md",
     "机器学习/机器学习.md",
     "软件系统设计/未命名.md",
