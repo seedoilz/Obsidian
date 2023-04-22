@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web-Session-Management/Redis-input.md",
+                "file": "Web-Session-Management/Web Session Management.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8361d10ab10b5db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web-Session-Management/Spring-Session-input.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web-Session-Management/Redis-input.md",
+                "file": "Web-Session-Management/Spring-Session-input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web-Session-Management/Redis-input.md",
+                "file": "Web-Session-Management/Spring-Session-input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web-Session-Management/Redis-input.md"
+                "file": "Web-Session-Management/Spring-Session-input.md"
               }
             }
           }
@@ -147,10 +161,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "925acb49d2476195",
+  "active": "d8361d10ab10b5db",
   "lastOpenFiles": [
     "Web-Session-Management/Web Session Management.md",
+    "Web-Session-Management/Spring-Session-input.md",
     "Web-Session-Management/Redis-input.md",
+    "Web-Session-Management/Redis.md",
     "Web-Session-Management",
     "机器学习/Featuretools.md",
     "机器学习/EntitySet.md",
@@ -175,8 +191,6 @@
     "templates",
     "tags/theory.md",
     "软件系统设计/Structual Pattern.md",
-    "软件系统设计/Bridge and Decorator.md",
-    "软件系统设计/代理模式.md",
     "tags",
     "机器学习/input",
     "软件系统设计/input",
