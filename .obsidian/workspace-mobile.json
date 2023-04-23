@@ -11,8 +11,13 @@
             "id": "eb52fadf42a50c2f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web/Spring-Session-input.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -68,7 +73,8 @@
           "state": {}
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "right": {
     "id": "b0de52966bd29dd6",
@@ -80,6 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Web/Spring-Session-input.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -96,6 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "Web/Spring-Session-input.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -106,7 +114,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "Web/Spring-Session-input.md"
+          }
         }
       }
     ],
@@ -120,8 +130,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eb52fadf42a50c2f",
+  "active": "850d575e9f16d79d",
   "lastOpenFiles": [
+    "Web/Web.md",
+    "Web/Spring-Session-input.md",
+    "Web/Redis-input.md",
+    "Web/Redis.md",
     "决策树.md",
     "机器学习/Deep Feature Synthesis.md",
     "机器学习/XGBoost.md",
@@ -147,11 +161,7 @@
     "软件系统设计/设计原则",
     "机器学习/Featuretools.md",
     "机器学习/Woodwork.md",
-    "机器学习/EntitySet.md",
     "软件系统设计",
-    "Linux/Linux考纲.md",
-    "机器学习/特征提取.md",
-    "软件设计.md",
     "Linux",
     "Excalidraw"
   ]

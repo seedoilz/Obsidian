@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "155a88cdc219a9df",
+        "id": "f7e2de2ac33ae511",
         "type": "tabs",
         "children": [
           {
-            "id": "925acb49d2476195",
+            "id": "82bb7ba31e428859",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web-Session-Management/Web Session Management.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8361d10ab10b5db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web-Session-Management/Spring-Session-input.md",
+                "file": "Web/Web.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web-Session-Management/Spring-Session-input.md",
+                "file": "Web/Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web-Session-Management/Spring-Session-input.md",
+                "file": "Web/Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web-Session-Management/Spring-Session-input.md"
+                "file": "Web/Web.md"
               }
             }
           }
@@ -161,10 +147,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d8361d10ab10b5db",
+  "active": "82bb7ba31e428859",
   "lastOpenFiles": [
-    "Web-Session-Management/Web Session Management.md",
+    "Web/Web.md",
     "Web-Session-Management/Spring-Session-input.md",
+    "Web/Web Session Management.md",
+    "Web/Spring-Session-input.md",
+    "Web/Redis.md",
+    "Web/Redis-input.md",
+    "Web",
+    "Web-Session-Management/Web Session Management.md",
     "Web-Session-Management/Redis-input.md",
     "Web-Session-Management/Redis.md",
     "Web-Session-Management",
@@ -185,12 +177,7 @@
     "软件系统设计/抽象工厂模式.md",
     "软件系统设计/Quality Attributes.md",
     "软件系统设计/Defensive Programming.md",
-    "软件系统设计/防御式编程.md",
-    "软件系统设计/Assertions.md",
-    "templates/aliases.md",
     "templates",
-    "tags/theory.md",
-    "软件系统设计/Structual Pattern.md",
     "tags",
     "机器学习/input",
     "软件系统设计/input",
@@ -198,7 +185,6 @@
     "GRE/Quantitative",
     "GRE",
     "软件设计/设计模式",
-    "软件设计/设计原则",
     "未命名.canvas"
   ]
 }
