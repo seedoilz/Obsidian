@@ -48,22 +48,3 @@ watchlist = [(dtrain,'train')]
 2. mae  : mean absolute error        误差的绝对值再求平均
 3. auc  : area under curve           roc 曲线下面积
 4. aucpr: area under the pr curve    pr 曲线下面积
-
-### 大型数据的处理
-#### 示例代码
-```python
-import xgboost as xgb
-# 加载数据
-dtrain = xgb.DMatrix('data/train.csv')
-# 设置训练参数
-params = {'objective': 'binary:logistic', 'eval_metric': 'auc'}
-# 定义训练的轮数和批次大小
-num_rounds = 10
-batch_size = 10000
-# 循环进行分批次训练
-for i in range(0, dtrain.num_row(), batch_size):
-    # 加载训练数据的一部分
-    batch_dtrain = dtrain.slice(list(range(i, i + batch_size)))
-    # 训练模型
-    model = xgb.train(params, batch_dtrain, num_boost_round=num_rounds)
-```
