@@ -1,4 +1,4 @@
-- #input 
+#input 
 
 # 1. 软件架构 Software Architecture
 1. **软件架构**是结构和系统结构，包含了软件**元素**、这些**组件**的外部可视化**属性**以及他们之间的**关系**。Software Architecture is the structure or structures of the system, which comprise software elements, the externally visible properties of these components, and the relationship among them. (In pratice 书中的定义)
@@ -198,7 +198,7 @@ Number of possible structures.
 
 # 3. 质量属性和策略 Quality Attributes & Tactics
 
-## 3.1. 可用性 Availability
+## 3.1. [[可用性]] Availability
 1. 可用性是应用程序的**关键**要求 Key requirement for most IT applications
 2. 度量方式：以**所需**的可用**时间**比例来衡量，例如 Measured by the proportion of the required time it is useable, e.g.
    1. 营业时间内 100％可用 100% available during business hours
@@ -293,7 +293,7 @@ $$
 ### 3.1.6. 可用性策略 Availability Tactics
 ![](https://spricoder.oss-cn-shanghai.aliyuncs.com/2021-Software-System-Design/img/lec13/13.png)
 
-1. 这个树说明了对于可用性可以采用哪些手段来解决可用性：很重要
+1. 这个树说明了对于可用性可以采用哪些手段来解决可用性：**很重要**
 2. 每一个树的分支代表了我们考虑的时间点：尽可能的延长可用时间
 3. 不同的检测服务可用的手段
    1. 主动发送心跳：Heart Beat
