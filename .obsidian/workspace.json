@@ -21,6 +21,25 @@
             }
           }
         ]
+      },
+      {
+        "id": "d42688bc3ac1db5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fcd2df33c2d8964",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件系统架构.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer/web",
+                "query": "F",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md",
+                "file": "软件系统设计/软件系统架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md",
+                "file": "软件系统设计/软件系统架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md"
+                "file": "软件系统设计/软件系统架构.md"
               }
             }
           }
@@ -147,10 +167,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c88e0d29af27c236",
+  "active": "9fcd2df33c2d8964",
   "lastOpenFiles": [
-    "软件系统设计/软件系统设计.md",
     "软件系统设计/软件系统架构简述.md",
+    "软件系统设计/软件系统架构.md",
+    "软件系统设计/软件体系结构.md",
+    "软件系统设计/体系结构视图.md",
+    "软件系统设计/软件系统设计.md",
     "软件系统设计/Quality Attributes.md",
     "软件系统设计/可用性.md",
     "机器学习/XGBoost.md",
@@ -174,9 +197,6 @@
     "机器学习/随机森林.md",
     "机器学习/Deep Feature Synthesis.md",
     "机器学习/Woodwork.md",
-    "机器学习/决策树.md",
-    "机器学习/机器学习.md",
-    "软件系统设计/未命名.md",
     "templates",
     "tags",
     "机器学习/input",
