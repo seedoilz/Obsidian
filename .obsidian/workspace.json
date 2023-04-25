@@ -4,39 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "48fb0a8b26bcb2a7",
+        "id": "29e828e4fe4e8acf",
         "type": "tabs",
         "children": [
           {
-            "id": "c88e0d29af27c236",
+            "id": "78da70ec9cc90920",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/Quality Attributes input.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "fa0d344e960ec88c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3347e43125cb6e01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/ASR.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -68,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "F",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,13 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -107,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/ASR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/ASR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,18 +118,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "软件系统设计/ASR.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,9 +136,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3347e43125cb6e01",
+  "active": "78da70ec9cc90920",
   "lastOpenFiles": [
     "软件系统设计/Quality Attributes input.md",
+    "软件系统设计/软件系统设计.md",
+    "软件系统设计/软件系统架构简述.md",
+    "GRE/模考题目.md",
     "软件系统设计/ASR.md",
     "软件系统设计/质量属性具体方案对比.md",
     "软件系统设计/易用性.md",
@@ -181,9 +153,7 @@
     "软件系统设计/可用性.md",
     "软件系统设计/决策.md",
     "软件系统设计/软件系统架构.md",
-    "软件系统设计/软件系统设计.md",
     "软件系统设计/软件体系结构.md",
-    "软件系统设计/软件系统架构简述.md",
     "软件系统设计/体系结构视图.md",
     "机器学习/XGBoost.md",
     "Web/Web.md",
@@ -195,7 +165,6 @@
     "Web",
     "Web-Session-Management/Web Session Management.md",
     "Web-Session-Management/Redis-input.md",
-    "Web-Session-Management/Redis.md",
     "Web-Session-Management",
     "templates",
     "tags",
