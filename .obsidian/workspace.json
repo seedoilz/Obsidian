@@ -11,8 +11,13 @@
             "id": "9f38faff79dafd17",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件系统设计.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "软件系统设计/软件系统设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "软件系统设计/软件系统设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "软件系统设计/软件系统设计.md"
+              }
             }
           }
         ],
@@ -140,6 +149,7 @@
   },
   "active": "9f38faff79dafd17",
   "lastOpenFiles": [
+    "Web/Redis-input.md",
     "软件系统设计/体系结构模式.md",
     "软件系统设计/MVC Pattern.md",
     "软件系统设计/Layered Pattern.md",
@@ -165,7 +175,6 @@
     "软件系统设计/可用性.md",
     "软件系统设计/决策.md",
     "软件系统设计/软件系统架构.md",
-    "软件系统设计/软件体系结构.md",
     "Web",
     "Web-Session-Management",
     "templates",
