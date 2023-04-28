@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/安全性.md",
+                "file": "软件系统设计/SOA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "软件系统设计/安全性.md",
+            "file": "软件系统设计/SOA.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "软件系统设计/安全性.md",
+            "file": "软件系统设计/SOA.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "软件系统设计/安全性.md"
+            "file": "软件系统设计/SOA.md"
           }
         }
       }
@@ -132,12 +132,21 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "软件系统设计/安全性.md",
+    "软件系统设计/MVC Pattern.md",
+    "软件系统设计/Publish-Subscribe Pattern.md",
+    "软件系统设计/SOA.md",
+    "软件系统设计/Peer-to-Peer Pattern.md",
+    "软件系统设计/Client-Server Pattern.md",
+    "软件系统设计/体系结构模式.md",
+    "软件系统设计/Pipe-and-Filter Pattern.md",
+    "软件系统设计/Broker Pattern.md",
+    "软件系统设计/Layered Pattern.md",
     "Web/Spring-Session-input.md",
     "软件系统设计/ASR.md",
     "软件系统设计/质量属性具体方案对比.md",
     "软件系统设计/易用性.md",
     "软件系统设计/可测试性.md",
-    "软件系统设计/安全性.md",
     "软件系统设计/性能.md",
     "软件系统设计/可修改性.md",
     "软件系统设计/互操作性.md",
@@ -149,15 +158,6 @@
     "Web/Web.md",
     "Web/Redis-input.md",
     "Web/Redis.md",
-    "决策树.md",
-    "机器学习/Deep Feature Synthesis.md",
-    "机器学习/XGBoost.md",
-    "软件系统设计/享元模式.md",
-    "软件系统设计/抽象工厂模式.md",
-    "软件系统设计/Defensive Programming.md",
-    "软件系统设计/软件系统设计.md",
-    "软件系统设计/设计模式/中介者模式.md",
-    "软件系统设计/设计模式/模板方法模式.md",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",
