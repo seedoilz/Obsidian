@@ -4,8 +4,8 @@
 
 ### database
 
-[[Redis-input]]
+[[Redis input]]
 
 ### frame
 
-[[Spring-Session-input]]
+[[Spring Session input]]

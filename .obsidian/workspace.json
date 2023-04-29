@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "21277fb2143a1580",
+        "id": "29dc6336b51051dc",
         "type": "tabs",
         "children": [
           {
-            "id": "9f38faff79dafd17",
+            "id": "ebc968b3413a67e5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件系统架构简述.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "软件系统设计/软件系统架构简述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "软件系统设计/软件系统架构简述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,11 +126,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "软件系统设计/软件系统架构简述.md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -138,11 +147,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9f38faff79dafd17",
+  "active": "ebc968b3413a67e5",
   "lastOpenFiles": [
-    "软件系统设计/软件系统设计.md",
-    "Web/Redis-input.md",
+    "机器学习/Featuretools.md",
+    "机器学习/机器学习.md",
+    "Web/Github spider.md",
+    "Web/Web.md",
+    "Web/Spring Session input.md",
+    "Web/Redis input.md",
+    "Web/Redis.md",
+    "软件系统设计/Adapter and Composite.md",
     "软件系统设计/体系结构模式.md",
+    "软件系统设计/DSSA.md",
+    "软件系统设计/架构设计与策略具体应用.md",
+    "软件系统设计/多层模式.md",
+    "软件系统设计/分配模式.md",
+    "软件系统设计/共享数据模式.md",
+    "软件系统设计/软件系统设计.md",
     "软件系统设计/MVC Pattern.md",
     "软件系统设计/Layered Pattern.md",
     "分层架构.md",
@@ -154,18 +175,6 @@
     "软件系统设计/Broker Pattern.md",
     "软件系统设计/Quality Attributes input.md",
     "软件系统设计/软件系统架构简述.md",
-    "GRE/模考题目.md",
-    "软件系统设计/ASR.md",
-    "软件系统设计/质量属性具体方案对比.md",
-    "软件系统设计/易用性.md",
-    "软件系统设计/可测试性.md",
-    "软件系统设计/安全性.md",
-    "软件系统设计/性能.md",
-    "软件系统设计/可修改性.md",
-    "软件系统设计/互操作性.md",
-    "软件系统设计/可用性.md",
-    "软件系统设计/决策.md",
-    "软件系统设计/软件系统架构.md",
     "Web",
     "Web-Session-Management",
     "templates",
