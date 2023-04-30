@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/西瓜书绪论.md",
+                "file": "机器学习/西瓜书.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "919b58de1fa3126a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/模型评估与选择.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/西瓜书绪论.md",
+                "file": "机器学习/模型评估与选择.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习/西瓜书绪论.md",
+                "file": "机器学习/模型评估与选择.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/西瓜书绪论.md"
+                "file": "机器学习/模型评估与选择.md"
               }
             }
           }
@@ -147,9 +161,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d210fe01dd9b017",
+  "active": "919b58de1fa3126a",
   "lastOpenFiles": [
     "机器学习/西瓜书.md",
+    "机器学习/模型评估与选择.md",
     "机器学习/西瓜书绪论.md",
     "机器学习/机器学习.md",
     "软件系统设计/决策.md",
@@ -174,7 +189,6 @@
     "分层架构.md",
     "SOA.md",
     "软件系统设计/Peer-to-Peer Pattern.md",
-    "软件系统设计/Client-Server Pattern.md",
     "Web",
     "Web-Session-Management",
     "templates",

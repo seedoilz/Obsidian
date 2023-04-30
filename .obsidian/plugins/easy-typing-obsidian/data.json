@@ -9,7 +9,7 @@
   "ChineseEnglishSpace": true,
   "ChineseNumberSpace": true,
   "EnglishNumberSpace": true,
-  "ChineseNoSpace": true,
+  "ChineseNoSpace": false,
   "PunctuationSpace": true,
   "AutoCapital": true,
   "AutoCapitalMode": "typing",
@@ -45,10 +45,6 @@
     [
       ":)|",
       "😀|"
-    ],
-    [
-      "……|",
-      "^|"
     ]
   ],
   "userSelRuleSettingsOpen": true,
