@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5161f02286521d4e",
+        "id": "7e7aefe0c593cd4f",
         "type": "tabs",
         "children": [
           {
-            "id": "4e87ec23ddc8c71f",
+            "id": "5d210fe01dd9b017",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/西瓜书绪论.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "组件",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,12 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "机器学习/西瓜书绪论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "机器学习/西瓜书绪论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "机器学习/西瓜书绪论.md"
+              }
             }
           }
         ],
@@ -138,13 +147,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4e87ec23ddc8c71f",
+  "active": "5d210fe01dd9b017",
   "lastOpenFiles": [
+    "机器学习/西瓜书.md",
+    "机器学习/西瓜书绪论.md",
+    "机器学习/机器学习.md",
     "软件系统设计/决策.md",
     "软件系统设计/Publish-Subscribe Pattern.md",
     "软件系统设计/软件系统架构简述.md",
     "机器学习/Featuretools.md",
-    "机器学习/机器学习.md",
     "Web/Github spider.md",
     "Web/Web.md",
     "Web/Spring Session input.md",
@@ -164,8 +175,6 @@
     "SOA.md",
     "软件系统设计/Peer-to-Peer Pattern.md",
     "软件系统设计/Client-Server Pattern.md",
-    "软件系统设计/Pipe-and-Filter Pattern.md",
-    "软件系统设计/Broker Pattern.md",
     "Web",
     "Web-Session-Management",
     "templates",
