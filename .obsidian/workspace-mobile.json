@@ -11,13 +11,8 @@
             "id": "eb52fadf42a50c2f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/SOA.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "软件系统设计/SOA.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "软件系统设计/SOA.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -114,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "软件系统设计/SOA.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -132,10 +123,12 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "软件系统设计/SOA.md",
+    "机器学习/西瓜书.md",
+    "机器学习/模型评估与选择.md",
     "软件系统设计/安全性.md",
     "软件系统设计/MVC Pattern.md",
     "软件系统设计/Publish-Subscribe Pattern.md",
-    "软件系统设计/SOA.md",
     "软件系统设计/Peer-to-Peer Pattern.md",
     "软件系统设计/Client-Server Pattern.md",
     "软件系统设计/体系结构模式.md",
@@ -156,8 +149,6 @@
     "软件系统设计/软件体系结构.md",
     "软件系统设计/软件系统架构简述.md",
     "Web/Web.md",
-    "Web/Redis-input.md",
-    "Web/Redis.md",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",
