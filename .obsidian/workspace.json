@@ -11,8 +11,23 @@
             "id": "5d210fe01dd9b017",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "机器学习/Gini impurity.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b23d10609dd41508",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
             }
           },
           {
@@ -23,7 +38,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,6 +84,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "e4c251053066c439",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -90,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "机器学习/Gini impurity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "机器学习/Gini impurity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "机器学习/Gini impurity.md"
+              }
             }
           }
         ],
@@ -146,8 +174,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d210fe01dd9b017",
+  "active": "b23d10609dd41508",
   "lastOpenFiles": [
+    "机器学习/Gini impurity.md",
     "机器学习/机器学习.md",
     "机器学习/西瓜书.md",
     "机器学习/模型评估与选择.md",
@@ -173,7 +202,6 @@
     "软件系统设计/Layered Pattern.md",
     "分层架构.md",
     "SOA.md",
-    "软件系统设计/Peer-to-Peer Pattern.md",
     "Web",
     "Web-Session-Management",
     "templates",
