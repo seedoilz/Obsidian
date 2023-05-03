@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "what",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,7 +175,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b23d10609dd41508",
+  "active": "aba6bcdf15b01633",
   "lastOpenFiles": [
     "机器学习/Gini impurity.md",
     "机器学习/机器学习.md",
