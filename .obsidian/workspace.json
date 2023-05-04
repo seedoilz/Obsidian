@@ -19,27 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b23d10609dd41508",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
-          },
-          {
-            "id": "919b58de1fa3126a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +156,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "aba6bcdf15b01633",
+  "active": "5d210fe01dd9b017",
   "lastOpenFiles": [
     "机器学习/Gini impurity.md",
     "机器学习/机器学习.md",
