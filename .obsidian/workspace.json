@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7e7aefe0c593cd4f",
+        "id": "d41a73ae4705e2c7",
         "type": "tabs",
         "children": [
           {
-            "id": "5d210fe01dd9b017",
+            "id": "050be312ca9b5660",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "机器学习/Gini impurity.md",
+                "file": "algorithm/回溯.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "机器学习/Gini impurity.md",
+                "file": "algorithm/回溯.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "机器学习/Gini impurity.md",
+                "file": "algorithm/回溯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "机器学习/Gini impurity.md"
+                "file": "algorithm/回溯.md"
               }
             }
           }
@@ -156,8 +155,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5d210fe01dd9b017",
+  "active": "050be312ca9b5660",
   "lastOpenFiles": [
+    "algorithm/回溯.md",
+    "algorithm",
     "机器学习/Gini impurity.md",
     "机器学习/机器学习.md",
     "机器学习/西瓜书.md",
@@ -183,7 +184,6 @@
     "软件系统设计/MVC Pattern.md",
     "软件系统设计/Layered Pattern.md",
     "分层架构.md",
-    "SOA.md",
     "Web",
     "Web-Session-Management",
     "templates",
@@ -193,7 +193,6 @@
     "GRE/Verbal",
     "GRE/Quantitative",
     "GRE",
-    "软件设计/设计模式",
     "未命名.canvas"
   ]
 }

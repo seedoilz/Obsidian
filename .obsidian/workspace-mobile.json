@@ -11,8 +11,13 @@
             "id": "eb52fadf42a50c2f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/Broker Pattern.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -40,8 +45,8 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "软件系统设计",
-            "matchingCase": false,
+            "query": "Broker",
+            "matchingCase": true,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
@@ -67,9 +72,17 @@
           "type": "starred",
           "state": {}
         }
+      },
+      {
+        "id": "dfaaeb6148189017",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "b0de52966bd29dd6",
@@ -81,6 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "软件系统设计/Broker Pattern.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "软件系统设计/Broker Pattern.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -107,7 +122,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "软件系统设计/Broker Pattern.md"
+          }
         }
       }
     ],
@@ -123,6 +140,10 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "软件系统设计/中介者模式.md",
+    "软件系统设计/共享数据模式.md",
+    "algorithm/回溯.md",
+    "机器学习/Gini impurity.md",
     "软件系统设计/SOA.md",
     "机器学习/西瓜书.md",
     "机器学习/模型评估与选择.md",
@@ -145,10 +166,6 @@
     "软件系统设计/互操作性.md",
     "软件系统设计/可用性.md",
     "软件系统设计/决策.md",
-    "软件系统设计/软件系统架构.md",
-    "软件系统设计/软件体系结构.md",
-    "软件系统设计/软件系统架构简述.md",
-    "Web/Web.md",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",
