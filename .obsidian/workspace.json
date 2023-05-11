@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/回溯.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/回溯.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/回溯.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/回溯.md"
+                "file": "软件系统设计/软件系统设计.md"
               }
             }
           }
@@ -157,6 +157,9 @@
   },
   "active": "050be312ca9b5660",
   "lastOpenFiles": [
+    "软件系统设计/属性驱动设计.md",
+    "软件系统设计/软件系统设计.md",
+    "软件系统设计/体系结构模式.md",
     "algorithm/回溯.md",
     "algorithm",
     "机器学习/Gini impurity.md",
@@ -174,16 +177,13 @@
     "Web/Redis input.md",
     "Web/Redis.md",
     "软件系统设计/Adapter and Composite.md",
-    "软件系统设计/体系结构模式.md",
     "软件系统设计/DSSA.md",
     "软件系统设计/架构设计与策略具体应用.md",
     "软件系统设计/多层模式.md",
     "软件系统设计/分配模式.md",
     "软件系统设计/共享数据模式.md",
-    "软件系统设计/软件系统设计.md",
     "软件系统设计/MVC Pattern.md",
     "软件系统设计/Layered Pattern.md",
-    "分层架构.md",
     "Web",
     "Web-Session-Management",
     "templates",
