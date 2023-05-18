@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md",
+                "file": "CS50/CS50 AI.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "473478ee9b737c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS50/Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md",
+                "file": "CS50/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md",
+                "file": "CS50/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/软件系统架构简述.md"
+                "file": "CS50/Introduction.md"
               }
             }
           }
@@ -154,8 +168,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c8fd5a2a6b9e43ec",
+  "active": "473478ee9b737c37",
   "lastOpenFiles": [
+    "CS50/CS50 AI.md",
+    "CS50/Introduction.md",
+    "软件系统设计/软件系统架构简述.md",
+    "CS50",
     "软件系统设计/软件系统设计.md",
     "软件系统设计/架构文档化.md",
     "软件系统设计/属性驱动设计.md",
@@ -169,7 +187,6 @@
     "机器学习/西瓜书绪论.md",
     "软件系统设计/决策.md",
     "软件系统设计/Publish-Subscribe Pattern.md",
-    "软件系统设计/软件系统架构简述.md",
     "机器学习/Featuretools.md",
     "Web/Github spider.md",
     "Web/Web.md",
@@ -181,8 +198,6 @@
     "软件系统设计/架构设计与策略具体应用.md",
     "软件系统设计/多层模式.md",
     "软件系统设计/分配模式.md",
-    "软件系统设计/共享数据模式.md",
-    "软件系统设计/MVC Pattern.md",
     "Web",
     "Web-Session-Management",
     "templates",
@@ -191,7 +206,6 @@
     "软件系统设计/input",
     "GRE/Verbal",
     "GRE/Quantitative",
-    "GRE",
     "未命名.canvas"
   ]
 }
