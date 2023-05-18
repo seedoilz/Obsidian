@@ -46,6 +46,28 @@ NEED Luck to find the Optimal Solution
 ### BFS
 Must find the Optimal Solution but it will find more states
 
+## Uninformed Search
+>Search stategy that uses no problem-specific knowledge
 
+## Informed Search
+>Search strategy that uses problem-specific knowledge to find solutions more efficiently
 
+### GBFS
+Greedy best-first search
+
+search algorithm that expands the node that is closest to the goal, as estimated by a heuristic function h(n)
+
+### A* search
+search algorithm that expands node with lowest value of g(n) + h(n)
+>g(n) = cost to reach node
+>h(n) = estimated cost to goal
+
+Optimal if
+- h (n) is admissible (never overestimates the true cost)
+- h (n) is consistent (for every node n and successor n' with step cost c, h (n) <= h (n') + c)
+
+## Adversarial Search
+### Minimax
+>Min (X) wants to minimize the score
+>Max (X) wants to maximize the score
 

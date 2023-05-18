@@ -11,7 +11,7 @@
   "EnglishNumberSpace": true,
   "ChineseNoSpace": false,
   "PunctuationSpace": true,
-  "AutoCapital": true,
+  "AutoCapital": false,
   "AutoCapitalMode": "typing",
   "PunctuationSpaceMode": "typing",
   "InlineCodeSpaceMode": 1,
