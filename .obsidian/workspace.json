@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/架构文档化.md",
+                "file": "软件系统设计/软件系统架构简述.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/架构文档化.md",
+                "file": "软件系统设计/软件系统架构简述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/架构文档化.md",
+                "file": "软件系统设计/软件系统架构简述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,12 +135,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/架构文档化.md"
+                "file": "软件系统设计/软件系统架构简述.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
