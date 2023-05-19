@@ -71,3 +71,6 @@ Optimal if
 >Min (X) wants to minimize the score
 >Max (X) wants to maximize the score
 
+### Depth-Limited Minimax
+#### evaluation function
+function that estimates the expected utility of the game from a given state
