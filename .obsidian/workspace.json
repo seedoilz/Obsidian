@@ -4,24 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d41a73ae4705e2c7",
+        "id": "d1feead54294163f",
         "type": "tabs",
         "children": [
           {
-            "id": "c8fd5a2a6b9e43ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS50/CS50 AI.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "473478ee9b737c37",
+            "id": "ef2d0445ae37d454",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +154,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "473478ee9b737c37",
+  "active": "ef2d0445ae37d454",
   "lastOpenFiles": [
     "CS50/CS50 AI.md",
     "CS50/Introduction.md",
