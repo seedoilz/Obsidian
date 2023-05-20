@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS50/Introduction.md",
+                "file": "CS50/Knowledge - Lecture 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS50/Introduction.md",
+                "file": "CS50/Knowledge - Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS50/Introduction.md",
+                "file": "CS50/Knowledge - Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS50/Introduction.md"
+                "file": "CS50/Knowledge - Lecture 1.md"
               }
             }
           }
@@ -157,7 +157,9 @@
   "active": "ef2d0445ae37d454",
   "lastOpenFiles": [
     "CS50/CS50 AI.md",
-    "CS50/Introduction.md",
+    "CS50/Introduction - Lecture 0.md",
+    "CS50/Knowledge - Lecture 1.md",
+    "CS50/Knowledge.md",
     "软件系统设计/软件系统架构简述.md",
     "CS50",
     "软件系统设计/软件系统设计.md",
@@ -182,8 +184,6 @@
     "软件系统设计/Adapter and Composite.md",
     "软件系统设计/DSSA.md",
     "软件系统设计/架构设计与策略具体应用.md",
-    "软件系统设计/多层模式.md",
-    "软件系统设计/分配模式.md",
     "Web",
     "Web-Session-Management",
     "templates",
