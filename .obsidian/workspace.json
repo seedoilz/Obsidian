@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS50/Knowledge - Lecture 1.md",
+                "file": "软件系统设计/软件系统设计.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42c157c73554d35f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件体系架构评估.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS50/Knowledge - Lecture 1.md",
+                "file": "软件系统设计/软件体系架构评估.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS50/Knowledge - Lecture 1.md",
+                "file": "软件系统设计/软件体系架构评估.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS50/Knowledge - Lecture 1.md"
+                "file": "软件系统设计/软件体系架构评估.md"
               }
             }
           }
@@ -154,17 +168,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ef2d0445ae37d454",
+  "active": "42c157c73554d35f",
   "lastOpenFiles": [
+    "软件系统设计/软件系统设计.md",
+    "软件系统设计/软件体系架构评估.md",
+    "软件系统设计/软件系统架构简述.md",
+    "软件系统设计/软件设计原则介绍.md",
+    "软件系统设计/属性驱动设计.md",
+    "软件系统设计/架构文档化.md",
+    "CS50/Knowledge - Lecture 1.md",
     "CS50/CS50 AI.md",
     "CS50/Introduction - Lecture 0.md",
-    "CS50/Knowledge - Lecture 1.md",
     "CS50/Knowledge.md",
-    "软件系统设计/软件系统架构简述.md",
     "CS50",
-    "软件系统设计/软件系统设计.md",
-    "软件系统设计/架构文档化.md",
-    "软件系统设计/属性驱动设计.md",
     "软件系统设计/体系结构模式.md",
     "algorithm/回溯.md",
     "algorithm",
@@ -182,8 +198,6 @@
     "Web/Redis input.md",
     "Web/Redis.md",
     "软件系统设计/Adapter and Composite.md",
-    "软件系统设计/DSSA.md",
-    "软件系统设计/架构设计与策略具体应用.md",
     "Web",
     "Web-Session-Management",
     "templates",
