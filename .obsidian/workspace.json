@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d1feead54294163f",
+        "id": "93a0721da37f8dd8",
         "type": "tabs",
         "children": [
           {
-            "id": "ef2d0445ae37d454",
+            "id": "fbc9c5d7481a99c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/软件系统设计.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42c157c73554d35f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/软件体系架构评估.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/软件体系架构评估.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/软件体系架构评估.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,17 +127,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "软件系统设计/软件体系架构评估.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,16 +144,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "42c157c73554d35f",
+  "active": "fbc9c5d7481a99c2",
   "lastOpenFiles": [
+    "CS50/Hidden Markov Models.md",
     "软件系统设计/软件系统设计.md",
+    "CS50/Uncertainty - Lecture 2.md",
+    "CS50/Markov Models.md",
+    "CS50/Bayesian Network.md",
+    "CS50/CS50 AI.md",
+    "CS50/Knowledge - Lecture 1.md",
     "软件系统设计/软件体系架构评估.md",
     "软件系统设计/软件系统架构简述.md",
     "软件系统设计/软件设计原则介绍.md",
     "软件系统设计/属性驱动设计.md",
     "软件系统设计/架构文档化.md",
-    "CS50/Knowledge - Lecture 1.md",
-    "CS50/CS50 AI.md",
     "CS50/Introduction - Lecture 0.md",
     "CS50/Knowledge.md",
     "CS50",
@@ -194,10 +174,6 @@
     "机器学习/Featuretools.md",
     "Web/Github spider.md",
     "Web/Web.md",
-    "Web/Spring Session input.md",
-    "Web/Redis input.md",
-    "Web/Redis.md",
-    "软件系统设计/Adapter and Composite.md",
     "Web",
     "Web-Session-Management",
     "templates",
