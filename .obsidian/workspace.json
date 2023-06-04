@@ -4,18 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "93a0721da37f8dd8",
+        "id": "9850031ef6c34bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "fbc9c5d7481a99c2",
+            "id": "925a85d7324209b2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件系统设计.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c6eb397bff7ddbe3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件体系架构评估.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7455962b7d7d6274",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/ATAM.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -44,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "what",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,12 +103,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -90,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "软件系统设计/ATAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "软件系统设计/ATAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,53 +163,57 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "软件系统设计/ATAM.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:查看关系图谱": false,
-      "switcher:打开快速切换": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "fbc9c5d7481a99c2",
+  "active": "7455962b7d7d6274",
   "lastOpenFiles": [
-    "CS50/Hidden Markov Models.md",
+    "软件系统设计/软件体系架构评估.md",
+    "软件系统设计/ATAM.md",
+    "软件系统设计/软件系统架构简述.md",
     "软件系统设计/软件系统设计.md",
+    "软件系统设计/Structual Pattern.md",
+    "软件系统设计/适配器模式.md",
+    "软件系统设计/原型模式.md",
+    "软件系统设计/软件设计原则介绍.md",
+    "软件系统设计/Creational.md",
+    "软件系统设计/Bridge and Decorator.md",
+    "软件系统设计/Adapter and Composite.md",
+    "软件系统设计/Behavior Patterns.md",
+    "软件系统设计/State & Command.md",
+    "软件系统设计/命令模式.md",
+    "软件系统设计/工厂模式介绍.md",
+    "软件系统设计/简单工厂模式.md",
+    "软件系统设计/Strategy Pattern.md",
+    "软件系统设计/开闭原则.md",
+    "软件系统设计/单一职责原则.md",
+    "DeepLearning/DeepLearning.md",
+    "DeepLearning",
+    "CS50/Hidden Markov Models.md",
     "CS50/Uncertainty - Lecture 2.md",
     "CS50/Markov Models.md",
     "CS50/Bayesian Network.md",
     "CS50/CS50 AI.md",
     "CS50/Knowledge - Lecture 1.md",
-    "软件系统设计/软件体系架构评估.md",
-    "软件系统设计/软件系统架构简述.md",
-    "软件系统设计/软件设计原则介绍.md",
-    "软件系统设计/属性驱动设计.md",
-    "软件系统设计/架构文档化.md",
-    "CS50/Introduction - Lecture 0.md",
-    "CS50/Knowledge.md",
     "CS50",
-    "软件系统设计/体系结构模式.md",
-    "algorithm/回溯.md",
     "algorithm",
-    "机器学习/Gini impurity.md",
-    "机器学习/机器学习.md",
-    "机器学习/西瓜书.md",
-    "机器学习/模型评估与选择.md",
-    "机器学习/西瓜书绪论.md",
-    "软件系统设计/决策.md",
-    "软件系统设计/Publish-Subscribe Pattern.md",
-    "机器学习/Featuretools.md",
-    "Web/Github spider.md",
-    "Web/Web.md",
     "Web",
     "Web-Session-Management",
     "templates",
@@ -181,7 +221,6 @@
     "机器学习/input",
     "软件系统设计/input",
     "GRE/Verbal",
-    "GRE/Quantitative",
     "未命名.canvas"
   ]
 }

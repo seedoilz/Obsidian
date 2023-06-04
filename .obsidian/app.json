@@ -7,5 +7,6 @@
     "tags/",
     "templates/"
   ],
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "vimMode": false
 }
