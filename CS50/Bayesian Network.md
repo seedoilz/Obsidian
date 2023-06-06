@@ -1,4 +1,4 @@
-#computer/machinelearning 
+#machinelearning
 >A Bayesian network is a data structure that represents the dependencies among random variables. Bayesian networks have the following properties.
 
 ### Instance

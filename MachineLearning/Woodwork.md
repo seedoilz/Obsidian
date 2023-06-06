@@ -1,4 +1,4 @@
-#computer/machinelearning 
+#machinelearning 
 
 # Woodwork Dataframe
 在 Woodwork Dataframe 中，每一列有三种主要内容组成。

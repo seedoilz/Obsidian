@@ -1,3 +1,0 @@
----
-Aliases: [ "#computer", "#computer/machinelearning" ]
----

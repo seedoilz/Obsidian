@@ -1,4 +1,4 @@
-#computer/machinelearning 
+#machinelearning
 
 >a type of a Markov model for a system with hidden states that generate some observed event
 

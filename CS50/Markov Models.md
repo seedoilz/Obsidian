@@ -1,4 +1,4 @@
-#computer/machinelearning 
+#machinelearning
 
 ### Markov Assumption
 The current state depends on only a finite fixed number of previous states.

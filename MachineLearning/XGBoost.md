@@ -1,7 +1,7 @@
 ---
 aliases: [xgb]
 ---
-#computer/machinelearning 
+#machinelearning
 
 ## 原理
 本质基于[[决策树]]

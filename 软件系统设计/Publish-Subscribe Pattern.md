@@ -1,7 +1,7 @@
 ---
 aliases: [发布-订阅模式]
 ---
-#theory/softwaredesign 
+#systemArchitecture/pattern    
 
 Subscribe 对 Publish 进行注册，某个 Publisher 发布自己的消息可能订阅其他的消息 (朋友圈微博)。随着订阅的增加，可能会导致性能的延迟 (Subscriber 数量订阅越多性能下降)
 传统操作系统使用事件驱动方式来管理。

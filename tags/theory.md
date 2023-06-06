@@ -1,3 +1,0 @@
----
-Aliases: [ "#theory", "#theory/softwaredesign"]
----

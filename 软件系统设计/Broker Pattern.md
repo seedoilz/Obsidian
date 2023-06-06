@@ -1,7 +1,7 @@
 ---
 aliases: [代理模式, Broker]
 ---
-#theory/softwaredesign 
+#systemArchitecture/pattern    
 
 ### 解决方案
 ![](https://spricoder.oss-cn-shanghai.aliyuncs.com/2021-Software-System-Design/img/lec14/6.png)

@@ -1,4 +1,4 @@
-#computer/machinelearning
+#machinelearning
 
 ***（目前基于 [[Featuretools]]）***
 一个 [[EntitySet]] 是 dataframes 及其关系的集合。
