@@ -11,8 +11,13 @@
             "id": "eb52fadf42a50c2f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/决策.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "软件系统设计/决策.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "软件系统设计/决策.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -115,7 +122,9 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
+          "state": {
+            "file": "软件系统设计/决策.md"
+          }
         }
       }
     ],
