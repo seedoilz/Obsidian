@@ -10,43 +10,33 @@
           {
             "id": "129b89f362c5ead9",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/决策.md",
+                "file": "软件系统设计/软件系统设计.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "803cafbf1c6f8bd8",
+            "id": "51d45b88ea5c3e8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/软件体系架构评估.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "050895b04c23286e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/体系结构模式.md",
+                "file": "软件系统设计/Quality Attributes input.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -120,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/决策.md",
+                "file": "软件系统设计/Quality Attributes input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/决策.md",
+                "file": "软件系统设计/Quality Attributes input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/决策.md"
+                "file": "软件系统设计/Quality Attributes input.md"
               }
             }
           }
@@ -179,15 +170,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "129b89f362c5ead9",
+  "active": "51d45b88ea5c3e8e",
   "lastOpenFiles": [
+    "软件系统设计/软件系统设计.md",
+    "软件系统设计/软件系统架构简述.md",
+    "软件系统设计/软件体系结构.md",
+    "软件系统设计/决策.md",
+    "软件系统设计/装饰模式.md",
+    "软件系统设计/策略模式.md",
     "软件系统设计/属性驱动设计.md",
     "CS50/Uncertainty - Lecture 2.md",
     "CS50/Knowledge - Lecture 1.md",
-    "软件系统设计/软件系统架构简述.md",
-    "软件系统设计/决策.md",
     "软件系统设计/ATAM.md",
-    "软件系统设计/软件系统设计.md",
     "软件系统设计/体系结构模式.md",
     "软件系统设计/Quality Attributes input.md",
     "软件系统设计/软件体系架构评估.md",
@@ -204,9 +198,6 @@
     "软件系统设计/外观模式.md",
     "软件系统设计/命令模式.md",
     "软件系统设计/原型模式.md",
-    "软件系统设计/适配器模式.md",
-    "软件系统设计/观察者模式.md",
-    "软件系统设计/组合模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",
