@@ -34,6 +34,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e64caae5f91d5c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/Quality Attributes input.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -174,11 +187,11 @@
   "lastOpenFiles": [
     "软件系统设计/软件系统设计.md",
     "软件系统设计/Quality Attributes input.md",
-    "软件系统设计/属性驱动设计.md",
     "软件系统设计/体系结构模式.md",
+    "软件系统设计/决策.md",
+    "软件系统设计/属性驱动设计.md",
     "软件系统设计/软件系统架构简述.md",
     "软件系统设计/软件体系结构.md",
-    "软件系统设计/决策.md",
     "软件系统设计/装饰模式.md",
     "软件系统设计/策略模式.md",
     "CS50/Uncertainty - Lecture 2.md",
