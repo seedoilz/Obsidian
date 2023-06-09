@@ -23,6 +23,19 @@
             }
           },
           {
+            "id": "ca26de956b4dea6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件系统设计/软件体系架构评估.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "71ff0c5bf6160000",
             "type": "leaf",
             "state": {
@@ -36,7 +49,7 @@
             }
           },
           {
-            "id": "a814ca296f481e2f",
+            "id": "c2951add0fcac585",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,9 +196,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a814ca296f481e2f",
+  "active": "c2951add0fcac585",
   "lastOpenFiles": [
+    "软件系统设计/软件体系架构评估.md",
     "软件系统设计/软件系统设计.md",
+    "软件系统设计/架构文档化.md",
     "软件系统设计/属性驱动设计.md",
     "软件系统设计/Quality Attributes input.md",
     "软件系统设计/体系结构模式.md",
@@ -197,8 +212,6 @@
     "CS50/Uncertainty - Lecture 2.md",
     "CS50/Knowledge - Lecture 1.md",
     "软件系统设计/ATAM.md",
-    "软件系统设计/软件体系架构评估.md",
-    "软件系统设计/架构文档化.md",
     "MachineLearning/XGBoost.md",
     "软件系统设计/Structual Pattern.md",
     "软件系统设计/状态模式.md",
