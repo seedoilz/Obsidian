@@ -23,20 +23,7 @@
             }
           },
           {
-            "id": "ca26de956b4dea6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/软件体系架构评估.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71ff0c5bf6160000",
+            "id": "79a01b1d06969803",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,22 +34,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c2951add0fcac585",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/架构文档化.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,12 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -137,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/架构文档化.md",
+                "file": "软件系统设计/属性驱动设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/架构文档化.md",
+                "file": "软件系统设计/属性驱动设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -177,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/架构文档化.md"
+                "file": "软件系统设计/属性驱动设计.md"
               }
             }
           }
@@ -196,34 +170,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2951add0fcac585",
+  "active": "79a01b1d06969803",
   "lastOpenFiles": [
-    "软件系统设计/软件体系架构评估.md",
-    "软件系统设计/软件系统设计.md",
+    "软件系统设计/适配器模式.md",
+    "软件系统设计/观察者模式.md",
+    "软件系统设计/装饰模式.md",
+    "软件系统设计/组合模式.md",
+    "软件系统设计/策略模式.md",
+    "软件系统设计/状态模式.md",
+    "软件系统设计/桥接模式.md",
+    "软件系统设计/抽象工厂模式.md",
+    "软件系统设计/建造者模式.md",
+    "软件系统设计/工厂方法模式.md",
+    "软件系统设计/命令模式.md",
+    "软件系统设计/外观模式.md",
+    "软件系统设计/原型模式.md",
+    "软件系统设计/代理模式.md",
+    "软件系统设计/中介者模式.md",
     "软件系统设计/架构文档化.md",
+    "软件系统设计/软件系统设计.md",
     "软件系统设计/属性驱动设计.md",
+    "软件系统设计/软件体系架构评估.md",
     "软件系统设计/Quality Attributes input.md",
     "软件系统设计/体系结构模式.md",
     "软件系统设计/决策.md",
     "软件系统设计/软件系统架构简述.md",
     "软件系统设计/软件体系结构.md",
-    "软件系统设计/装饰模式.md",
-    "软件系统设计/策略模式.md",
     "CS50/Uncertainty - Lecture 2.md",
     "CS50/Knowledge - Lecture 1.md",
-    "软件系统设计/ATAM.md",
-    "MachineLearning/XGBoost.md",
-    "软件系统设计/Structual Pattern.md",
-    "软件系统设计/状态模式.md",
-    "软件系统设计/中介者模式.md",
-    "DeepLearning/DeepLearning.md",
-    "软件系统设计/模板方法模式.md",
-    "软件系统设计/抽象工厂模式.md",
-    "软件系统设计/建造者模式.md",
-    "软件系统设计/工厂方法模式.md",
-    "软件系统设计/外观模式.md",
-    "软件系统设计/命令模式.md",
-    "软件系统设计/原型模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",
