@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#softwareDesign/principle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79a01b1d06969803",
+  "active": "aba6bcdf15b01633",
   "lastOpenFiles": [
     "软件系统设计/属性驱动设计.md",
     "软件系统设计/适配器模式.md",
