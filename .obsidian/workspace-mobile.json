@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/架构文档化.md",
+                "file": "软件系统设计/属性驱动设计.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "软件系统设计/架构文档化.md",
+            "file": "软件系统设计/属性驱动设计.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "软件系统设计/架构文档化.md",
+            "file": "软件系统设计/属性驱动设计.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -137,7 +137,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "软件系统设计/架构文档化.md"
+            "file": "软件系统设计/属性驱动设计.md"
           }
         }
       }
@@ -154,10 +154,10 @@
   },
   "active": "b52cd31f1d034087",
   "lastOpenFiles": [
+    "软件系统设计/架构文档化.md",
     "软件系统设计/决策.md",
     "软件系统设计/软件系统设计.md",
     "软件系统设计/属性驱动设计.md",
-    "软件系统设计/架构文档化.md",
     "软件系统设计/软件体系架构评估.md",
     "软件系统设计/软件系统架构简述.md",
     "CS50/Knowledge - Lecture 1.md",
