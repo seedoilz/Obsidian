@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/体系结构模式.md",
+                "file": "软件系统设计/装饰模式.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -45,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "softwareDesign/pattern",
             "matchingCase": true,
             "explainSearch": false,
             "collapseAll": false,
@@ -82,7 +82,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "b0de52966bd29dd6",
@@ -94,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "软件系统设计/体系结构模式.md",
+            "file": "软件系统设计/装饰模式.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "软件系统设计/体系结构模式.md",
+            "file": "软件系统设计/装饰模式.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -123,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "软件系统设计/体系结构模式.md"
+            "file": "软件系统设计/装饰模式.md"
           }
         }
       }
@@ -140,7 +140,16 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "软件系统设计/状态模式.md",
+    "软件系统设计/模板方法模式.md",
+    "软件系统设计/命令模式.md",
+    "软件系统设计/工厂方法模式.md",
+    "软件系统设计/外观模式.md",
+    "软件系统设计/代理模式.md",
+    "软件系统设计/享元模式.md",
+    "软件系统设计/中介者模式.md",
     "软件系统设计/软件系统设计.md",
+    "软件系统设计/体系结构模式.md",
     "软件系统设计/决策.md",
     "软件系统设计/属性驱动设计.md",
     "软件系统设计/架构文档化.md",
@@ -148,7 +157,6 @@
     "软件系统设计/软件系统架构简述.md",
     "CS50/Knowledge - Lecture 1.md",
     "软件系统设计/Broker Pattern.md",
-    "软件系统设计/中介者模式.md",
     "软件系统设计/共享数据模式.md",
     "algorithm/回溯.md",
     "机器学习/Gini impurity.md",
@@ -158,14 +166,6 @@
     "软件系统设计/安全性.md",
     "软件系统设计/MVC Pattern.md",
     "软件系统设计/Publish-Subscribe Pattern.md",
-    "软件系统设计/Peer-to-Peer Pattern.md",
-    "软件系统设计/Client-Server Pattern.md",
-    "软件系统设计/体系结构模式.md",
-    "软件系统设计/Pipe-and-Filter Pattern.md",
-    "软件系统设计/Layered Pattern.md",
-    "Web/Spring-Session-input.md",
-    "软件系统设计/ASR.md",
-    "软件系统设计/质量属性具体方案对比.md",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",
