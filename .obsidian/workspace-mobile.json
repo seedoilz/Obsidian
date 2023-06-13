@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/装饰模式.md",
+                "file": "软件系统设计/观察者模式.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "软件系统设计/装饰模式.md",
+            "file": "软件系统设计/观察者模式.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "软件系统设计/装饰模式.md",
+            "file": "软件系统设计/观察者模式.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -123,7 +123,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "软件系统设计/装饰模式.md"
+            "file": "软件系统设计/观察者模式.md"
           }
         }
       }
@@ -140,6 +140,7 @@
   },
   "active": "eb52fadf42a50c2f",
   "lastOpenFiles": [
+    "软件系统设计/装饰模式.md",
     "软件系统设计/状态模式.md",
     "软件系统设计/模板方法模式.md",
     "软件系统设计/命令模式.md",
@@ -165,7 +166,6 @@
     "机器学习/模型评估与选择.md",
     "软件系统设计/安全性.md",
     "软件系统设计/MVC Pattern.md",
-    "软件系统设计/Publish-Subscribe Pattern.md",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",

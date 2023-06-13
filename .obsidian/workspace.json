@@ -54,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/决策.md",
+                "file": "软件系统设计/Strategy Pattern.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MTBF",
+                "query": "迭代",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/决策.md",
+                "file": "软件系统设计/Strategy Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/决策.md",
+                "file": "软件系统设计/Strategy Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/决策.md"
+                "file": "软件系统设计/Strategy Pattern.md"
               }
             }
           }
@@ -198,6 +198,7 @@
   },
   "active": "92b1ae562ee1eab3",
   "lastOpenFiles": [
+    "软件系统设计/决策.md",
     "软件系统设计/Quality Attributes input.md",
     "软件系统设计/体系结构模式.md",
     "软件系统设计/Publish-Subscribe Pattern.md",
@@ -221,7 +222,6 @@
     "软件系统设计/中介者模式.md",
     "软件系统设计/架构文档化.md",
     "软件系统设计/软件体系架构评估.md",
-    "软件系统设计/决策.md",
     "软件系统设计/软件系统架构简述.md",
     "软件系统设计/软件体系结构.md",
     "DeepLearning",
