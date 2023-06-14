@@ -1,7 +1,7 @@
 ---
 aliases: [Architecturally Significant Requirements, 架构攸关的需求]
 ---
-#systemArchitecture/theory    
+#system-architecture/theory    
 
 ### 定义
 Architecturally Significant Requirements

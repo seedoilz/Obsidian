@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "tag:#softwareDesign",
+      "query": "tag:#software-design",
       "color": {
         "a": 1,
         "rgb": 11657298
@@ -36,7 +36,7 @@
       }
     },
     {
-      "query": "tag:#systemArchitecture",
+      "query": "tag:#system-architecture",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -53,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.358368524686666,
+  "scale": 0.6698128762690423,
   "close": true
 }

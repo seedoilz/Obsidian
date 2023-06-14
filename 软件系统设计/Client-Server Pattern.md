@@ -1,7 +1,7 @@
 ---
 aliases: [客户端-服务端模式]
 ---
-#systemArchitecture/pattern    
+#system-architecture/pattern    
 
 1. 包含两类不同的 component
 2. 请求发起 client、server 接收请求，这里没有 broker，不能动态改变 client 和 server 的关系，相对更固定，但是一个 client 可以连接多个 server

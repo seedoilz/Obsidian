@@ -1,7 +1,7 @@
 ---
 aliases: [Domain-specific software architecture]
 ---
-#systemArchitecture/theory    
+#system-architecture/theory    
 
 **Domain-specific software architecture**
 领域特定的软件体系结构 (DSSA)是软件组件的组合，专用于特定类型的任务 (域)，

@@ -1,7 +1,7 @@
 ---
 aliases: [点对点模式]
 ---
-#systemArchitecture/pattern    
+#system-architecture/pattern    
 
 1. 这一刻是提供者，下一刻就是消费者，是对等的。
 2. 不单单提供服务，还能提供物流 (对于整个网络)

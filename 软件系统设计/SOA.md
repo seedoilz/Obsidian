@@ -1,7 +1,7 @@
 ---
 aliases: [面向服务的模式]
 ---
-#systemArchitecture/pattern    
+#system-architecture/pattern    
 
 面向服务的模式是 Broker Pattern 的延伸，Component 包含服务提供者、服务消费者、ESB (企业服务总线)、企业服务组件、连接处理 (注册、发现)，Connector 包含 SOAP、REST、Asynchronous messaging connector。
 

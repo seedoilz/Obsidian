@@ -1,7 +1,7 @@
 ---
 aliases: [Architecture Trade-off Analysis Method]
 ---
-#systemArchitecture/theory    
+#system-architecture/theory    
 
 ### 阶段 0: 准备和建立团队
 参与者: 评估团队领导和关键项目决策者

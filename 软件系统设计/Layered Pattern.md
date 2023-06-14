@@ -1,7 +1,7 @@
 ---
 aliases: [分层模式,分层架构]
 ---
-#systemArchitecture/pattern    
+#system-architecture/pattern    
 ### 定义
 层间访问必须按照逐层进行访问，核心是关注点分离。
 影响的质量属性: 可修改性、可模块化、可维护性、可复用性。

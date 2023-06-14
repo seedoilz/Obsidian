@@ -1,3 +1,3 @@
 ---
-Aliases: [ "#systemArchitecture", "#systemArchitecture/pattern", "#systemArchitecture/theory", "#systemArchitecture/attribute" ]
+Aliases: [ "#system-architecture", "#system-architecture/pattern", "#system-architecture/theory", "#system-architecture/attribute" ]
 ---

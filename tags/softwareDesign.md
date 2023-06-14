@@ -1,3 +1,3 @@
 ---
-Aliases: [ "#softwareDesign", "#softwareDesign/pattern", "#softwareDesign/principle" ]
+Aliases: [ "#software-design", "#software-design/pattern", "#software-design/principle" ]
 ---
