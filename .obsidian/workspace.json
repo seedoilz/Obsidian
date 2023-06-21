@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/Pipe-and-Filter Pattern.md",
+                "file": "软件系统设计/适配器模式.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#system-architecture/pattern",
+                "query": "tag:#software-design/pattern",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/Pipe-and-Filter Pattern.md",
+                "file": "软件系统设计/适配器模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/Pipe-and-Filter Pattern.md",
+                "file": "软件系统设计/适配器模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,16 +151,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/Pipe-and-Filter Pattern.md"
+                "file": "软件系统设计/适配器模式.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 301.5,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,32 +172,32 @@
   },
   "active": "92b1ae562ee1eab3",
   "lastOpenFiles": [
+    "软件系统设计/观察者模式.md",
+    "软件系统设计/装饰模式.md",
+    "软件系统设计/组合模式.md",
+    "软件系统设计/简单工厂模式.md",
+    "软件系统设计/策略模式.md",
+    "软件系统设计/状态模式.md",
+    "软件系统设计/模板方法模式.md",
+    "软件系统设计/工厂方法模式.md",
+    "软件系统设计/建造者模式.md",
+    "软件系统设计/外观模式.md",
+    "软件系统设计/命令模式.md",
+    "软件系统设计/代理模式.md",
+    "软件系统设计/中介者模式.md",
+    "软件系统设计/Publish-Subscribe Pattern.md",
+    "软件系统设计/Pipe-and-Filter Pattern.md",
+    "软件系统设计/Peer-to-Peer Pattern.md",
+    "软件系统设计/多层模式.md",
+    "软件系统设计/共享数据模式.md",
+    "软件系统设计/SOA.md",
+    "软件系统设计/MVC Pattern.md",
+    "软件系统设计/Layered Pattern.md",
     "软件系统设计/Client-Server Pattern.md",
     "软件系统设计/Broker Pattern.md",
-    "软件系统设计/SOA.md",
-    "软件系统设计/共享数据模式.md",
-    "软件系统设计/Layered Pattern.md",
-    "软件系统设计/Peer-to-Peer Pattern.md",
     "软件系统设计/适配器模式.md",
-    "软件系统设计/外观模式.md",
-    "软件系统设计/中介者模式.md",
+    "软件系统设计/抽象工厂模式.md",
     "软件系统设计/软件系统设计.md",
-    "软件系统设计/MVC Pattern.md",
-    "软件系统设计/分配模式.md",
-    "软件系统设计/多层模式.md",
-    "软件系统设计/决策.md",
-    "软件系统设计/Publish-Subscribe Pattern.md",
-    "软件系统设计/组合模式.md",
-    "软件系统设计/观察者模式.md",
-    "软件系统设计/属性驱动设计.md",
-    "软件系统设计/Quality Attributes input.md",
-    "软件系统设计/ASR.md",
-    "软件系统设计/软件系统架构简述.md",
-    "软件系统设计/Strategy Pattern.md",
-    "软件系统设计/体系结构模式.md",
-    "软件系统设计/依赖倒转原则.md",
-    "软件系统设计/装饰模式.md",
-    "软件系统设计/策略模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",
