@@ -4,39 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "5b5287ddbf87a1c6",
+        "id": "05a282171fd71ff1",
         "type": "tabs",
         "children": [
           {
-            "id": "129b89f362c5ead9",
+            "id": "53e6f0aebd8de91b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件系统设计/软件系统设计.md",
+                "file": "CS50/Optimization - Lecture 3.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "92b1ae562ee1eab3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件系统设计/适配器模式.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,12 +74,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -111,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件系统设计/适配器模式.md",
+                "file": "CS50/Optimization - Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件系统设计/适配器模式.md",
+                "file": "CS50/Optimization - Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件系统设计/适配器模式.md"
+                "file": "CS50/Optimization - Lecture 3.md"
               }
             }
           }
@@ -160,7 +144,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 301.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,8 +155,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92b1ae562ee1eab3",
+  "active": "53e6f0aebd8de91b",
   "lastOpenFiles": [
+    "CS50/Knowledge - Lecture 1.md",
+    "CS50/CS50 AI.md",
+    "CS50/Optimization - Lecture 3.md",
+    "CS50/Untitled.md",
+    "软件系统设计/软件系统设计.md",
+    "软件系统设计/适配器模式.md",
     "软件系统设计/观察者模式.md",
     "软件系统设计/装饰模式.md",
     "软件系统设计/组合模式.md",
@@ -192,12 +183,6 @@
     "软件系统设计/共享数据模式.md",
     "软件系统设计/SOA.md",
     "软件系统设计/MVC Pattern.md",
-    "软件系统设计/Layered Pattern.md",
-    "软件系统设计/Client-Server Pattern.md",
-    "软件系统设计/Broker Pattern.md",
-    "软件系统设计/适配器模式.md",
-    "软件系统设计/抽象工厂模式.md",
-    "软件系统设计/软件系统设计.md",
     "DeepLearning",
     "CS50",
     "algorithm",
