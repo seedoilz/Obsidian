@@ -16,3 +16,24 @@ function Hill-Climb(problem):
 
 Sometimes, we may get stuck in local maxima. How to solve?
 ![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230621221029.png)
+
+### Simulated Annealing
+- Early on, higher "temperature": more likely to accept neighbors that are worse than current state
+- ﻿﻿Later on, lower "temperature": less likely to accept neighbors that are worse than current state
+
+```
+function Simulated-Annealing(problem, max):
+	current = initial state of problem
+	for t = 1 to max:
+		T = Temperature(t)
+		neighbor = random neighbor of current
+		∆E = how much better neighbor is than current
+		if ∆E > 0:
+			current = neighbor
+		with probability e^(∆E/T) set current = neighbor
+```
+
+## Constraint Satisfaction Problem
+### Arc Consistent
+
+### Backtracking Search
