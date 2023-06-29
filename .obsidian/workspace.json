@@ -11,13 +11,8 @@
             "id": "53e6f0aebd8de91b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS50/Optimization - Lecture 3.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS50/Optimization - Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS50/Optimization - Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CS50/Optimization - Lecture 3.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -157,9 +148,9 @@
   },
   "active": "53e6f0aebd8de91b",
   "lastOpenFiles": [
+    "CS50/Optimization - Lecture 3.md",
     "CS50/Knowledge - Lecture 1.md",
     "CS50/CS50 AI.md",
-    "CS50/Optimization - Lecture 3.md",
     "CS50/Untitled.md",
     "软件系统设计/软件系统设计.md",
     "软件系统设计/适配器模式.md",
