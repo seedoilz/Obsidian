@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "05a282171fd71ff1",
+        "id": "3dedb3075a066be2",
         "type": "tabs",
         "children": [
           {
-            "id": "53e6f0aebd8de91b",
+            "id": "6102d1b6d083e45a",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -73,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -146,14 +145,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53e6f0aebd8de91b",
+  "active": "6102d1b6d083e45a",
   "lastOpenFiles": [
+    "软件系统设计/适配器模式.md",
     "CS50/Optimization - Lecture 3.md",
     "CS50/Knowledge - Lecture 1.md",
     "CS50/CS50 AI.md",
     "CS50/Untitled.md",
     "软件系统设计/软件系统设计.md",
-    "软件系统设计/适配器模式.md",
     "软件系统设计/观察者模式.md",
     "软件系统设计/装饰模式.md",
     "软件系统设计/组合模式.md",
