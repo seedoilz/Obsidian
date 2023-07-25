@@ -11,11 +11,30 @@
             "id": "6102d1b6d083e45a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Python Mastery/Python Mastery.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "079a8e05f68a8ff9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Mastery/Data Handling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Python Mastery/Data Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Python Mastery/Data Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +148,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Python Mastery/Data Handling.md"
+              }
             }
           }
         ],
@@ -146,12 +169,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6102d1b6d083e45a",
+  "active": "079a8e05f68a8ff9",
   "lastOpenFiles": [
+    "Python Mastery/Python Mastery.md",
+    "Python Mastery/Data Handling.md",
+    "CS50/CS50 AI.md",
+    "Python Mastery",
     "软件系统设计/适配器模式.md",
     "CS50/Optimization - Lecture 3.md",
     "CS50/Knowledge - Lecture 1.md",
-    "CS50/CS50 AI.md",
     "CS50/Untitled.md",
     "软件系统设计/软件系统设计.md",
     "软件系统设计/观察者模式.md",
@@ -172,8 +198,6 @@
     "软件系统设计/Peer-to-Peer Pattern.md",
     "软件系统设计/多层模式.md",
     "软件系统设计/共享数据模式.md",
-    "软件系统设计/SOA.md",
-    "软件系统设计/MVC Pattern.md",
     "DeepLearning",
     "CS50",
     "algorithm",
@@ -183,7 +207,6 @@
     "tags",
     "机器学习/input",
     "软件系统设计/input",
-    "GRE/Verbal",
     "未命名.canvas"
   ]
 }
