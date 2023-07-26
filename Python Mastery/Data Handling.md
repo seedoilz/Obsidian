@@ -52,3 +52,29 @@ Types are NOT enforced (the type of the variables in the class can be changed)
 ```python
 from collections import namedtuple # Define a named tuple type called "Point" with fields "x" and "y" Point = namedtuple('Point', 'x y')
 ```
+
+## Summary
+From the exercise in python-mastery, **named tuples** and **classes with slots** can save a lot of memory. Dictionaries will cost much more memory than common classes.
+$$
+Slots < NamedTuple < Tuple < Class < Dictionary
+$$
+However, named tuples and slots are able to save memory since they are determined while others can change during running. In addition, I thought that Class will cost more memory than dictionary. BUT opposite.
+
+## Dicts
+### Composite Keys
+Use tuples for multi-part keys
+```python
+prices = {
+	('ACME','2017-01-01') : 513.25,
+	('ACME','2017-01-02') : 512.10,
+	('ACME','2017-01-03') : 512.85,
+	('SPAM','2017-01-01') : 42.1,
+	('SPAM','2017-01-02') : 42.34,
+	('SPAM','2017-01-03') : 42.87,
+}
+```
+
+### Lookup with default value
+```python
+p = prices.get('AAPL', 0.0) # Lookup with default value
+```
