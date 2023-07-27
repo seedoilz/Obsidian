@@ -135,3 +135,80 @@ prices = [
 for name, *values in prices:
 	print(name, values)
 ```
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/20230727171533.png)
+
+## Generator
+>A generator can only be consumed once
+
+```python
+nums = [1,2,3,4]  
+squares = (x*x for x in nums)
+for n in squares:  
+    print(n, end=' ')
+```
+
+### Generator Arguments
+```python
+sum(x*x for x in nums)
+print(','.join(str(x) for x in items))
+if any(name.endswith('.py') for name in filenames):
+```
+
+Generator acts as a filter/transform on an iterable.
+
+### Generator Functions
+In Python, yield is a keyword used to define generator functions. The generator is a special iterator that allows values to be generated on demand instead of all values at once, thus effectively saving memory and computing resources.
+
+## Builtin
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230727221037.png)
+
+### TO make new "Builtins"
+Probably the key thing to keep in mind is that you can customize almost every aspect of how an object interacts with the rest of Python if you know the underlying protocols. If you're going to do this, it's advisable to look at the existing code for something similar to what you're trying to make.
+```python
+class MutInt:  
+    __slots__ = ['value']  
+  
+    def __init__(self, value):  
+        self.value = value  
+  
+    def __add__(self, other):  
+        if type(other) == int:  
+            return MutInt(self.value + other)  
+        return MutInt(self.value + other.value)  
+  
+    def __str__(self):  
+        return str(self.value)  
+  
+    def __repr__(self):  
+        return f'MutInt({self.value!r})'  
+  
+    def __format__(self, fmt):  
+        return format(self.value, fmt)  
+  
+    def __eq__(self, other):  
+        if isinstance(other, MutInt):  
+            return self.value == other.value  
+        elif isinstance(other, int):  
+            return self.value == other  
+        else:  
+            return NotImplemented  
+  
+    def __lt__(self, other):  
+        if isinstance(other, MutInt):  
+            return self.value < other.value  
+        elif isinstance(other, int):  
+            return self.value < other  
+        else:  
+            return NotImplemented  
+  
+    def __int__(self):  
+        return self.value  
+  
+    def __float__(self):  
+        return float(self.value)  
+
+    __index__ = __int__  # Make indexing work  
+  
+    __radd__ = __add__
+```
+
