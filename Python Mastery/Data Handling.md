@@ -78,3 +78,60 @@ prices = {
 ```python
 p = prices.get('AAPL', 0.0) # Lookup with default value
 ```
+
+### defaultdict
+If I ask for a missing dict key, it will generate a default data type for me to use.
+```python
+from collections import defaultdict
+d = defaultdict(list)
+d = defaultdict(int)...
+```
+
+### Counter
+>A dictionary specialized for counting items
+
+```python
+from collections import Counter
+totals = Counter()
+totals['IBM'] += 20
+totals['AA'] += 50
+```
+
+### ChainMap
+```python
+from collections import ChainMap
+allprices = ChainMap(dict1, dict2)
+```
+
+
+## deque
+>Double-ended queue
+
+```python
+from collections import deque
+q = deque()
+q.append(1)
+q.appendleft(3)
+q.pop()
+q.popleft()
+```
+
+### Keeping a History
+>Keep a history of the last N things
+```python
+history = deque(maxlen = N)
+```
+
+## Iteration
+### List
+#### Wildcard unpacking
+```python
+prices = [  
+    ['GOOG', 490.1, 485.25, 487.5 ],  
+    ['IBM', 91.5],  
+    ['HPE', 13.75, 12.1, 13.25, 14.2, 13.5 ],  
+    ['CAT', 52.5, 51.2]  
+]
+for name, *values in prices:
+	print(name, values)
+```
