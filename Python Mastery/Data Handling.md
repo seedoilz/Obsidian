@@ -212,3 +212,12 @@ class MutInt:
     __radd__ = __add__
 ```
 
+## Over-allocation
+In Python, all mutable containers tend to over-allocate memory so that there are always some free slots available. It is a performance optimization.
+- Lists : Increase by ~12.5% when full
+- Sets : Increases by factor 4 when 2/3 full
+- Dicts : Increases by a factor 2 when 2/3 full
+
+## Key Restrictions
+Sets/dict keys restricted to “hashable” objects
+This usually means you can only use strings, numbers, or tuples (no lists, dicts, sets, etc.)
