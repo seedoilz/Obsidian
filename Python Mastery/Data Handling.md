@@ -1,4 +1,5 @@
 #input 
+#language/python
 
 ## Tuple
 - can be used as an array
@@ -123,8 +124,7 @@ history = deque(maxlen = N)
 ```
 
 ## Iteration
-### List
-#### Wildcard unpacking
+### Wildcard unpacking
 ```python
 prices = [  
     ['GOOG', 490.1, 485.25, 487.5 ],  
@@ -136,6 +136,44 @@ for name, *values in prices:
 	print(name, values)
 ```
 ![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/20230727171533.png)
+
+### Unpacking Iterables
+```python
+a = (1, 2, 3)
+b = [4, 5]
+c = [ *a, *b ] # c = [1, 2, 3, 4, 5] (list)
+d = ( *a, *b ) # d = (1, 2, 3, 4, 5) (tuple)
+```
+
+### Unpacking Dictionaries
+```python
+a = { 'name': 'GOOG', 'shares': 100, 'price':490.1 }
+b = { 'date': '6/11/2007', 'time': '9:45am' }
+c = { **a, **b }
+{ 'name': 'GOOG', 'shares':100, 'price': 490.1,
+'date': '6/11/2007,'time': '9:45am' }
+```
+
+### Argument Passing
+#### Iterables can expand to positional args
+```python
+a = (1, 2, 3)
+b = (4, 5)
+func(*a, *b) # func(1,2,3,4,5)
+```
+
+#### Dictionaries can expand to keyword args
+```python
+c = {'x': 1, 'y': 2 }
+func(**c) func(x=1, y=2)
+```
+
+#### Combinations fine as long as positional go first
+```python
+func(*a, **c)
+func(*a, *b, **c)
+func(0, *a, *b, 6, spam=37, **c)
+```
 
 ## Generator
 >A generator can only be consumed once
