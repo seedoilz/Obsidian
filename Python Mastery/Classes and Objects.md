@@ -136,4 +136,48 @@ Typical uses:
 - Proper shutdown of system resources (e.g.,network connections)
 - Releasing locks (e.g., threading)
 
+## Code Reuse
+### Handler Classes
+> The handler only contains the methods that need to be implemented/customized
 
+```python
+class TableFormatter:
+	def headings(self, headings):
+		raise NotImplementedError
+	def row(self, rowdata):
+		raise NotImplementedError
+```
+
+### Classes as a Template
+> A class might implement a general-purpose algorithm, but delegate certain steps to a subclass
+
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230730120436.png)
+
+## Mixin Classes
+> A class with a fragment of code
+
+装饰类？
+
+```python
+# Mixin Class
+class JsonMixin:
+    def to_json(self):
+        import json
+        return json.dumps(self.__dict__)
+
+# 主要类
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# 使用 Mixin 扩展主要类
+class JsonPerson(JsonMixin, Person):
+    pass
+
+# 创建实例
+person = JsonPerson("Alice", 30)
+
+# 调用扩展的方法
+print(person.to_json())  # 输出: {"name": "Alice", "age": 30}
+```
