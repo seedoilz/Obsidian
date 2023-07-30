@@ -21,32 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "b1d9f3a32720aa9b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Mastery/Classes and Objects.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b41043131a11ec72",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Classes and Objects.md",
+                "file": "Python Mastery/Python Mastery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Classes and Objects.md",
+                "file": "Python Mastery/Python Mastery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Classes and Objects.md"
+                "file": "Python Mastery/Python Mastery.md"
               }
             }
           }
@@ -181,10 +157,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1d9f3a32720aa9b",
+  "active": "6102d1b6d083e45a",
   "lastOpenFiles": [
-    "Python Mastery/().md",
     "Python Mastery/Classes and Objects.md",
+    "Python Mastery/().md",
     "Python Mastery/Python Mastery.md",
     "Python Mastery/Data Handling.md",
     "Python Mastery/Classes.md",
