@@ -80,5 +80,60 @@ Uses vary:
 然而，对于以双下划线 `__` 作为前缀的变量或方法，Python 会对其名称进行一定的名称修饰（name mangling），以防止子类意外地覆盖父类的私有成员。名称修饰会在变量或方法名前添加一个下划线和类名，以此实现私有成员的隐私保护。这使得子类无法直接访问父类的双下划线开头的私有成员。
 
 ### Properties
+> Like a attribute, but it can be computed by attribute.
 
+```python
+class cls:
+	...
+	@property
+	def cost(self):
+		return self.shares * self.price
+```
 ![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230729172226.png)
+
+### \_\_slots\_\_ Attribute
+> A performance optimization
+> However, it can cause strange interaction with other parts of Python that are related to objects.
+> **Don't use it** except with classes that serve as simple data structures.
+
+## Special Methods
+### String Conversions
+> Objects have two string representations
+
+#### str (x)
+>Printable output
+
+```python
+>>> str(d)
+'2012-12-21'
+```
+
+#### repr (x)
+> For programmers
+
+```python
+>>> repr(d)
+'datetime.date(2012, 12, 21)'
+```
+
+### Item Access
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230730102302.png)
+
+### Mathematics
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230730102324.png)
+
+### Instance Creation
+> Instances are created in two steps
+
+```python
+d = Date.__new__(Date, 2012, 12, 21)
+d.__init__(2012, 12, 21)
+```
+
+### \_\_del\_\_ method
+
+Typical uses:
+- Proper shutdown of system resources (e.g.,network connections)
+- Releasing locks (e.g., threading)
+
+
