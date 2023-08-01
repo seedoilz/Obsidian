@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "f233e51cfaa2b32c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Mastery/Inside Python Objects.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Inside Python Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Inside Python Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Python Mastery.md"
+                "file": "Python Mastery/Inside Python Objects.md"
               }
             }
           }
@@ -157,11 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6102d1b6d083e45a",
+  "active": "f233e51cfaa2b32c",
   "lastOpenFiles": [
+    "Python Mastery/Python Mastery.md",
+    "Python Mastery/Inside Python Objects.md",
     "Python Mastery/Classes and Objects.md",
     "Python Mastery/().md",
-    "Python Mastery/Python Mastery.md",
     "Python Mastery/Data Handling.md",
     "Python Mastery/Classes.md",
     "Python Mastery/Dataclasses.md",
@@ -185,7 +200,6 @@
     "软件系统设计/建造者模式.md",
     "软件系统设计/外观模式.md",
     "软件系统设计/命令模式.md",
-    "软件系统设计/代理模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",
