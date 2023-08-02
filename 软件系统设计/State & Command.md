@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 17th 2023, 2:41:17 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: 1. 状态模式
+---
 #input 
 
 # 1. [[状态模式]]

@@ -6,5 +6,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "tag-wrangler",
   "obsidian-git",
-  "obsidian-outliner"
+  "obsidian-outliner",
+  "obsidian-linter"
 ]

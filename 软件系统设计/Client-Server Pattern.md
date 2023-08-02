@@ -1,5 +1,8 @@
 ---
 aliases: [客户端-服务端模式]
+date created: April 26th 2023, 4:51:31 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: Client-Server Pattern
 ---
 #system-architecture/pattern    
 

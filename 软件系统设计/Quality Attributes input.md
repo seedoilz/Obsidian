@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 18th 2023, 10:14:23 am
+date modified: August 2nd 2023, 10:22:04 am
+title: Quality Attributes input
+---
 #input 
 
 ## 需求

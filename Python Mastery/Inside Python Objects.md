@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: August 1st 2023, 10:02:04 am
+date modified: August 2nd 2023, 10:22:05 am
+title: Inside Python Objects
+---
 #input 
 #language/python 
 
@@ -60,3 +66,7 @@ Overridden methods must have a compatible signature across the entire hierarchy
 
 There must be a implemented class to terminate the search chain
 
+### Descriptor
+>A _descriptor_ is an object with one or more of the following special methods
+
+Whenever an attribute is accessed on a class, the attribute is checked to see if it is an object that looks like a so-called "descriptor"

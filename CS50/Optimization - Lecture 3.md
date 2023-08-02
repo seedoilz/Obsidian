@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: June 21st 2023, 9:36:11 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: Optimization - Lecture 3
+---
 #input 
 
 ## state-space landscape

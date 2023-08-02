@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 17th 2023, 6:51:41 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: 1. 防御式编程 Defensive Programming
+---
 #input
 
 # 1. 防御式编程 Defensive Programming

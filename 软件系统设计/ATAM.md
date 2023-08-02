@@ -1,5 +1,8 @@
 ---
 aliases: [Architecture Trade-off Analysis Method]
+date created: June 4th 2023, 8:38:46 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: ATAM
 ---
 #system-architecture/theory    
 

@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: May 23rd 2023, 10:24:13 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: Uncertainty - Lecture 2
+---
 #input 
 
 ## [[Bayesian Network]]

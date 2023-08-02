@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 17th 2023, 10:19:04 am
+date modified: August 2nd 2023, 10:22:04 am
+title: 1. 策略模式引入：鸭子
+---
 #input 
 # 1. 策略模式引入：鸭子
 

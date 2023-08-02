@@ -1,5 +1,8 @@
 ---
 aliases: [发布-订阅模式]
+date created: April 26th 2023, 4:53:16 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: Publish-Subscribe Pattern
 ---
 #system-architecture/pattern    
 

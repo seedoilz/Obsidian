@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 14th 2023, 4:13:16 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: EntitySet
+---
 #machinelearning
 
 ***（目前基于 [[Featuretools]]）***

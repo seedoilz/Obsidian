@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 15th 2023, 9:49:21 am
+date modified: August 2nd 2023, 10:22:05 am
+title: Woodwork Dataframe
+---
 #machinelearning 
 
 # Woodwork Dataframe

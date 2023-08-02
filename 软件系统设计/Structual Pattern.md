@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 17th 2023, 5:32:26 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: 1. 外观模式
+---
 #input 
 
 # 1. [[外观模式]]

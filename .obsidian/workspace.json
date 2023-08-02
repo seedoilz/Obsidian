@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "f233e51cfaa2b32c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Mastery/Inside Python Objects.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -111,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md",
+                "file": "Python Mastery/Python Mastery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md",
+                "file": "Python Mastery/Python Mastery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md"
+                "file": "Python Mastery/Python Mastery.md"
               }
             }
           }
@@ -171,8 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f233e51cfaa2b32c",
+  "active": "6102d1b6d083e45a",
   "lastOpenFiles": [
+    "软件系统设计/SOA.md",
+    "tags/systemStructure.md",
+    "tags/softwareDesign.md",
+    "algorithm/回溯.md",
     "Python Mastery/Python Mastery.md",
     "Python Mastery/Inside Python Objects.md",
     "Python Mastery/Classes and Objects.md",
@@ -196,10 +185,6 @@
     "软件系统设计/策略模式.md",
     "软件系统设计/状态模式.md",
     "软件系统设计/模板方法模式.md",
-    "软件系统设计/工厂方法模式.md",
-    "软件系统设计/建造者模式.md",
-    "软件系统设计/外观模式.md",
-    "软件系统设计/命令模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",

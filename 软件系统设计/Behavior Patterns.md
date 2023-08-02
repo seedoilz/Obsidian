@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 16th 2023, 6:47:57 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: 1. 观察者模式
+---
 #input 
 
 # 1. [[观察者模式]]

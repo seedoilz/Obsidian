@@ -1,5 +1,8 @@
 ---
 aliases: [Domain-specific software architecture]
+date created: April 28th 2023, 9:44:18 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: DSSA
 ---
 #system-architecture/theory    
 

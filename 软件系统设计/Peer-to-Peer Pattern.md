@@ -1,5 +1,8 @@
 ---
 aliases: [点对点模式]
+date created: April 26th 2023, 4:52:32 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: Peer-to-Peer Pattern
 ---
 #system-architecture/pattern    
 

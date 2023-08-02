@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: May 18th 2023, 2:40:08 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: Introduction - Lecture 0
+---
 #input 
 
 ## Search Problems

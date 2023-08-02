@@ -1,5 +1,8 @@
 ---
 aliases: [xgb]
+date created: April 18th 2023, 5:08:41 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: XGBoost
 ---
 #machinelearning
 

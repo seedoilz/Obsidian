@@ -1,5 +1,8 @@
 ---
 aliases: [分层模式,分层架构]
+date created: April 26th 2023, 4:47:28 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: Layered Pattern
 ---
 #system-architecture/pattern    
 ### 定义

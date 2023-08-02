@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: May 24th 2023, 2:28:42 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: Bayesian Network
+---
 #machinelearning
 >A Bayesian network is a data structure that represents the dependencies among random variables. Bayesian networks have the following properties.
 

@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: July 29th 2023, 9:21:05 am
+date modified: August 2nd 2023, 10:22:05 am
+title: Classes and Objects
+---
 #input 
 #language/python 
 

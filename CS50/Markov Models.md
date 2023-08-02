@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: May 24th 2023, 2:29:24 pm
+date modified: August 2nd 2023, 10:22:05 am
+title: Markov Models
+---
 #machinelearning
 
 ### Markov Assumption

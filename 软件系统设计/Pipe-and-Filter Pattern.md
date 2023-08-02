@@ -1,5 +1,8 @@
 ---
 aliases: [管道和过滤模式]
+date created: April 26th 2023, 4:50:22 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: Pipe-and-Filter Pattern
 ---
 #system-architecture/pattern     
 

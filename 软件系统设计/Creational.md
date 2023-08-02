@@ -1,3 +1,9 @@
+---
+aliases: 
+date created: April 16th 2023, 4:39:09 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: 1. 建造者模式
+---
 #input 
 
 # 1. [[建造者模式]]

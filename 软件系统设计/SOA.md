@@ -1,5 +1,8 @@
 ---
 aliases: [面向服务的模式]
+date created: April 26th 2023, 4:54:17 pm
+date modified: August 2nd 2023, 10:22:04 am
+title: SOA
 ---
 #system-architecture/pattern    
 
