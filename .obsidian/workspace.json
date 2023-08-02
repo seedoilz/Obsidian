@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "ebfff0290bcc34c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Mastery/Inside Python Objects.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#software-design/pattern",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,11 +90,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -96,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Inside Python Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Inside Python Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Python Mastery.md"
+                "file": "Python Mastery/Inside Python Objects.md"
               }
             }
           }
@@ -156,15 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6102d1b6d083e45a",
+  "active": "ebfff0290bcc34c7",
   "lastOpenFiles": [
-    "软件系统设计/SOA.md",
+    "Python Mastery/Classes and Objects.md",
+    "Python Mastery/Inside Python Objects.md",
+    "Python Mastery/Python Mastery.md",
     "tags/systemStructure.md",
     "tags/softwareDesign.md",
+    "templates/aliases.md",
+    "软件系统设计/SOA.md",
     "algorithm/回溯.md",
-    "Python Mastery/Python Mastery.md",
-    "Python Mastery/Inside Python Objects.md",
-    "Python Mastery/Classes and Objects.md",
     "Python Mastery/().md",
     "Python Mastery/Data Handling.md",
     "Python Mastery/Classes.md",
@@ -184,7 +201,6 @@
     "软件系统设计/简单工厂模式.md",
     "软件系统设计/策略模式.md",
     "软件系统设计/状态模式.md",
-    "软件系统设计/模板方法模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",

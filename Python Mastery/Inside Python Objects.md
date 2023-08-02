@@ -1,7 +1,7 @@
 ---
 aliases: 
 date created: August 1st 2023, 10:02:04 am
-date modified: August 2nd 2023, 10:22:05 am
+date modified: August 2nd 2023, 4:37:54 pm
 title: Inside Python Objects
 ---
 #input 
@@ -70,3 +70,64 @@ There must be a implemented class to terminate the search chain
 >A _descriptor_ is an object with one or more of the following special methods
 
 Whenever an attribute is accessed on a class, the attribute is checked to see if it is an object that looks like a so-called "descriptor"
+
+Descriptors **always override \_\_dict\_\_**
+
+#### Who Cares descriptor?
+Every major feature of classes is implemented using descriptors
+-  Instance methods
+- Static methods (@staticmethod)
+- Class methods (@classmethod)
+- Properties (@property)
+- \_\_slots\_\_
+
+#### Descriptors in Action
+##### Behind the scenes of method lookup
+```python
+>>> s = Stock('GOOG',100,490.10)
+>>> value = Stock.__dict__['cost']
+>>> value
+<function cost at 0x378770>
+>>> hasattr(value,"__get__")
+True
+>>> result = value.__get__(s,Stock)
+>>> result
+<bound method Stock.cost of <__main__.Stock object at0x37e250>>
+>>> result()
+49010.0
+```
+
+##### Descriptors and Properties
+```python
+>>> s = Stock()
+>>> p = Stock.__dict__['shares']
+>>> p
+<property object at 0x3759c0>
+>>> p.__set__(s, 100) # Same as s.shares = 100
+>>> p.__get__(s, Stock) # Same as s.shares
+100
+>>> s.shares
+100
+```
+
+##### Descriptors and \_\_slots__
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230802164937.png)
+Each slot name is used to create a descriptor that simply gets or sets values in the appropriate array position (internals are implemented in C and hard to view though)
+
+#### Descriptor Application
+>Provide more precise control than properties.
+
+```python
+class Integer:
+	def __init__(self, name):
+		self.name = name
+	def __get__(self, instance, cls):
+		return instance.__dict__[self.name]
+	def __set__(self, instance, value):
+		if not isinstance(value, int):
+			raise TypeError('Expected an integer')
+		instance.__dict__[self.name] = value
+```
+
+>A weaker descriptor that only has \_\_get__ Only triggered if obj.\_\_dict__ doesn't match
+

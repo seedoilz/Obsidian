@@ -168,5 +168,15 @@
       ],
       "key": "="
     }
+  ],
+  "obsidian-linter:lint-file": [],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "V"
+    }
   ]
 }

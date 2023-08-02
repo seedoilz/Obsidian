@@ -1,7 +1,7 @@
 ---
 aliases: 
 date created: July 29th 2023, 9:21:05 am
-date modified: August 2nd 2023, 10:22:05 am
+date modified: August 2nd 2023, 4:39:55 pm
 title: Classes and Objects
 ---
 #input 
@@ -87,6 +87,8 @@ Uses vary:
 
 ### Properties
 > Like a attribute, but it can be computed by attribute.
+
+Without @property, anyone can set any type to the variable which could be dangerous. SO, with @property, everyone must use the SET method to the set the value and the SET method can check the type of the value.
 
 ```python
 class cls:
