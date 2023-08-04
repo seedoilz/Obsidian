@@ -1,7 +1,7 @@
 ---
 aliases: 
 date created: August 1st 2023, 10:02:04 am
-date modified: August 2nd 2023, 4:37:54 pm
+date modified: August 4th 2023, 9:04:22 am
 title: Inside Python Objects
 ---
 #input 
@@ -131,3 +131,23 @@ class Integer:
 
 >A weaker descriptor that only has \_\_get__ Only triggered if obj.\_\_dict__ doesn't match
 
+### Attribute Access Methods
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230804085044.png)
+#### \_\_getattribute__()
+> Called every time an attribute is read
+
+Default behavior looks for descriptors, checks the instance dictionary, checks bases classes (inheritance), etc.
+If it can't find the attribute after all of those steps, it invokes \_\_getattr__(self,name)
+
+#### \_\_getattr__() method
+>A failsafe method. Called if an attribute can't be found using the standard mechanism
+
+#### \_\_setattr__() method
+>Called every time an attribute is set
+
+Default behavior checks for descriptors, stores values in the instance dictionary, etc.
+
+#### \_\_delattr__() method
+>Called every time an attribute is deleted
+
+Default behavior checks for descriptors and deletes from the instance dictionary
