@@ -1,7 +1,7 @@
 ---
 aliases: 
 date created: July 25th 2023, 4:46:56 pm
-date modified: August 2nd 2023, 2:54:12 pm
+date modified: August 4th 2023, 10:14:42 am
 title: Python Mastery
 ---
 #project 
@@ -12,3 +12,5 @@ title: Python Mastery
 [[Classes and Objects]]
 
 [[Inside Python Objects]]
+
+[[Functions]]

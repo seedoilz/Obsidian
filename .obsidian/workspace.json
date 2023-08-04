@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "ebfff0290bcc34c7",
+            "id": "be7a056c427eebfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md",
+                "file": "Python Mastery/Functions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md",
+                "file": "Python Mastery/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md",
+                "file": "Python Mastery/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Inside Python Objects.md"
+                "file": "Python Mastery/Functions.md"
               }
             }
           }
@@ -172,11 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebfff0290bcc34c7",
+  "active": "be7a056c427eebfe",
   "lastOpenFiles": [
-    "Python Mastery/Classes and Objects.md",
-    "Python Mastery/Inside Python Objects.md",
     "Python Mastery/Python Mastery.md",
+    "Python Mastery/Functions.md",
+    "Python Mastery/Inside Python Objects.md",
+    "Python Mastery/Classes and Objects.md",
     "tags/systemStructure.md",
     "tags/softwareDesign.md",
     "templates/aliases.md",
@@ -200,7 +200,6 @@
     "软件系统设计/组合模式.md",
     "软件系统设计/简单工厂模式.md",
     "软件系统设计/策略模式.md",
-    "软件系统设计/状态模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",
