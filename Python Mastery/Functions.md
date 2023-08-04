@@ -2,7 +2,7 @@
 aliases: 
 title: Functions
 date created: August 4th 2023, 10:14:42 am
-date modified: August 4th 2023, 10:14:44 am
+date modified: August 4th 2023, 4:55:53 pm
 ---
 #language/python 
 #input 
@@ -48,3 +48,38 @@ def func(a, items=[]):
 ### Futures
 
 ![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230804125331.png)
+
+
+## Lambda Functions
+> One-expression functions can use lambda
+
+### Usage
+#### Alter function args
+```python
+def distance(x, y):
+	return abs(x - y)
+>>> dist_from10 = lambda y: distance(10, y)
+```
+
+```python
+def map(func, values):  
+    result = []  
+    for x in values:  
+       result.append(func(x))  
+    return result  
+def reduce(func, values, initial=0):  
+    result = initial  
+    for n in values:  
+       result = func(n, result)  
+    return result  
+def sum(x, y):  
+    return x + y  
+def square(x):  
+    return x * x
+
+nums = [1, 2, 3, 4]  
+result = reduce(sum, map(square, nums))
+```
+
+## Closures
+Essential feature : A "closure" retains the values of all variables needed for the function to run properly later on
