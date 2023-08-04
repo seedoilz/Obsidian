@@ -38,3 +38,13 @@ def func(a, items=[]):
 ```
 
 **Advice**: Only use immutable values such as None, True, False, numbers, or strings
+
+## Concurrency
+### Concurrency
+>Functions might execute concurrently (threads)
+
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230804124216.png)
+
+### Futures
+
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230804125331.png)
