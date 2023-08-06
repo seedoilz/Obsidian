@@ -2,7 +2,7 @@
 aliases: 
 title: Functions
 date created: August 4th 2023, 10:14:42 am
-date modified: August 4th 2023, 4:55:53 pm
+date modified: August 6th 2023, 11:17:00 am
 ---
 #language/python 
 #input 
@@ -82,4 +82,48 @@ result = reduce(sum, map(square, nums))
 ```
 
 ## Closures
-Essential feature : A "closure" retains the values of all variables needed for the function to run properly later on
+Essential feature : A "closure" retains the values of all variables needed for the function to run properly later on.
+
+### Usages
+- Alternate evaluation (e.g., "delayed evaluation)
+- Callback functions
+- Code creation ("macros")
+
+## Exceptions
+
+### What Exceptions to Handle?
+Functions should only handle exceptions where recovery is possible.
+And Let other exceptions propagate
+
+### No need to catch all errors
+Never catch all exceptions unless you report/ record the actual exception that occurred
+
+### What Exceptions to Raise?
+Applications should have their own exceptions
+```python
+class ApplicationError(Exception):
+	pass
+```
+
+### Logging
+>Use logging for recording diagnostics
+
+## Test
+### Unittest
+```python
+import simple
+import unittest
+class TestAdd(unittest.TestCase):
+	def test_simple(self):
+		# Test with simple integer arguments
+		r = simple.add(2, 2)
+		self.assertEqual(r, 5)
+	def test_str(self):
+		# Test with strings
+		r = simple.add('hello', 'world')
+		self.assertEqual(r, 'helloworld')
+	if __name__ == '__main__':
+		unittest.main()
+```
+
+
