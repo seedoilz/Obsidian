@@ -2,7 +2,7 @@
 aliases: 
 title: Functions
 date created: August 4th 2023, 10:14:42 am
-date modified: August 6th 2023, 11:17:00 am
+date modified: August 6th 2023, 12:00:29 pm
 ---
 #language/python 
 #input 
@@ -122,8 +122,8 @@ class TestAdd(unittest.TestCase):
 		# Test with strings
 		r = simple.add('hello', 'world')
 		self.assertEqual(r, 'helloworld')
-	if __name__ == '__main__':
-		unittest.main()
+if __name__ == '__main__':
+	unittest.main()
 ```
 
 
