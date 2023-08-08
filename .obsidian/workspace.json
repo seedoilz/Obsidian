@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b1a4f9f7dc5e0f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Mastery/Working with Code.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Working with Code.md",
+                "file": "Python Mastery/Python Mastery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Working with Code.md",
+                "file": "Python Mastery/Python Mastery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Working with Code.md"
+                "file": "Python Mastery/Python Mastery.md"
               }
             }
           }
@@ -169,10 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b1a4f9f7dc5e0f6",
+  "active": "758d64007f2cf60f",
   "lastOpenFiles": [
-    "Python Mastery/Python Mastery.md",
     "Python Mastery/Working with Code.md",
+    "Python Mastery/Python Mastery.md",
     "Python Mastery/Data Handling.md",
     "Python Mastery/Functions.md",
     "经济学原理/经济学十大原理.md",
