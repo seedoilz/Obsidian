@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Metaprogramming.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Metaprogramming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Mastery/Python Mastery.md",
+                "file": "Python Mastery/Metaprogramming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Mastery/Python Mastery.md"
+                "file": "Python Mastery/Metaprogramming.md"
               }
             }
           }
@@ -157,8 +157,9 @@
   },
   "active": "758d64007f2cf60f",
   "lastOpenFiles": [
-    "Python Mastery/Working with Code.md",
+    "Python Mastery/Metaprogramming.md",
     "Python Mastery/Python Mastery.md",
+    "Python Mastery/Working with Code.md",
     "Python Mastery/Data Handling.md",
     "Python Mastery/Functions.md",
     "经济学原理/经济学十大原理.md",
@@ -184,7 +185,6 @@
     "CS50/Untitled.md",
     "软件系统设计/软件系统设计.md",
     "软件系统设计/观察者模式.md",
-    "软件系统设计/装饰模式.md",
     "DeepLearning",
     "CS50",
     "algorithm",
