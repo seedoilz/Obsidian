@@ -2,7 +2,7 @@
 aliases: 
 title: Metaprogramming
 date created: August 8th 2023, 6:27:52 pm
-date modified: August 8th 2023, 6:28:29 pm
+date modified: August 14th 2023, 3:50:51 pm
 ---
 
 #language/python 
@@ -65,3 +65,4 @@ class MyClass:
 	def bar(self):
 		pass
 ```
+
