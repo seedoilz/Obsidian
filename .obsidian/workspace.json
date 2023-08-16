@@ -11,8 +11,13 @@
             "id": "68aa796f1cf1ecfa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Featuretools.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -73,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "abb83fcec2f85e09",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MachineLearning/Featuretools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MachineLearning/Featuretools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MachineLearning/Featuretools.md"
+              }
             }
           }
         ],
@@ -148,6 +156,7 @@
   },
   "active": "68aa796f1cf1ecfa",
   "lastOpenFiles": [
+    "MachineLearning/Gini impurity.md",
     "Python Mastery/Python Mastery.md",
     "Python Mastery/Iterators.md",
     "Python Mastery/Metaprogramming.md",
@@ -175,7 +184,6 @@
     "CS50/Optimization - Lecture 3.md",
     "CS50/Knowledge - Lecture 1.md",
     "CS50/Untitled.md",
-    "软件系统设计/软件系统设计.md",
     "DeepLearning",
     "CS50",
     "algorithm",
