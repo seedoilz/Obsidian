@@ -29,9 +29,19 @@
                 "currentVersion": "1.4.12"
               }
             }
+          },
+          {
+            "id": "47412da45fc2ac21",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +175,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4c906a5af52255e4",
+  "active": "47412da45fc2ac21",
   "lastOpenFiles": [
     "MachineLearning/Gini impurity.md",
     "Python Mastery/Python Mastery.md",
