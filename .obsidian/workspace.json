@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Redis input.md",
+                "file": "Web/Spring Maven Jenkins部署.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Redis input.md",
+                "file": "Web/Spring Maven Jenkins部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Redis input.md",
+                "file": "Web/Spring Maven Jenkins部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Redis input.md"
+                "file": "Web/Spring Maven Jenkins部署.md"
               }
             }
           }
@@ -156,10 +156,11 @@
   },
   "active": "00f86e0339d20a1d",
   "lastOpenFiles": [
+    "Web/Web.md",
+    "Web/Spring Maven Jenkins部署.md",
     "Web/Spring Session input.md",
     "Web/Redis input.md",
     "Web/Redis.md",
-    "Web/Web.md",
     "MachineLearning/Featuretools.md",
     "MachineLearning/Gini impurity.md",
     "Python Mastery/Python Mastery.md",
@@ -182,7 +183,6 @@
     "Python Mastery/Classes.md",
     "Python Mastery/Dataclasses.md",
     "Python Mastery/Tuple.md",
-    "Python Mastery/Slots.md",
     "Python Mastery",
     "DeepLearning",
     "CS50",
