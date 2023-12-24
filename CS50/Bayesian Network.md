@@ -1,7 +1,7 @@
 ---
 aliases: 
-date created: May 24th 2023, 2:28:42 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 五月 24日 2023, 2:28:42 下午
+date modified: 十二月 24日 2023, 4:50:43 下午
 title: Bayesian Network
 ---
 #machinelearning
