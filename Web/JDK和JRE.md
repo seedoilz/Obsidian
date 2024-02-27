@@ -1,8 +1,8 @@
 ---
 aliases: []
-title: Spring Maven Jenkins部署
-date created: November 8th 2023, 1:44:55 pm
-date modified: January 4th 2024, 9:53:10 pm
+title: JDK和JRE
+date created: 十一月 8日 2023, 1:44:55 下午
+date modified: 二月 27日 2024, 7:39:54 晚上
 ---
 #bug
 
