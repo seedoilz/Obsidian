@@ -3,7 +3,7 @@ aliases:
   - Inversion of Control
 title: IoC
 date created: 三月 5日 2024, 4:19:23 下午
-date modified: 三月 5日 2024, 4:38:06 下午
+date modified: 三月 5日 2024, 8:58:34 晚上
 tags: [code/web]
 ---
 ## 概述
@@ -31,4 +31,23 @@ Spring 的 IoC 容器就是 IoC思想的一个落地的产品实现。IoC容器�
 BeanFactory 的子接口，提供了更多高级特性。面向 Spring 的使用者，几乎所有场合都使用 ApplicationContext 而不是底层的 BeanFactory。
 #### ③ApplicationContext的主要实现类
 ![iamges](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/img005.png)
+
+## 基于XML管理Bean
+
+### 三种方式
+#### 1. 根据id获取
+```java
+User user = (User) context.getBean("user");
+```
+
+#### 2. 根据类型获取
+```java
+User user2 = context.getBean(User.class);
+```
+
+#### 3. 根据类型和id获取
+```java
+User user3 = context.getBean("user", User.class);
+```
+
 
