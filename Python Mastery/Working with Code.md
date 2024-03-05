@@ -1,11 +1,10 @@
 ---
 aliases: 
 title: Working with Code
-date created: August 8th 2023, 2:51:16 pm
-date modified: August 8th 2023, 4:53:23 pm
+date created: 八月 8日 2023, 2:51:16 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [input, language/python]
 ---
-#input
-#language/python 
 
 ## Function Attributes
 ```python

@@ -1,10 +1,10 @@
 ---
 aliases: [Domain-specific software architecture]
-date created: April 28th 2023, 9:44:18 pm
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 28日 2023, 9:44:18 晚上
+date modified: 三月 5日 2024, 4:07:11 下午
 title: DSSA
+tags: [system-architecture/theory]
 ---
-#system-architecture/theory    
 
 **Domain-specific software architecture**
 领域特定的软件体系结构 (DSSA)是软件组件的组合，专用于特定类型的任务 (域)，

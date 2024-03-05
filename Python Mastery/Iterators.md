@@ -1,11 +1,10 @@
 ---
 aliases: 
 title: Iterators
-date created: August 14th 2023, 3:51:23 pm
-date modified: August 14th 2023, 8:15:53 pm
+date created: 八月 14日 2023, 3:51:23 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [language/python, input]
 ---
-#language/python 
-#input 
 
 ## Generators
 

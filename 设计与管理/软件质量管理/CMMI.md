@@ -2,10 +2,10 @@
 aliases:
   - 能力成熟度集成模型
 title: CMMI
-date created: December 24th 2023, 4:27:31 pm
-date modified: December 24th 2023, 4:34:30 pm
+date created: 十二月 24日 2023, 4:27:31 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [management]
 ---
-#management 
 
 ## 概念
 1. 刻画了软件团队/组织从不成熟到成熟的每个阶段的特征 (也就是roadmap)

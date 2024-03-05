@@ -2,9 +2,9 @@
 aliases: 
 title: Picocli
 date created: 二月 25日 2024, 9:19:01 晚上
-date modified: 二月 27日 2024, 3:40:06 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [code/tools, language/java]
 ---
-#tools 
 
 > [!NOTE] Picocli是什么
 > 命令行工具开发框架，支持颜色高亮、自动补全、子命令、帮助手册……

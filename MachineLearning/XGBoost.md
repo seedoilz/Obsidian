@@ -1,10 +1,10 @@
 ---
 aliases: [xgb]
-date created: April 18th 2023, 5:08:41 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 四月 18日 2023, 5:08:41 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: XGBoost
+tags: [code/machine-learning]
 ---
-#machinelearning
 
 ## 原理
 本质基于[[决策树]]

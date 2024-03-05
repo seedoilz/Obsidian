@@ -1,10 +1,10 @@
 ---
 aliases: 
 date created: 五月 24日 2023, 2:28:42 下午
-date modified: 十二月 24日 2023, 4:50:43 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Bayesian Network
+tags: [code/machine-learning]
 ---
-#machinelearning
 >A Bayesian network is a data structure that represents the dependencies among random variables. Bayesian networks have the following properties.
 
 ### Instance

@@ -1,10 +1,10 @@
 ---
 aliases: [Architecture Trade-off Analysis Method]
-date created: June 4th 2023, 8:38:46 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 六月 4日 2023, 8:38:46 晚上
+date modified: 三月 5日 2024, 4:07:11 下午
 title: ATAM
+tags: [system-architecture/theory]
 ---
-#system-architecture/theory    
 
 ### 阶段 0: 准备和建立团队
 参与者: 评估团队领导和关键项目决策者

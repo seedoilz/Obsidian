@@ -1,10 +1,10 @@
 ---
 aliases: 
 title: PDCA
-date created: December 24th 2023, 4:35:00 pm
-date modified: December 24th 2023, 4:37:57 pm
+date created: 十二月 24日 2023, 4:35:00 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [management]
 ---
-#management 
 
 ### PDCA模型的步骤：
 

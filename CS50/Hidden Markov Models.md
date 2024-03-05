@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: May 24th 2023, 2:30:29 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 五月 24日 2023, 2:30:29 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Hidden Markov Models
+tags: [code/machine-learning]
 ---
-#machinelearning
 
 >a type of a Markov model for a system with hidden states that generate some observed event
 

@@ -1,10 +1,10 @@
 ---
 aliases: [面向服务的模式]
-date created: April 26th 2023, 4:54:17 pm
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 26日 2023, 4:54:17 下午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: SOA
+tags: [system-architecture/pattern]
 ---
-#system-architecture/pattern    
 
 面向服务的模式是 Broker Pattern 的延伸，Component 包含服务提供者、服务消费者、ESB (企业服务总线)、企业服务组件、连接处理 (注册、发现)，Connector 包含 SOAP、REST、Asynchronous messaging connector。
 

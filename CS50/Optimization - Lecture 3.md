@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: June 21st 2023, 9:36:11 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 六月 21日 2023, 9:36:11 晚上
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Optimization - Lecture 3
+tags: [input]
 ---
-#input 
 
 ## state-space landscape
 > find the max or min value based on the objective function or the cost function

@@ -1,10 +1,10 @@
 ---
 aliases: 
 title: Scrum
-date created: December 24th 2023, 7:01:50 pm
-date modified: December 24th 2023, 7:06:45 pm
+date created: 十二月 24日 2023, 7:01:50 晚上
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [management]
 ---
-#management 
 
 ### 迭代式增量软件开发过程：
 ![](https://spricoder.oss-cn-shanghai.aliyuncs.com/2021-software-quality-management/img/exam/15.png)

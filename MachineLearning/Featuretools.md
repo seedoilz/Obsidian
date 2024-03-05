@@ -1,11 +1,10 @@
 ---
 aliases: [featuretools]
-date created: April 14th 2023, 4:00:42 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 四月 14日 2023, 4:00:42 下午
+date modified: 三月 5日 2024, 4:04:10 下午
 title: Deep Feature Synthesis
+tags: [code/machine-learning, code/tools, language/python]
 ---
-#machinelearning
-
 # [[Deep Feature Synthesis]]
 
 ##  [[EntitySet]] (不是必要的)

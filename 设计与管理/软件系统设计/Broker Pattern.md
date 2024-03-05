@@ -1,10 +1,10 @@
 ---
 aliases: [代理模式, Broker]
-date created: April 26th 2023, 4:48:19 pm
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 26日 2023, 4:48:19 下午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: Broker Pattern
+tags: [system-architecture/pattern]
 ---
-#system-architecture/pattern    
 
 ### 解决方案
 ![](https://spricoder.oss-cn-shanghai.aliyuncs.com/2021-Software-System-Design/img/lec14/6.png)

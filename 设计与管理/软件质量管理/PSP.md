@@ -3,9 +3,9 @@ aliases:
   - 个体软件过程
 title: PSP
 date created: 十二月 24日 2023, 7:20:02 晚上
-date modified: 十二月 25日 2023, 11:33:42 晚上
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [management]
 ---
-#management 
 
 ## 概念
 > PSP是一种个体级用于管理和改进软件工程师个人工作方式的持续改进过程。是包括数据记录表格、过程操作指南和规程在内的结构化框架。

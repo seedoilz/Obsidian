@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: April 17th 2023, 3:01:04 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 四月 17日 2023, 3:01:04 下午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: 1. 适配器模式
+tags: [input]
 ---
-#input 
 
 # 1. [[适配器模式]]
 

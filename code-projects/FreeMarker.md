@@ -2,10 +2,9 @@
 aliases: 
 title: FreeMarker
 date created: 二月 25日 2024, 11:12:04 上午
-date modified: 二月 27日 2024, 7:16:31 晚上
+date modified: 三月 5日 2024, 4:03:56 下午
+tags: [code/tools, language/java]
 ---
-#tools
-#language/java 
 
 ### 概念
 FreeMarker是一种模版引擎（一种用于生成动态内容），优点是入门简单、灵活易拓展。

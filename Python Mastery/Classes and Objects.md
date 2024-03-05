@@ -1,11 +1,10 @@
 ---
 aliases: 
-date created: July 29th 2023, 9:21:05 am
-date modified: August 2nd 2023, 4:39:55 pm
+date created: 七月 29日 2023, 9:21:05 上午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: Classes and Objects
+tags: [input, language/python]
 ---
-#input 
-#language/python 
 
 ## Attribute Access Functions
 ```python

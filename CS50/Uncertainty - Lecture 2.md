@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: May 23rd 2023, 10:24:13 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 五月 23日 2023, 10:24:13 晚上
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Uncertainty - Lecture 2
+tags: [input]
 ---
-#input 
 
 ## [[Bayesian Network]]
 >A Bayesian network is a data structure that represents the dependencies among random variables. Bayesian networks have the following properties.

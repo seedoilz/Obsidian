@@ -1,10 +1,10 @@
 ---
 aliases: 
 title: IDEAL
-date created: December 24th 2023, 4:38:26 pm
-date modified: December 24th 2023, 4:41:07 pm
+date created: 十二月 24日 2023, 4:38:26 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [management]
 ---
-#management 
 
 ## 概念
 IDEAL模型解决了软件组织在各种质量改进环境下的需要。它包括了软件过程改进周期中的五个阶段，IDEAL是代表这五个阶段的单词的⾸字母。

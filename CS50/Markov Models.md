@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: May 24th 2023, 2:29:24 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 五月 24日 2023, 2:29:24 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Markov Models
+tags: [code/machine-learning]
 ---
-#machinelearning
 
 ### Markov Assumption
 The current state depends on only a finite fixed number of previous states.

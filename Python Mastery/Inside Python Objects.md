@@ -1,11 +1,10 @@
 ---
 aliases: 
-date created: August 1st 2023, 10:02:04 am
-date modified: August 4th 2023, 9:04:22 am
+date created: 八月 1日 2023, 10:02:04 上午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Inside Python Objects
+tags: [input, language/python]
 ---
-#input 
-#language/python 
 
 ## Dicts, Classes, Instances
 >Each instance gets its own private dictionary to store its member variables

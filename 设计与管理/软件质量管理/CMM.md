@@ -1,10 +1,10 @@
 ---
 aliases: 
 title: CMM
-date created: December 24th 2023, 4:00:19 pm
-date modified: December 24th 2023, 4:27:31 pm
+date created: 十二月 24日 2023, 4:00:19 下午
+date modified: 三月 5日 2024, 4:07:11 下午
+tags: [management]
 ---
-#management 
 
 ## 概念
 

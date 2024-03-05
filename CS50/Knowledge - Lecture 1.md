@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: May 19th 2023, 4:19:02 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 五月 19日 2023, 4:19:02 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Knowledge - Lecture 1
+tags: [input]
 ---
-#input 
 
 ## Model Checking
 To determine if $KB \models \alpha$:

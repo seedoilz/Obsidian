@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: April 18th 2023, 10:14:23 am
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 18日 2023, 10:14:23 上午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: Quality Attributes input
+tags: [input]
 ---
-#input 
 
 ## 需求
 ### 功能性需求

@@ -1,11 +1,10 @@
 ---
 aliases: 
-date created: July 25th 2023, 4:47:52 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 七月 25日 2023, 4:47:52 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Data Handling
+tags: [input, language/python]
 ---
-#input 
-#language/python
 
 ## Tuple
 - can be used as an array

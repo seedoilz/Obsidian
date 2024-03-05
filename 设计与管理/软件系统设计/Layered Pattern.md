@@ -1,10 +1,10 @@
 ---
 aliases: [分层模式,分层架构]
-date created: April 26th 2023, 4:47:28 pm
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 26日 2023, 4:47:28 下午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: Layered Pattern
+tags: [system-architecture/pattern]
 ---
-#system-architecture/pattern    
 ### 定义
 层间访问必须按照逐层进行访问，核心是关注点分离。
 影响的质量属性: 可修改性、可模块化、可维护性、可复用性。

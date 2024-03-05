@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: May 18th 2023, 2:39:37 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 五月 18日 2023, 2:39:37 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: CS50 AI
+tags: [project]
 ---
-#project 
 
 [[Introduction - Lecture 0]]
 

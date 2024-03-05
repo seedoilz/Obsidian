@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: April 14th 2023, 4:13:16 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 四月 14日 2023, 4:13:16 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: EntitySet
+tags: [code/machine-learning]
 ---
-#machinelearning
 
 ***（目前基于 [[Featuretools]]）***
 一个 [[EntitySet]] 是 dataframes 及其关系的集合。

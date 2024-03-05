@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: April 22nd 2023, 6:32:02 pm
-date modified: January 4th 2024, 9:53:16 pm
+date created: 四月 22日 2023, 6:32:02 晚上
+date modified: 三月 5日 2024, 4:05:09 下午
 title: Redis
+tags: [input]
 ---
-#input 
 # [[Redis]]
 
 ## 定义

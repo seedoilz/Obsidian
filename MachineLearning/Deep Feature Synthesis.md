@@ -1,8 +1,8 @@
 ---
 aliases: [DFS]
-date created: April 14th 2023, 4:10:18 pm
-date modified: August 2nd 2023, 10:22:05 am
+date created: 四月 14日 2023, 4:10:18 下午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Deep Feature Synthesis
+tags: [hung]
 ---
-#hung 
 

@@ -1,10 +1,10 @@
 ---
 aliases: [点对点模式]
-date created: April 26th 2023, 4:52:32 pm
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 26日 2023, 4:52:32 下午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: Peer-to-Peer Pattern
+tags: [system-architecture/pattern]
 ---
-#system-architecture/pattern    
 
 1. 这一刻是提供者，下一刻就是消费者，是对等的。
 2. 不单单提供服务，还能提供物流 (对于整个网络)

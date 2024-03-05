@@ -1,10 +1,10 @@
 ---
 aliases: 
-date created: April 15th 2023, 9:49:21 am
-date modified: August 2nd 2023, 10:22:05 am
+date created: 四月 15日 2023, 9:49:21 上午
+date modified: 三月 5日 2024, 4:07:12 下午
 title: Woodwork Dataframe
+tags: [code/machine-learning]
 ---
-#machinelearning 
 
 # Woodwork Dataframe
 在 Woodwork Dataframe 中，每一列有三种主要内容组成。

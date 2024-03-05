@@ -1,10 +1,10 @@
 ---
 aliases: [客户端-服务端模式]
-date created: April 26th 2023, 4:51:31 pm
-date modified: August 2nd 2023, 10:22:04 am
+date created: 四月 26日 2023, 4:51:31 下午
+date modified: 三月 5日 2024, 4:07:11 下午
 title: Client-Server Pattern
+tags: [system-architecture/pattern]
 ---
-#system-architecture/pattern    
 
 1. 包含两类不同的 component
 2. 请求发起 client、server 接收请求，这里没有 broker，不能动态改变 client 和 server 的关系，相对更固定，但是一个 client 可以连接多个 server
