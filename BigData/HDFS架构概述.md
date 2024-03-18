@@ -1,13 +1,10 @@
 ---
 aliases: 
 title: HDFS架构概述
-date created: 三月 12日 2024, 1:36:05 下午
-date modified: 三月 18日 2024, 1:44:14 下午
-tags:
-  - code/big-data
-  - input
+date created: 三月 18日 2024, 1:40:09 下午
+date modified: 三月 18日 2024, 1:40:47 下午
+tags: [code/big-data]
 ---
-# [[HDFS架构概述]]
 >Hadoop Distributed File System，简称 HDFS，是一个分布式文件系统。
 ![CleanShot 2024-03-18 at 13.13.10@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2013.13.10%402x.png)
 ![CleanShot 2024-03-18 at 13.13.34@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2013.13.34%402x.png)
@@ -17,7 +14,7 @@ tags:
 
 **使用场景**：适合一次写入，多次读出的场景。一个文件经过创建、写入和关闭之后就不需要改变。
 
-## HDFS优缺点
+## 优缺点
 ### 优点
 1. 高容错性
 2. 适合处理大数据
@@ -29,12 +26,3 @@ tags:
 3. 不支持并发写入、文件随机修改。
 	1. 一个文件只能有一个写，不允许多个线程同时写
 	2. 仅支持数据append（追加），不支持文件的随机修改
-
-## [[HDFS文件块]]
->[[HDFS]]中的文件在物理上是分块存储 (Block)，块的大小可以通过配置参数(dfs.blocksize)来规定，默认大小在Hadoop2.x/3.x版本中是128M，1.x版本中是64M。
-
-***寻址时间为传输时间的1%时，则为最佳状态。（专家）***
-
-### 为什么块的大小不能设置太小，也不能设置太大？
-1. HDFS的块设置太小，会增加寻址时间，程序一直在找块的开始位置；
-2. 如果块设置的太大，从磁盘传输数据的时间会明显大于定位这个块开始位置所需的时间。导致程序在处理这块数据时，会非常慢。
