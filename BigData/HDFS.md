@@ -2,7 +2,7 @@
 aliases: 
 title: HDFS架构概述
 date created: 三月 12日 2024, 1:36:05 下午
-date modified: 三月 18日 2024, 5:26:38 下午
+date modified: 三月 18日 2024, 6:58:31 晚上
 tags:
   - code/big-data
   - input
@@ -54,3 +54,9 @@ tags:
 
 ### 网络拓扑-节点距离计算
 ![CleanShot 2024-03-18 at 17.32.06@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2017.32.06%402x.png)
+
+### 副本节点选择
+![CleanShot 2024-03-18 at 18.47.01@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2018.47.01%402x.png)
+
+### HDFS读流程
+![CleanShot 2024-03-18 at 18.57.41@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2018.57.41%402x.png)
