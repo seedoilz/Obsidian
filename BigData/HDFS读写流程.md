@@ -2,7 +2,7 @@
 aliases: 
 title: HDFS读写流程
 date created: 三月 18日 2024, 5:26:38 下午
-date modified: 三月 18日 2024, 6:59:37 晚上
+date modified: 三月 19日 2024, 10:32:34 上午
 tags: [code/big-data]
 ---
 ### 文件写入
@@ -25,6 +25,6 @@ tags: [code/big-data]
 ### HDFS读流程
 ![CleanShot 2024-03-18 at 18.57.41@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2018.57.41%402x.png)
 1. 客户端通过 DistributedFileSystem 向 NameNode 请求下载文件，NameNode 通过查询元数据，找到文件块所在的DataNode 地址。
-2. 挑选一台 DataNode（就近原则，然后随机）服务器，请求读取数据。
+2. 挑选一台 DataNode（*就近原则，然后随机*）服务器，请求读取数据。
 3. DataNode 开始传输数据给客户端（从磁盘里面读取数据输入流，以 Packet 为单位来做校验）。
 4. 客户端以 Packet 为单位接收，先在本地缓存，然后写入目标文件。

@@ -1,13 +1,13 @@
 ---
 aliases: 
-title: HDFS架构概述
+title: HDFS
 date created: 三月 12日 2024, 1:36:05 下午
-date modified: 三月 18日 2024, 6:58:31 晚上
+date modified: 三月 19日 2024, 11:02:15 上午
 tags:
   - code/big-data
   - input
 ---
-# [[HDFS架构概述]]
+## [[HDFS架构概述]]
 >Hadoop Distributed File System，简称 HDFS，是一个分布式文件系统。
 ![CleanShot 2024-03-18 at 13.13.10@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2013.13.10%402x.png)
 ![CleanShot 2024-03-18 at 13.13.34@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2013.13.34%402x.png)
@@ -60,3 +60,36 @@ tags:
 
 ### HDFS读流程
 ![CleanShot 2024-03-18 at 18.57.41@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2018.57.41%402x.png)
+1. 客户端通过 DistributedFileSystem 向 NameNode 请求下载文件，NameNode 通过查询元数据，找到文件块所在的DataNode 地址。
+2. 挑选一台 DataNode（*就近原则，然后随机*）服务器，请求读取数据。
+3. DataNode 开始传输数据给客户端（从磁盘里面读取数据输入流，以 Packet 为单位来做校验）。
+4. 客户端以 Packet 为单位接收，先在本地缓存，然后写入目标文件。
+
+## [[NameNode和SecondaryNameNode]]
+### NN 和 2NN 工作机制
+#### NameNode 中的元数据存储在哪？
+如果存储在 NameNode 节点的**磁盘**里，那么一定会带来*效率过低*的问题。
+但如果存储在 NameNode 节点的**内存**中，那么又会带来*低可靠性*的问题
+因此引出**在磁盘中备份元数据**的***FsImage***
+
+然而如果内存中的元数据和 FsImage 同步更新，就会导致效率过低（由于磁盘的随机读写能力弱）。
+因此引入 **Edits** 文件（只进行追加操作，效率很高）。每当元数据有更新或者添加元数据时，修改内存中的元数据并追加到 Edits 中。
+
+如果长时间**追加**数据到 Edits 文件中，则会导致该文件数据过大，效率降低；且一旦断电，恢复元数据需要的时间过长。因此，需要*定期进行 FsImage 和 Edits 的合并*，交由 **SecondaryNameNode** 来完成。（如果由 NameNode 完成，效率过低。）
+
+#### 工作阶段
+##### 第一阶段：NameNode 启动
+1. 第一次启动 NameNode 格式化后，创建 Fsimage 和 Edits 文件。如果不是第一次启动，直接加载编辑日志和镜像文件到内存。
+2. 客户端对元数据进行增删改的请求。
+3. NameNode 记录操作日志，更新滚动日志。
+4. NameNode 在内存中对元数据进行增删改。
+##### 第二阶段：SecondaryNameNode 启动
+1. Secondary NameNode 询问 NameNode 是否需要 CheckPoint。直接带回 NameNode是否检查结果。
+2. Secondary NameNode 请求执行CheckPoint。
+3. NameNode 滚动正在写的Edits 日志。
+4. 将滚动前的编辑日志和镜像文件拷贝到 Secondary NameNode。
+5. Secondary NameNode 加载编辑日志和镜像文件到内存，并合并。
+6. 生成新的镜像文件 fsimage.chkpoint。
+7. 拷贝fsimage.chkpoint 到NameNode。
+8. NameNode 将 fsimage.chkpoint 重新命名成fsimage。
+![CleanShot 2024-03-19 at 11.01.42@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-19%20at%2011.01.42%402x.png)
