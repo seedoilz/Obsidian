@@ -2,13 +2,13 @@
 aliases: 
 title: HDFS
 date created: 三月 12日 2024, 1:36:05 下午
-date modified: 三月 19日 2024, 11:02:15 上午
+date modified: 三月 19日 2024, 2:11:59 下午
 tags:
   - code/big-data
   - input
 ---
 ## [[HDFS架构概述]]
->Hadoop Distributed File System，简称 HDFS，是一个分布式文件系统。
+>[[Hadoop]] Distributed File System，简称 HDFS，是一个分布式文件系统。
 ![CleanShot 2024-03-18 at 13.13.10@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2013.13.10%402x.png)
 ![CleanShot 2024-03-18 at 13.13.34@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-18%20at%2013.13.34%402x.png)
 1. NameNode（nn）：存储文件的元数据，如文件名，文件目录结构，文件属性（生成时间、副本数、文件权限），以及每个文件的块列表和块所在的DataNode等。
@@ -84,7 +84,10 @@ tags:
 3. NameNode 记录操作日志，更新滚动日志。
 4. NameNode 在内存中对元数据进行增删改。
 ##### 第二阶段：SecondaryNameNode 启动
+
 1. Secondary NameNode 询问 NameNode 是否需要 CheckPoint。直接带回 NameNode是否检查结果。
+	1. 触发条件1: 定时时间到了
+	2. 触发条件2: Edits 中的数据满了
 2. Secondary NameNode 请求执行CheckPoint。
 3. NameNode 滚动正在写的Edits 日志。
 4. 将滚动前的编辑日志和镜像文件拷贝到 Secondary NameNode。
@@ -93,3 +96,27 @@ tags:
 7. 拷贝fsimage.chkpoint 到NameNode。
 8. NameNode 将 fsimage.chkpoint 重新命名成fsimage。
 ![CleanShot 2024-03-19 at 11.01.42@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-19%20at%2011.01.42%402x.png)
+
+### Fsimage 和Edits 解析
+1. Fsimage文件：HDFS文件系统元数据的一个**永久性的检查点**，其中包含HDFS文件系统的所有目录和文件inode的序列化信息。
+2. Edits文件：存放HDFS文件系统的所有更新操作的路径，文件系统客户端执行的所有写操作首先会被记录到Edits文件中。
+3. seen_txid文件保存的是一个数字，就是最后一个edits_的数字
+4. 每次NameNode启动的时候都会将Fsimage文件读入内存，加载Edits里面的更新操作，保证内存中的元数据信息是最新的、同步的，可以看成NameNode启动的时候就将Fsimage和Edits文件进行了合并。
+
+## [[DataNode]]
+### 工作流程
+1. 一个数据块在DataNode 上以文件形式存储在磁盘上，包括两个文件，一个是数据本身，一个是元数据包括数据块的长度，块数据的校验和，以及时间戳。
+2. DataNode 启动后向NameNode 注册，通过后，周期性（6 小时）的向NameNode 上报所有的块信息。（默认6小时间隔后，汇报当前信息；默认6小时间隔后，扫面自己节点块信息）
+3. 心跳是每 3 秒一次，心跳返回结果带有 NameNode 给该 DataNode 的命令如复制块数据到另一台机器，或删除某个数据块。如果超过 10 分钟没有收到某个 DataNode 的心跳，则认为该节点不可用。
+4. 集群运行中可以安全加入和退出一些机器。
+![CleanShot 2024-03-19 at 13.53.47@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-19%20at%2013.53.47%402x.png)
+
+### 确保数据完整性
+1. 当 DataNode 读取 Block 的时候，它会计算CheckSum。
+2. 如果计算后的CheckSum，与Block 创建时值不一样，说明 Block 已经损坏。
+3. Client 读取其他 DataNode 上的Block。
+4. 常见的校验算法 crc(32)，md5(128)，sha1(160)
+5. DataNode 在其文件创建后周期验证CheckSum。
+
+### 掉线时限参数设置
+![CleanShot 2024-03-19 at 14.11.21@2x.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-19%20at%2014.11.21%402x.png)
