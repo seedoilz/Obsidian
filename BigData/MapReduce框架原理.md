@@ -2,7 +2,7 @@
 aliases: 
 title: MapReduce框架原理
 date created: 2024-03-24 09:03:00
-date modified: 2024-03-24 21:03:77
+date modified: 2024-03-25 10:03:66
 tags: [code/big-data]
 ---
 ## InputFormat 数据输入
@@ -48,3 +48,14 @@ CombineTextInputFormat.setMaxInputSplitSize(job, 4194304);// 4m
 1. 判断虚拟存储的文件大小是否大于 setMaxInputSplitSize 值，大于等于则单独形成一个切片。
 2. 如果不大于则跟下一个虚拟存储文件进行合并，共同形成一个切片。
 
+## MapReduce工作原理
+![CleanShot 2024-03-25 at 09.24.43.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-25%20at%2009.24.43.png)
+![CleanShot 2024-03-25 at 09.47.54.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-25%20at%2009.47.54.png)
+
+## Shuffle机制
+>Map 方法之后，Reduce 方法之前的数据处理过程称之为Shuffle。
+
+
+1. Map方法执行完成后，context.write(), 直接输出我们的Key-value
+2. 环形缓冲区默认大小是100MB，在80%的时候进行反向，来进行溢写（写入磁盘），相当于一个线程在写入内存，而另一个线程在写入磁盘。
+3. 在溢写的时候，会按照key进行分区，对80MB（80%）空间内的数据进行Key排序（**快排**），只修改索引。
