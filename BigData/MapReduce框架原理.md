@@ -2,11 +2,11 @@
 aliases: 
 title: MapReduce框架原理
 date created: 2024-03-24 09:03:00
-date modified: 2024-03-25 10:03:66
+date modified: 2024-03-25 16:03:43
 tags: [code/big-data]
 ---
 ## InputFormat 数据输入
-- 数据块：Block 是 HDFS 物理上把数据分成一块一块。数据块是 HDFS 存储数据单位。
+- 数据块：Block 是 [[HDFS]] 物理上把数据分成一块一块。数据块是 HDFS 存储数据单位。
 - 数据切片：只是在逻辑上对输入进行分片，并不会在磁盘上将其切分成片进行存储。数据切片是MapReduce 程序计算输入数据的单位，一个切片会对应启动一个MapTask。
 
 ### 数据切片与MapTask并行度决定机制
@@ -52,10 +52,49 @@ CombineTextInputFormat.setMaxInputSplitSize(job, 4194304);// 4m
 ![CleanShot 2024-03-25 at 09.24.43.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-25%20at%2009.24.43.png)
 ![CleanShot 2024-03-25 at 09.47.54.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-25%20at%2009.47.54.png)
 
-## Shuffle机制
+### Shuffle机制
 >Map 方法之后，Reduce 方法之前的数据处理过程称之为Shuffle。
-
 
 1. Map方法执行完成后，context.write(), 直接输出我们的Key-value
 2. 环形缓冲区默认大小是100MB，在80%的时候进行反向，来进行溢写（写入磁盘），相当于一个线程在写入内存，而另一个线程在写入磁盘。
 3. 在溢写的时候，会按照key进行分区，对80MB（80%）空间内的数据进行Key排序（**快排**），只修改索引。
+
+### Partition分区
+>默认情况下，分区是根据key的hashCode对ReduceTasks的数量进行取模得到的。
+>在此情况下，有时可能会出现数据倾斜的问题，所以需要自定义分区
+
+#### 自定义Partition的步骤
+##### 1. 自定义类继承Partitioner，重写getPartition() 方法
+```java
+public class CustomPartitioner extends Partitioner<Text, FlowBean> {
+	@Override
+	public int getPartition(Text key, FlowBean value, int numPartitions){
+		// 控制分区代码逻辑
+		… …
+		return partition;
+	}
+}
+```
+##### 2. 在Job驱动中，设置自定义Partitioner
+```java
+job.setPartitionerClass(CustomPartitioner.class);
+```
+##### 3. 自定义Partition后，要根据自定义Partitioner的逻辑设置相应数量的ReduceTask
+```java
+job.setNumReduceTasks(5);
+```
+
+#### 总结
+1. 如果ReduceTask的数量> getPartition的结果数，则会多产生几个空的输出文件part-r-000xx
+2. 如果1<ReduceTask的数量<getPartition的结果数，则有一部分分区数据无处安放，会Exception
+3. 如果ReduceTask的数量=1，则不管MapTask端输出多少个分区文件，最终结果都交给这一个ReduceTask，最终也就只会产生一个结果文件 part-r-00000
+4. 分区号必须从零开始，逐一累加。
+
+### 排序
+>默认排序是按照字典顺序排序，实现方式是**快排**。
+>任何应用程序中的数据均会被排序，不管逻辑上是否需要。
+
+#### 概述
+对于MapTask，它会将处理的结果暂时放到环形缓冲区中，当环形缓冲区使用率达到一定阈值后，再对缓冲区中的数据进行一次快速排序，并将这些有序数据溢写到磁盘上，而当数据处理完毕后，它会对磁盘上所有文件进行[[归并排序]]。
+
+对于ReduceTask，它从每个MapTask上远程拷贝相应的数据文件，如果文件大小超过一定阈值，则溢写磁盘上，否则存储在内存中。如果磁盘上文件数目达到一定阈值，则进行一次[[归并排序]]以生成一个更大文件；如果内存中文件大小或者数目超过一定阈值，则进行一次合并后将数据溢写到磁盘上。当所有数据拷贝完毕后，ReduceTask统一对内存和磁盘上的所有数据进行一次[[归并排序]]。
