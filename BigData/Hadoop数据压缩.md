@@ -40,7 +40,6 @@ tags: [code/big-data]
 
 > [!Example] Map端压缩
 > 只需提供压缩方法、设置压缩参数即可。
-
 ```java
 // 开启 map端输出压缩
 conf.setBoolean("mapreduce.map.output.compress", true);
@@ -51,7 +50,6 @@ conf.setClass("mapreduce.map.output.compress.codec",BZip2Codec.class,Compression
 
 > [!Example] Reduce端压缩
 > 只需提供压缩方法、设置压缩参数即可。
-
 ```java
 // 设置 reduce端输出压缩开启
 FileOutputFormat.setCompressOutput(job, true);
