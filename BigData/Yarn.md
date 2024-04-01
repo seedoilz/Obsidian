@@ -2,7 +2,7 @@
 aliases: 
 title: Yarn
 date created: 2024-03-12 13:03:00
-date modified: 2024-03-31 20:03:20
+date modified: 2024-04-01 16:04:22
 tags: [code/big-data]
 ---
 ## [[Yarn概述]]
@@ -32,3 +32,5 @@ tags: [code/big-data]
 > 13. MrAppMaster 等待所有MapTask 运行完毕后，向RM 申请容器， 运行ReduceTask。
 > 14. ReduceTask 向MapTask 获取相应分区的数据。
 > 15. 程序运行完毕后，MR 会向 ResourceManager 申请注销自己。
+
+### 
