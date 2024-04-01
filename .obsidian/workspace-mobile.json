@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "9012d1d9065e0c13",
+    "type": "split",
+    "children": [
+      {
+        "id": "da7b4c512cd4b6be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "660e8e518914ff9e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Hadoop.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d4feccc5ecf12704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/MapReduce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3361f73ef4a34a4a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "850d575e9f16d79d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f7057c8904e0d1db",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": true,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "264ea5d224693e37",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "dfaaeb6148189017",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b0de52966bd29dd6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1b19fb4fb483241f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "BigData/MapReduce.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "e11101dee80b2efc",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "BigData/MapReduce.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "2473307f721bf4b6",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "BigData/MapReduce.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "d4feccc5ecf12704",
+  "lastOpenFiles": [
+    "BigData/Hadoop组成.md",
+    "BigData/HDFS.md",
+    "BigData/HDFS文件块.md",
+    "BigData/Hadoop.md",
+    "BigData/大数据学习.md",
+    "BigData/序列化.md",
+    "BigData/MapReduce框架原理.md",
+    "BigData/MapReduce.md",
+    "code-projects/饿汉模式.md",
+    "Web/Spring/IoC.md",
+    "Web/Spring/Spring.md",
+    "Web/Spring/DI.md",
+    "Web/Spring/Spring概述.md",
+    "Web/Spring/Spring Session input.md",
+    "Web/Spring/Log4j2.md",
+    "Web/Spring",
+    "code-projects/双检锁.md",
+    "软件质量管理/软件过程.md",
+    "软件质量管理/TSP.md",
+    "软件质量管理/工作分解结构.md",
+    "软件质量管理/PSP.md",
+    "软件质量管理/软件质量管理.md",
+    "软件质量管理/软件项目管理.md",
+    "软件质量管理/软件过程管理.md",
+    "CS50/Bayesian Network.md",
+    "软件系统设计/观察者模式.md",
+    "软件系统设计/装饰模式.md",
+    "未命名.canvas",
+    "软件系统设计/设计模式",
+    "软件系统设计/设计原则",
+    "软件系统设计",
+    "Linux",
+    "Excalidraw"
+  ]
+}

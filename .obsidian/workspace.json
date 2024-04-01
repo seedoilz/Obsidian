@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "23986d9de334cc33",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a67f9e1503ba512",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48fa53d95e241bed",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Hadoop.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1e65e948c2cd057c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Yarn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d4ce6ac79b34dbf2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc9e5ac0da67a91d",
+    "type": "split",
+    "children": [
+      {
+        "id": "42486b3ee80e8f8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dae5a769b33100dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7caa4b0927f53c72",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 246.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "abb83fcec2f85e09",
+    "type": "split",
+    "children": [
+      {
+        "id": "460138376e6a6725",
+        "type": "tabs",
+        "dimension": 70.92907092907093,
+        "children": [
+          {
+            "id": "ea88275574679331",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "a101aba3b81625bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7d7afcfc69d0f67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cae7899722908a3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "aba6bcdf15b01633",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Partition",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "dc88b566a5e7fd48",
+        "type": "tabs",
+        "dimension": 29.07092907092907,
+        "children": [
+          {
+            "id": "9c1ae14c56916e5b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.854384198923209,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templater-obsidian:Templater": true,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d4ce6ac79b34dbf2",
+  "lastOpenFiles": [
+    "BigData/Yarn.md",
+    "conflict-files-obsidian-git.md",
+    "BigData/未命名.md",
+    "BigData/Yarn概述.md",
+    "BigData/Hadoop.md",
+    "index.md",
+    "BigData/HDFS.md",
+    "BigData/MapReduce.md",
+    "BigData/Hadoop数据压缩.md",
+    "BigData/MapReduce框架原理.md",
+    "BigData/Hadoop序列化.md",
+    "algorithm/归并排序.md",
+    "Python Mastery/Classes.md",
+    "未命名.canvas",
+    "BigData/Hadoop组成.md",
+    "MachineLearning/模型评估与选择.md",
+    "BigData/序列化.md",
+    "BigData/Hadoop配置.md",
+    "Web/Spring/Spring.md",
+    "templates/INDEX_TEMPLATE.md",
+    "BigData/DataNode.md",
+    "BigData/大数据学习.md",
+    "templates",
+    "algorithm/推理二叉树.md",
+    "index-templater.md",
+    "BigData/NameNode和SecondaryNameNode.md",
+    "设计与管理/软件质量管理/软件质量管理.md",
+    "BigData/HDFS读写流程.md",
+    "BigData",
+    "Web/Spring",
+    "logseq/custom.css",
+    "pages",
+    "journals",
+    "logseq/config.edn",
+    "logseq",
+    "Excalidraw",
+    "设计与管理"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "promptDelete": true,
+  "userIgnoreFilters": [
+    "index.md",
+    "templates/"
+  ],
+  "strictLineBreaks": false,
+  "vimMode": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "defaultViewMode": "source"
+}
