@@ -4,49 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e6740b703c6e5609",
+        "id": "dcddf08a8c0b6060",
         "type": "tabs",
         "children": [
           {
-            "id": "43a1902c7ad3ec35",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Hadoop.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "5c7dc582a5552f49",
+            "id": "55d656ee6e0324bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Yarn实操.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5e32d98eaf5647d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Yarn.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +68,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Yarn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +79,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Yarn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,9 +105,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BigData/Yarn.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,7 +137,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Yarn.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,14 +179,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a5e32d98eaf5647d",
+  "active": "55d656ee6e0324bf",
   "lastOpenFiles": [
+    "BigData/Yarn.md",
     "BigData/Hadoop.md",
     "BigData/Yarn实操.md",
     "BigData/MapReduce框架原理.md",
     "BigData/MapReduce.md",
     "设计与管理/软件系统设计/工厂方法模式.md",
-    "BigData/Yarn.md",
     "BigData/Yarn生产环境核心参数.md",
     "BigData/Yarn调度.md",
     "BigData/Yarn常用命令.md",

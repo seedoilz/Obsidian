@@ -2,7 +2,7 @@
 aliases: 
 title: Yarn
 date created: 2024-03-12 13:03:00
-date modified: 2024-04-02 10:04:54
+date modified: 2024-04-02 11:04:55
 tags:
   - code/big-data
   - input
@@ -19,21 +19,21 @@ tags:
 
 ![CleanShot 2024-03-31 at 20.23.44.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-31%20at%2020.23.44.png)
 > [!NOTE] 解释
-> 1. MapReduce 程序提交到客户端所在的节点。
-> 2. YarnRunner 向 ResourceManager 申请一个Application。
-> 3. ResourceManager 将该**应用程序的资源路径（存放位置）**返回给YarnRunner。
-> 4. 该程序将运行所需资源提交到HDFS 上。
-> 5. 程序资源提交完毕后，申请运行 mrAppMaster。
-> 6. ResourceManager 将用户的请求初始化成一个 Task。
-> 7. 其中一个NodeManager 领取到 Task 任务。
-> 8. 该 NodeManager 创建容器Container，并产生 MRAppmaster。
-> 9. Container 从HDFS 上拷贝资源到本地。
-> 10. MRAppmaster 向RM 申请运行 MapTask 资源。
-> 11. RM 将运行 MapTask 任务分配给另外两个 NodeManager， 另两个 NodeManager 分别领取任务并创建容器。
-> 12. MR 向两个接收到任务的NodeManager 发送程序启动脚本，这两个 NodeManager 分别启动MapTask，MapTask 对数据分区排序。
-> 13. MrAppMaster 等待所有MapTask 运行完毕后，向RM 申请容器， 运行ReduceTask。
-> 14. ReduceTask 向MapTask 获取相应分区的数据。
-> 15. 程序运行完毕后，MR 会向 ResourceManager 申请注销自己。
+> 0. MapReduce 程序提交到客户端所在的节点。
+> 1. YarnRunner 向 ResourceManager 申请一个Application。
+> 2. ResourceManager 将该**应用程序的资源路径（存放位置）**返回给YarnRunner。
+> 3. 该程序将运行所需资源提交到HDFS 上。
+> 4. 程序资源提交完毕后，申请运行 mrAppMaster。
+> 5. ResourceManager 将用户的请求初始化成一个 Task。
+> 6. 其中一个NodeManager 领取到 Task 任务。
+> 7. 该 NodeManager 创建容器Container，并产生 MRAppmaster。
+> 8. Container 从HDFS 上拷贝资源到本地。
+> 9. MRAppmaster 向RM 申请运行 MapTask 资源。
+> 10. RM 将运行 MapTask 任务分配给另外两个 NodeManager， 另两个 NodeManager 分别领取任务并创建容器。
+> 11. MR 向两个接收到任务的NodeManager 发送程序启动脚本，这两个 NodeManager 分别启动MapTask，MapTask 对数据分区排序。
+> 12. MrAppMaster 等待所有MapTask 运行完毕后，向RM 申请容器， 运行ReduceTask。
+> 13. ReduceTask 向MapTask 获取相应分区的数据。
+> 14. 程序运行完毕后，MR 会向 ResourceManager 申请注销自己。
 
 ## [[Yarn调度]]
 >Hadoop 作业调度器主要有三种：FIFO、容量（Capacity Scheduler）和公平（Fair Scheduler）。Apache Hadoop3.1.3 默认的资源调度器是 Capacity Scheduler。
