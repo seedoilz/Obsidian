@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "cda2aca55523467f",
+            "id": "2264bb82743d214f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,14 +31,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "18a8fb94a2e41092",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
@@ -155,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "dc88b566a5e7fd48",
@@ -211,12 +203,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cda2aca55523467f",
+  "active": "2264bb82743d214f",
   "lastOpenFiles": [
     "BigData/Yarn调度.md",
-    "BigData/Yarn概述.md",
     "BigData/Yarn.md",
     "BigData/Hadoop.md",
+    "BigData/Yarn概述.md",
     "BigData/未命名.md",
     "index.md",
     "BigData/HDFS.md",

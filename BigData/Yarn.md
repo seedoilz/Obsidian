@@ -2,7 +2,7 @@
 aliases: 
 title: Yarn
 date created: 2024-03-12 13:03:00
-date modified: 2024-04-02 09:04:03
+date modified: 2024-04-02 10:04:54
 tags:
   - code/big-data
   - input
@@ -89,10 +89,10 @@ tags:
 - 调度器会优先为缺额大的作业分配资源
 ![CleanShot 2024-04-01 at 20.37.28.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-04-01%20at%2020.37.28.png)
 
-##### 公平调度器队列资源分配方式
-###### FIFO策略
+#### 公平调度器队列资源分配方式
+##### FIFO策略
 公平调度器每个队列资源分配策略如果选择FIFO的话，此时公平调度器相当于上面讲过的容量调度器。
-###### Fair策略
+##### Fair策略
 Fair 策略（默认）是一种基于最大最小公平算法实现的资源多路复用方式，默认情况下，每个队列内部采用该方式分配资源。这意味着，如果一个队列中有两个应用程序同时运行，则每个应用程序可得到1/2的资源；如果三个应用程序同时运行，则每个应用程序可得到1/3的资源。
 具体资源分配流程和容量调度器一致；
 （1）选择队列
@@ -106,5 +106,12 @@ Fair 策略（默认）是一种基于最大最小公平算法实现的资源多
 资源分配比：minShareRatio = 资源使用量/ Max（mindshare, 1）
 资源使用权重比：useToWeightRatio = 资源使用量/ 权重
 
+###### 公平调度器资源分配算法
+>将空闲的资源按照权重进行分配（如果没有权重就进行均分），如果有多出来的资源就汇总起来再一次进行分配。
+![截屏2024-04-02 上午9.31.30.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/%E6%88%AA%E5%B1%8F2024-04-02%20%E4%B8%8A%E5%8D%889.31.30.png)
+![截屏2024-04-02 上午9.38.04.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-02-06.png)
 
-![CleanShot 2024-04-01 at 21.11.32.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-04-01%20at%2021.11.32.png)
+##### DRF策略
+>DRF（Dominant Resource Fairness），我们之前说的资源，都是单一标准，例如只考虑内存（也是Yarn默认的情况）。但是很多时候我们资源有很多种，例如内存，CPU，网络带宽等。
+
+假设集群一共有100 CPU和10T 内存，而应用A需要（2 CPU, 300GB），应用B需要（6 CPU，100GB）。则两个应用分别需要A（2%CPU, 3%内存）和B（6%CPU, 1%内存）的资源，这就意味着A是内存主导的, B是CPU主导的，针对这种情况，我们可以选择DRF策略对不同应用进行不同资源（CPU和内存）的一个不同比例的限制。
