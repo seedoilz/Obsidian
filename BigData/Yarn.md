@@ -115,3 +115,49 @@ Fair 策略（默认）是一种基于最大最小公平算法实现的资源多
 >DRF（Dominant Resource Fairness），我们之前说的资源，都是单一标准，例如只考虑内存（也是Yarn默认的情况）。但是很多时候我们资源有很多种，例如内存，CPU，网络带宽等。
 
 假设集群一共有100 CPU和10T 内存，而应用A需要（2 CPU, 300GB），应用B需要（6 CPU，100GB）。则两个应用分别需要A（2%CPU, 3%内存）和B（6%CPU, 1%内存）的资源，这就意味着A是内存主导的, B是CPU主导的，针对这种情况，我们可以选择DRF策略对不同应用进行不同资源（CPU和内存）的一个不同比例的限制。
+
+## [[Yarn常用命令]]
+### 查看任务
+#### 列出所有Application
+```shell
+yarn application -list
+```
+#### 根据Application状态过滤
+```shell
+yarn application -list -appStates FINISHED
+```
+#### Kill掉Application
+```shell
+yarn application -kill <ApplicationId>
+```
+### 查看日志
+#### 查看Application日志
+```shell
+yarn logs -applicationId <ApplicationId>
+```
+#### 查询Container日志
+```shell
+yarn logs -applicationId <ApplicationId> -containerId <ContainerId>
+```
+### 查看容器
+#### 列出所有Container
+```shell
+yarn container -list <ApplicationAttemptId>
+```
+#### 打印Container状态
+```shell
+yarn container -status <ContainerId>
+```
+### 查看节点状态
+```shell
+yarn node -list -all
+```
+### 查看队列
+```shell
+yarn queue -status <QueueName>
+```
+
+## [[Yarn生产环境核心参数]]
+![截屏2024-04-02 上午10.34.51.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-02-10-34-56.png)
+
+## [[Yarn实操]]
