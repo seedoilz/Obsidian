@@ -4,25 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "2a67f9e1503ba512",
+        "id": "dcddf08a8c0b6060",
         "type": "tabs",
         "children": [
           {
-            "id": "48fa53d95e241bed",
+            "id": "2b9d8c77a783ec02",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Hadoop.md",
+                "file": "BigData/Spark.md",
                 "mode": "source",
-                "backlinks": false,
                 "source": false
               },
               "pinned": true
             }
+          },
+          {
+            "id": "36a7132a6a875737",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Spark Core.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29e65751d7d8e6aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/RDD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Hadoop.md",
+                "file": "BigData/Spark Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -87,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Hadoop.md",
+                "file": "BigData/Spark Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Hadoop.md"
+                "file": "BigData/Spark Core.md"
               }
             }
           },
@@ -125,17 +149,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Partition",
+                "query": "个数",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "dc88b566a5e7fd48",
@@ -148,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Hadoop.md",
+                "file": "BigData/Spark Core.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -171,7 +195,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.854384198923209,
+                  "scale": 0.34312145511093495,
                   "close": true
                 }
               }
@@ -187,23 +211,31 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "templater-obsidian:Templater": true,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "48fa53d95e241bed",
+  "active": "36a7132a6a875737",
   "lastOpenFiles": [
+    "BigData/RDD.md",
+    "BigData/Spark Core.md",
+    "BigData/Spark.md",
+    "BigData/大数据学习.md",
+    "BigData/Spark运行架构.md",
     "BigData/Yarn.md",
-    "BigData/Yarn调度.md",
-    "BigData/Yarn概述.md",
-    "conflict-files-obsidian-git.md",
-    "BigData/未命名.md",
+    "BigData/Yarn实操.md",
     "BigData/Hadoop.md",
     "index.md",
-    "BigData/HDFS.md",
-    "BigData/MapReduce.md",
-    "BigData/Hadoop数据压缩.md",
     "BigData/MapReduce框架原理.md",
+    "BigData/MapReduce.md",
+    "设计与管理/软件系统设计/工厂方法模式.md",
+    "BigData/Yarn生产环境核心参数.md",
+    "BigData/Yarn调度.md",
+    "BigData/Yarn常用命令.md",
+    "BigData/Yarn概述.md",
+    "BigData/未命名.md",
+    "BigData/HDFS.md",
+    "BigData/Hadoop数据压缩.md",
     "BigData/Hadoop序列化.md",
     "algorithm/归并排序.md",
     "Python Mastery/Classes.md",
@@ -212,15 +244,7 @@
     "MachineLearning/模型评估与选择.md",
     "BigData/序列化.md",
     "BigData/Hadoop配置.md",
-    "Web/Spring/Spring.md",
-    "templates/INDEX_TEMPLATE.md",
-    "BigData/DataNode.md",
-    "BigData/大数据学习.md",
     "templates",
-    "algorithm/推理二叉树.md",
-    "index-templater.md",
-    "BigData/NameNode和SecondaryNameNode.md",
-    "设计与管理/软件质量管理/软件质量管理.md",
     "BigData",
     "Web/Spring",
     "logseq/custom.css",

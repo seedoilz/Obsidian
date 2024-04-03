@@ -2,7 +2,7 @@
 aliases: 
 title: Yarn
 date created: 2024-03-12 13:03:00
-date modified: 2024-04-03 19:04:56
+date modified: 2024-04-02 11:04:55
 tags:
   - code/big-data
   - input
@@ -19,21 +19,21 @@ tags:
 
 ![CleanShot 2024-03-31 at 20.23.44.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-03-31%20at%2020.23.44.png)
 > [!NOTE] 解释
-> 1. MapReduce 程序提交到客户端所在的节点。
-> 2. YarnRunner 向 ResourceManager 申请一个Application。
-> 3. ResourceManager 将该**应用程序的资源路径（存放位置）**返回给YarnRunner。
-> 4. 该程序将运行所需资源提交到HDFS 上。
-> 5. 程序资源提交完毕后，申请运行 mrAppMaster。
-> 6. ResourceManager 将用户的请求初始化成一个 Task。
-> 7. 其中一个NodeManager 领取到 Task 任务。
-> 8. 该 NodeManager 创建容器Container，并产生 MRAppmaster。
-> 9. Container 从HDFS 上拷贝资源到本地。
-> 10. MRAppmaster 向RM 申请运行 MapTask 资源。
-> 11. RM 将运行 MapTask 任务分配给另外两个 NodeManager， 另两个 NodeManager 分别领取任务并创建容器。
-> 12. MR 向两个接收到任务的NodeManager 发送程序启动脚本，这两个 NodeManager 分别启动MapTask，MapTask 对数据分区排序。
-> 13. MrAppMaster 等待所有MapTask 运行完毕后，向RM 申请容器， 运行ReduceTask。
-> 14. ReduceTask 向MapTask 获取相应分区的数据。
-> 15. 程序运行完毕后，MR 会向 ResourceManager 申请注销自己。
+> 0. MapReduce 程序提交到客户端所在的节点。
+> 1. YarnRunner 向 ResourceManager 申请一个Application。
+> 2. ResourceManager 将该**应用程序的资源路径（存放位置）**返回给YarnRunner。
+> 3. 该程序将运行所需资源提交到HDFS 上。
+> 4. 程序资源提交完毕后，申请运行 mrAppMaster。
+> 5. ResourceManager 将用户的请求初始化成一个 Task。
+> 6. 其中一个NodeManager 领取到 Task 任务。
+> 7. 该 NodeManager 创建容器Container，并产生 MRAppmaster。
+> 8. Container 从HDFS 上拷贝资源到本地。
+> 9. MRAppmaster 向RM 申请运行 MapTask 资源。
+> 10. RM 将运行 MapTask 任务分配给另外两个 NodeManager， 另两个 NodeManager 分别领取任务并创建容器。
+> 11. MR 向两个接收到任务的NodeManager 发送程序启动脚本，这两个 NodeManager 分别启动MapTask，MapTask 对数据分区排序。
+> 12. MrAppMaster 等待所有MapTask 运行完毕后，向RM 申请容器， 运行ReduceTask。
+> 13. ReduceTask 向MapTask 获取相应分区的数据。
+> 14. 程序运行完毕后，MR 会向 ResourceManager 申请注销自己。
 
 ## [[Yarn调度]]
 >Hadoop 作业调度器主要有三种：FIFO、容量（Capacity Scheduler）和公平（Fair Scheduler）。Apache Hadoop3.1.3 默认的资源调度器是 Capacity Scheduler。
@@ -89,10 +89,10 @@ tags:
 - 调度器会优先为缺额大的作业分配资源
 ![CleanShot 2024-04-01 at 20.37.28.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-04-01%20at%2020.37.28.png)
 
-##### 公平调度器队列资源分配方式
-###### FIFO策略
+#### 公平调度器队列资源分配方式
+##### FIFO策略
 公平调度器每个队列资源分配策略如果选择FIFO的话，此时公平调度器相当于上面讲过的容量调度器。
-###### Fair策略
+##### Fair策略
 Fair 策略（默认）是一种基于最大最小公平算法实现的资源多路复用方式，默认情况下，每个队列内部采用该方式分配资源。这意味着，如果一个队列中有两个应用程序同时运行，则每个应用程序可得到1/2的资源；如果三个应用程序同时运行，则每个应用程序可得到1/3的资源。
 具体资源分配流程和容量调度器一致；
 （1）选择队列
@@ -105,3 +105,59 @@ Fair 策略（默认）是一种基于最大最小公平算法实现的资源多
 是否饥饿：isNeedy = 资源使用量< mindshare（实际最小资源份额）
 资源分配比：minShareRatio = 资源使用量/ Max（mindshare, 1）
 资源使用权重比：useToWeightRatio = 资源使用量/ 权重
+
+###### 公平调度器资源分配算法
+>将空闲的资源按照权重进行分配（如果没有权重就进行均分），如果有多出来的资源就汇总起来再一次进行分配。
+![截屏2024-04-02 上午9.31.30.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/%E6%88%AA%E5%B1%8F2024-04-02%20%E4%B8%8A%E5%8D%889.31.30.png)
+![截屏2024-04-02 上午9.38.04.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-02-06.png)
+
+##### DRF策略
+>DRF（Dominant Resource Fairness），我们之前说的资源，都是单一标准，例如只考虑内存（也是Yarn默认的情况）。但是很多时候我们资源有很多种，例如内存，CPU，网络带宽等。
+
+假设集群一共有100 CPU和10T 内存，而应用A需要（2 CPU, 300GB），应用B需要（6 CPU，100GB）。则两个应用分别需要A（2%CPU, 3%内存）和B（6%CPU, 1%内存）的资源，这就意味着A是内存主导的, B是CPU主导的，针对这种情况，我们可以选择DRF策略对不同应用进行不同资源（CPU和内存）的一个不同比例的限制。
+
+## [[Yarn常用命令]]
+### 查看任务
+#### 列出所有Application
+```shell
+yarn application -list
+```
+#### 根据Application状态过滤
+```shell
+yarn application -list -appStates FINISHED
+```
+#### Kill掉Application
+```shell
+yarn application -kill <ApplicationId>
+```
+### 查看日志
+#### 查看Application日志
+```shell
+yarn logs -applicationId <ApplicationId>
+```
+#### 查询Container日志
+```shell
+yarn logs -applicationId <ApplicationId> -containerId <ContainerId>
+```
+### 查看容器
+#### 列出所有Container
+```shell
+yarn container -list <ApplicationAttemptId>
+```
+#### 打印Container状态
+```shell
+yarn container -status <ContainerId>
+```
+### 查看节点状态
+```shell
+yarn node -list -all
+```
+### 查看队列
+```shell
+yarn queue -status <QueueName>
+```
+
+## [[Yarn生产环境核心参数]]
+![截屏2024-04-02 上午10.34.51.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-02-10-34-56.png)
+
+## [[Yarn实操]]
