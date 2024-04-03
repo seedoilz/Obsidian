@@ -76,7 +76,6 @@ sparkContext.stop()
 ##### Value类型
 ###### map函数
 >将处理的数据逐条进行映射转换，这里的转换可以是类型的转换，也可以是值的转换。
-
 ```scala
 val dataRDD2: RDD[String] = dataRDD1.map(
 	num => {
@@ -86,7 +85,6 @@ val dataRDD2: RDD[String] = dataRDD1.map(
 ```
 ###### mapPartitions函数
 >将待处理的数据以分区为单位发送到计算节点进行处理，这里的处理是指可以进行任意的处理，哪怕是过滤数据。
-
 ```scala
 val dataRDD1: RDD[Int] = dataRDD.mapPartitions(
 	datas => {
@@ -95,5 +93,48 @@ val dataRDD1: RDD[Int] = dataRDD.mapPartitions(
 )
 ```
 
-###### map和mapPartitions的区别
-![截屏2024-04-03 上午11.45.58.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-03-11-46-01.png)
+> [!NOTE] map和mapPartitions的区别
+> ![截屏2024-04-03 上午11.45.58.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-03-11-46-01.png)
+###### flatMap函数
+> 将处理的数据进行扁平化后再进行映射处理，所以算子也称之为扁平映射
+
+###### glom函数
+>将同一个分区的数据直接转换为相同类型的内存数组进行处理，分区不变
+
+###### groupBy函数
+>将数据根据指定的规则进行分组, 分区默认不变，但是数据会被打乱重新组合，我们将这样的操作称之为shuffle。极限情况下，数据可能被分在同一个分区中
+```scala
+val dataRDD = sparkContext.makeRDD(List(1,2,3,4),1)
+val dataRDD1 = dataRDD.groupBy(
+	_%2
+)
+```
+###### filter函数
+>将数据根据指定的规则进行筛选过滤，符合规则的数据保留，不符合规则的数据丢弃。当数据进行筛选过滤后，分区不变，但是分区内的数据可能不均衡，生产环境下，可能会出现数据倾斜。
+
+###### coalesce函数
+>根据数据量缩减分区，用于大数据集过滤后，提高小数据集的执行效率。当spark 程序中，存在过多的小任务的时候，可以通过 coalesce 方法，收缩合并分区，减少分区的个数，减小任务调度成本。
+```scala
+val dataRDD1 = dataRDD.coalesce(2)
+```
+
+###### repartition
+>该操作内部其实执行的是 coalesce 操作，参数shuffle 的默认值为true。无论是将分区数多的RDD 转换为分区数少的RDD，还是将分区数少的 RDD 转换为分区数多的RDD，repartition操作都可以完成。
+```scala
+val dataRDD1 = dataRDD.repartition(4)
+```
+
+##### 双Value类型
+- intersection
+- union
+- subtract
+- zip
+
+##### Key-Value类型
+###### partitionBy
+>将数据按照指定Partitioner 重新进行分区。Spark 默认的分区器是HashPartitioner
+```scala
+val rdd2: RDD[(Int, String)] =
+	rdd.partitionBy(new HashPartitioner(2))
+```
+
