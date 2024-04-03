@@ -2,7 +2,7 @@
 aliases: 
 title: Spark Core
 date created: 2024-04-02 19:04:00
-date modified: 2024-04-03 11:04:30
+date modified: 2024-04-03 17:04:79
 tags: [code/big-data, input]
 ---
 ## [[Spark运行架构]]
@@ -131,10 +131,44 @@ val dataRDD1 = dataRDD.repartition(4)
 - zip
 
 ##### Key-Value类型
-###### partitionBy
+###### partitionBy函数
 >将数据按照指定Partitioner 重新进行分区。Spark 默认的分区器是HashPartitioner
 ```scala
 val rdd2: RDD[(Int, String)] =
 	rdd.partitionBy(new HashPartitioner(2))
 ```
 
+###### reduceByKey函数
+>可以将数据按照相同的Key 对Value 进行聚合
+```scala
+val dataRDD1 = sparkContext.makeRDD(List(("a",1),("b",2),("c",3)))
+val dataRDD2 = dataRDD1.reduceByKey(_+_)
+val dataRDD3 = dataRDD1.reduceByKey(_+_, 2)
+```
+
+###### groupByKey
+>将数据源的数据根据 key 对 value 进行分组
+```scala
+val dataRDD2 = dataRDD1.groupByKey()
+val dataRDD3 = dataRDD1.groupByKey(2)
+val dataRDD4 = dataRDD1.groupByKey(new HashPartitioner(2))
+```
+
+> [!NOTE] reduceByKey 和 groupByKey 的区别？
+> ![截屏2024-04-03 下午4.06.48.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-03-16-06-52.png)
+
+###### aggregateByKey函数
+>将数据根据不同的规则进行分区内计算和分区间计算
+>第一个参数：如何在同一个分区中对同一个键的多个值进行聚合
+>第二个参数：如何在不同分区之间聚合已经聚合过的结果
+
+###### foldByKey函数
+>当aggregateByKey函数的第一个参数和第二个参数相同时
+
+###### combineByKey函数
+>createCombiner：当一个键第一次出现时，它会使用这个函数来创建该键的累加器的初始值。这个函数会对键的第一个值应用，并返回一个新的值（可能是转换过的），这个新的值会作为累加器的初始值。
+>mergeValue：对于同一个键，在同一个分区中，当这个键后续出现时，使用这个函数来将该键的新值与累加器的当前值合并。
+>mergeCombiners：在不同分区中，当同一个键的累加器需要合并时，使用这个函数来合并这些累加器的值。
+
+###### cogroup
+>在类型为(K,V)和(K,W)的RDD 上调用，返回一个(K,(Iterable<V>,Iterable<W>))类型的RDD
