@@ -8,24 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55d656ee6e0324bf",
+            "id": "2b9d8c77a783ec02",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Yarn.md",
+                "file": "BigData/Spark.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "dcdb083da7fa84a4",
+            "id": "c1747acb070e7bb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Yarn实操.md",
+                "file": "BigData/Spark Core.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Yarn实操.md",
+                "file": "BigData/Spark Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Yarn实操.md",
+                "file": "BigData/Spark Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Yarn实操.md"
+                "file": "BigData/Spark Core.md"
               }
             }
           },
@@ -158,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Yarn实操.md",
+                "file": "BigData/Spark Core.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -201,12 +203,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dcdb083da7fa84a4",
+  "active": "c1747acb070e7bb0",
   "lastOpenFiles": [
+    "BigData/Spark.md",
+    "BigData/Spark Core.md",
+    "BigData/大数据学习.md",
+    "BigData/Yarn实操.md",
+    "BigData/Hadoop.md",
     "BigData/Yarn.md",
     "index.md",
-    "BigData/Hadoop.md",
-    "BigData/Yarn实操.md",
     "BigData/MapReduce框架原理.md",
     "BigData/MapReduce.md",
     "设计与管理/软件系统设计/工厂方法模式.md",
@@ -227,10 +232,7 @@
     "BigData/Hadoop配置.md",
     "Web/Spring/Spring.md",
     "templates/INDEX_TEMPLATE.md",
-    "BigData/DataNode.md",
-    "BigData/大数据学习.md",
     "templates",
-    "algorithm/推理二叉树.md",
     "BigData",
     "Web/Spring",
     "logseq/custom.css",
