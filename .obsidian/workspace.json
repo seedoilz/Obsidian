@@ -22,12 +22,24 @@
             }
           },
           {
-            "id": "c1747acb070e7bb0",
+            "id": "36a7132a6a875737",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "BigData/Spark Core.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29e65751d7d8e6aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/RDD.md",
                 "mode": "source",
                 "source": false
               }
@@ -203,14 +215,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c1747acb070e7bb0",
+  "active": "36a7132a6a875737",
   "lastOpenFiles": [
-    "BigData/大数据学习.md",
-    "BigData/Spark Core.md",
     "BigData/RDD.md",
+    "BigData/Spark Core.md",
+    "BigData/Spark.md",
+    "BigData/大数据学习.md",
     "BigData/Spark运行架构.md",
     "BigData/Yarn.md",
-    "BigData/Spark.md",
     "BigData/Yarn实操.md",
     "BigData/Hadoop.md",
     "index.md",

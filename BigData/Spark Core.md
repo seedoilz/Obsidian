@@ -171,4 +171,66 @@ val dataRDD4 = dataRDD1.groupByKey(new HashPartitioner(2))
 >mergeCombiners：在不同分区中，当同一个键的累加器需要合并时，使用这个函数来合并这些累加器的值。
 
 ###### cogroup
->在类型为(K,V)和(K,W)的RDD 上调用，返回一个(K,(Iterable<V>,Iterable<W>))类型的RDD
+>在类型为(K,V)和(K,W)的RDD 上调用，返回一个(K,(Iterable\<V\>,Iterable\<W\>))类型的RDD
+```scala
+val dataRDD2 = dataRDD1.groupByKey()
+val dataRDD3 = dataRDD1.groupByKey(2)
+val dataRDD4 = dataRDD1.groupByKey(new HashPartitioner(2))
+```
+
+#### RDD行动算子
+##### reduce函数
+>聚集RDD 中的所有元素，先聚合分区内数据，再聚合分区间数据
+
+##### collect函数
+>在驱动程序中，以数组Array 的形式返回数据集的所有元素
+
+##### count函数
+>返回RDD 中元素的个数
+
+##### first函数
+>返回RDD 中的第一个元素
+
+##### take函数
+>返回一个由RDD 的前 n 个元素组成的数组
+
+##### fold函数
+>aggregate的简化操作
+
+##### save相关算子
+```scala
+def saveAsTextFile(path: String): Unit
+def saveAsObjectFile(path: String): Unit
+def saveAsSequenceFile(
+	path: String,
+	codec: Option[Class[_ <: CompressionCodec]] = None): Unit
+```
+
+```scala
+// 保存成 Text文件
+rdd.saveAsTextFile("output")
+// 序列化成对象保存到文件
+rdd.saveAsObjectFile("output1")
+// 保存成 Sequencefile文件
+rdd.map((_,1)).saveAsSequenceFile("output2")
+```
+
+#### RDD序列化
+##### 1. Java自带序列化
+笨重，慢
+
+##### 2.Kryo序列化
+```scala
+val conf: SparkConf = new SparkConf()
+	.setAppName("SerDemo")
+	.setMaster("local[*]")
+	// 替换默认的序列化机制
+	.set("spark.serializer",
+	"org.apache.spark.serializer.KryoSerializer")
+	// 注册需要使用 kryo 序列化的自定义类
+	.registerKryoClasses(Array(classOf[Searcher]))
+```
+> [!attention] 注意
+> 注意：即使使用Kryo 序列化，也要继承Serializable 接口。
+
+

@@ -1,12 +1,12 @@
 [
-  "easy-typing-obsidian",
   "obsidian-style-settings",
   "tag-wrangler",
   "obsidian-outliner",
   "obsidian-linter",
-  "dataview",
   "templater-obsidian",
   "obsidian-image-auto-upload-plugin",
-  "cm-editor-syntax-highlight-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview",
+  "easy-typing-obsidian",
+  "cm-editor-syntax-highlight-obsidian"
 ]
