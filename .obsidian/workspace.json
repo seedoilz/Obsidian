@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "dc88b566a5e7fd48",
@@ -205,12 +205,14 @@
   },
   "active": "c1747acb070e7bb0",
   "lastOpenFiles": [
-    "BigData/Spark.md",
-    "BigData/Spark Core.md",
     "BigData/大数据学习.md",
+    "BigData/Spark Core.md",
+    "BigData/RDD.md",
+    "BigData/Spark运行架构.md",
+    "BigData/Yarn.md",
+    "BigData/Spark.md",
     "BigData/Yarn实操.md",
     "BigData/Hadoop.md",
-    "BigData/Yarn.md",
     "index.md",
     "BigData/MapReduce框架原理.md",
     "BigData/MapReduce.md",
@@ -230,8 +232,6 @@
     "MachineLearning/模型评估与选择.md",
     "BigData/序列化.md",
     "BigData/Hadoop配置.md",
-    "Web/Spring/Spring.md",
-    "templates/INDEX_TEMPLATE.md",
     "templates",
     "BigData",
     "Web/Spring",

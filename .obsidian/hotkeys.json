@@ -108,14 +108,6 @@
   "workspace:goto-tab-7": [],
   "workspace:goto-tab-8": [],
   "workspace:goto-tab-1": [],
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
   "workspace:new-tab": [
     {
       "modifiers": [
@@ -140,31 +132,7 @@
       "key": "="
     }
   ],
-  "easy-typing-obsidian:easy-typing-paste-without-format": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "V"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "V"
-    }
-  ],
-  "obsidian-linter:lint-file": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "L"
-    }
-  ],
-  "easy-typing-obsidian:easy-typing-format-switch": [],
+  "obsidian-linter:lint-file": [],
   "editor:toggle-blockquote": [
     {
       "modifiers": [
@@ -172,15 +140,6 @@
         "Mod"
       ],
       "key": "Q"
-    }
-  ],
-  "editor:toggle-checklist-status": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "X"
     }
   ],
   "editor:toggle-comments": [],
@@ -234,6 +193,49 @@
         "Mod"
       ],
       "key": "C"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "V"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "V"
+    }
+  ],
+  "editor:toggle-checklist-status": [],
+  "easy-typing-obsidian:easy-typing-format-article": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [],
+  "easy-typing-obsidian:easy-typing-format-switch": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-format-selection": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
     }
   ]
 }
