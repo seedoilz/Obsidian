@@ -2,7 +2,7 @@
 aliases: 
 title: Yarn
 date created: 2024-03-12 13:03:00
-date modified: 2024-04-01 20:04:42
+date modified: 2024-04-03 19:04:56
 tags:
   - code/big-data
   - input
@@ -105,6 +105,3 @@ Fair 策略（默认）是一种基于最大最小公平算法实现的资源多
 是否饥饿：isNeedy = 资源使用量< mindshare（实际最小资源份额）
 资源分配比：minShareRatio = 资源使用量/ Max（mindshare, 1）
 资源使用权重比：useToWeightRatio = 资源使用量/ 权重
-
-
-![CleanShot 2024-04-01 at 21.11.32.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-04-01%20at%2021.11.32.png)

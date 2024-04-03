@@ -33,18 +33,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c00dd980987caf54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Yarn调度.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1

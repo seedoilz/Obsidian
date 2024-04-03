@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BigData/MapReduce.md",
+            "file": "index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BigData/MapReduce.md",
+            "file": "index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -129,7 +129,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BigData/MapReduce.md"
+            "file": "index.md"
           }
         }
       }
@@ -146,6 +146,7 @@
   },
   "active": "d4feccc5ecf12704",
   "lastOpenFiles": [
+    "BigData/MapReduce.md",
     "BigData/Hadoop组成.md",
     "BigData/HDFS.md",
     "BigData/HDFS文件块.md",
@@ -153,7 +154,6 @@
     "BigData/大数据学习.md",
     "BigData/序列化.md",
     "BigData/MapReduce框架原理.md",
-    "BigData/MapReduce.md",
     "code-projects/饿汉模式.md",
     "Web/Spring/IoC.md",
     "Web/Spring/Spring.md",
