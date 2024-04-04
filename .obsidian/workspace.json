@@ -1,66 +1,35 @@
 {
   "main": {
-    "id": "23986d9de334cc33",
+    "id": "5ba8f1f77f49f723",
     "type": "split",
     "children": [
       {
-        "id": "dcddf08a8c0b6060",
+        "id": "605c9a97b27d66e5",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9d8c77a783ec02",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Spark.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "36a7132a6a875737",
+            "id": "ad5570ece87d82c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Spark Core.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29e65751d7d8e6aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/RDD.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "bc9e5ac0da67a91d",
+    "id": "618519bdaddcfa57",
     "type": "split",
     "children": [
       {
-        "id": "42486b3ee80e8f8a",
+        "id": "5f348e3b5f9f6869",
         "type": "tabs",
         "children": [
           {
-            "id": "dae5a769b33100dd",
+            "id": "87b67f87b6ff3f3f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -70,7 +39,22 @@
             }
           },
           {
-            "id": "7caa4b0927f53c72",
+            "id": "6591524f5c8d7290",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "926f358c580da71d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,37 +65,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "abb83fcec2f85e09",
+    "id": "83b2e18d0608fb93",
     "type": "split",
     "children": [
       {
-        "id": "460138376e6a6725",
+        "id": "15090929cf093b12",
         "type": "tabs",
-        "dimension": 70.92907092907093,
         "children": [
           {
-            "id": "ea88275574679331",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "BigData/Spark Core.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "a101aba3b81625bf",
+            "id": "e88bf3b7fead1a4b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +93,18 @@
             }
           },
           {
-            "id": "c7d7afcfc69d0f67",
+            "id": "e85c60814ebde2c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "41a9c466eb8e43da",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,125 +115,27 @@
             }
           },
           {
-            "id": "cae7899722908a3d",
+            "id": "4f95e9095ec7c8a0",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BigData/Spark Core.md"
-              }
-            }
-          },
-          {
-            "id": "aba6bcdf15b01633",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "个数",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "byModifiedTime"
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "dc88b566a5e7fd48",
-        "type": "tabs",
-        "dimension": 29.07092907092907,
-        "children": [
-          {
-            "id": "9c1ae14c56916e5b",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "BigData/Spark Core.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": true,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.34312145511093495,
-                  "close": true
-                }
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "36a7132a6a875737",
-  "lastOpenFiles": [
-    "BigData/RDD.md",
-    "BigData/Spark Core.md",
-    "BigData/Spark.md",
-    "BigData/大数据学习.md",
-    "BigData/Spark运行架构.md",
-    "BigData/Yarn.md",
-    "BigData/Yarn实操.md",
-    "BigData/Hadoop.md",
-    "index.md",
-    "BigData/MapReduce框架原理.md",
-    "BigData/MapReduce.md",
-    "设计与管理/软件系统设计/工厂方法模式.md",
-    "BigData/Yarn生产环境核心参数.md",
-    "BigData/Yarn调度.md",
-    "BigData/Yarn常用命令.md",
-    "BigData/Yarn概述.md",
-    "BigData/未命名.md",
-    "BigData/HDFS.md",
-    "BigData/Hadoop数据压缩.md",
-    "BigData/Hadoop序列化.md",
-    "algorithm/归并排序.md",
-    "Python Mastery/Classes.md",
-    "未命名.canvas",
-    "BigData/Hadoop组成.md",
-    "MachineLearning/模型评估与选择.md",
-    "BigData/序列化.md",
-    "BigData/Hadoop配置.md",
-    "templates",
-    "BigData",
-    "Web/Spring",
-    "logseq/custom.css",
-    "pages",
-    "journals",
-    "logseq/config.edn",
-    "logseq",
-    "Excalidraw",
-    "设计与管理"
-  ]
+  "active": "ad5570ece87d82c5",
+  "lastOpenFiles": []
 }
