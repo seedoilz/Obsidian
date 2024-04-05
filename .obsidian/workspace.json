@@ -106,6 +106,7 @@
       {
         "id": "15090929cf093b12",
         "type": "tabs",
+        "dimension": 72.1590909090909,
         "children": [
           {
             "id": "e88bf3b7fead1a4b",
@@ -113,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +154,49 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark Core.md"
+                "file": "BigData/Spark.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b14d6dfd20d23c67",
+        "type": "tabs",
+        "dimension": 27.84090909090909,
+        "children": [
+          {
+            "id": "0f01f824c76f560d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "BigData/Spark.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
               }
             }
           }
@@ -161,7 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,7 +214,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1a09a2e520287f00",
+  "active": "e88bf3b7fead1a4b",
   "lastOpenFiles": [
     "BigData/RDD.md",
     "BigData/Spark Core.md",
