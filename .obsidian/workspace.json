@@ -34,6 +34,16 @@
             }
           },
           {
+            "id": "50f39abfe44754f9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
             "id": "acf9bbcb386b9cfc",
             "type": "leaf",
             "state": {
@@ -46,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/Spark Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/Spark Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark.md"
+                "file": "BigData/Spark Core.md"
               }
             }
           }
@@ -171,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/Spark Core.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,10 +224,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e88bf3b7fead1a4b",
+  "active": "50f39abfe44754f9",
   "lastOpenFiles": [
+    "BigData/Spark.md",
     "BigData/RDD.md",
-    "BigData/Spark Core.md",
-    "BigData/Spark.md"
+    "BigData/Spark Core.md"
   ]
 }
