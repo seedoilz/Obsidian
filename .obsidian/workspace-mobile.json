@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "BigData/Spark Core.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -129,7 +129,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2473307f721bf4b6",
+  "active": "d5966b72743c5f86",
   "lastOpenFiles": [
     "BigData/Spark.md",
     "BigData/大数据学习.md",
