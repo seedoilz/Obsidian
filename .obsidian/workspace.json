@@ -34,16 +34,6 @@
             }
           },
           {
-            "id": "50f39abfe44754f9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
             "id": "acf9bbcb386b9cfc",
             "type": "leaf",
             "state": {
@@ -56,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,7 +214,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "50f39abfe44754f9",
+  "active": "1a09a2e520287f00",
   "lastOpenFiles": [
     "BigData/Spark.md",
     "BigData/RDD.md",
