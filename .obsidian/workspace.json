@@ -45,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark Core.md"
+                "file": "BigData/Spark.md"
               }
             }
           }
@@ -171,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/Spark.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,8 +183,8 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
+                  "collapse-display": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -194,7 +193,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.4420841168513235,
                   "close": true
                 }
               }
@@ -214,10 +213,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1a09a2e520287f00",
+  "active": "ad5570ece87d82c5",
   "lastOpenFiles": [
+    "BigData/Spark Core.md",
     "BigData/Spark.md",
-    "BigData/RDD.md",
-    "BigData/Spark Core.md"
+    "BigData/RDD.md"
   ]
 }
