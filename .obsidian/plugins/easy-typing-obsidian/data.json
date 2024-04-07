@@ -35,20 +35,15 @@
       "right": " "
     }
   ],
-  "userDeleteRulesStrList": [
-    [
-      "demo|",
-      "|"
-    ]
-  ],
+  "userDeleteRulesStrList": [],
   "userConvertRulesStrList": [
-    [
-      ":)|",
-      "😀|"
-    ],
     [
       "¥¥|",
       "$|$"
+    ],
+    [
+      "、、|",
+      "\\|"
     ]
   ],
   "userSelRuleSettingsOpen": true,

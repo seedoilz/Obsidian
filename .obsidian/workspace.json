@@ -22,30 +22,19 @@
             }
           },
           {
-            "id": "1a09a2e520287f00",
+            "id": "db01b6cbd385df7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Spark Core.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "acf9bbcb386b9cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/RDD.md",
+                "file": "BigData/SparkSQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dataframe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -113,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/SparkSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/SparkSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark.md"
+                "file": "BigData/SparkSQL.md"
               }
             }
           }
@@ -170,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/SparkSQL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 268.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,10 +203,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ad5570ece87d82c5",
+  "active": "db01b6cbd385df7e",
   "lastOpenFiles": [
-    "BigData/Spark Core.md",
     "BigData/Spark.md",
+    "MachineLearning/EntitySet.md",
+    "BigData/SparkSQL.md",
+    "BigData/Spark Core.md",
     "BigData/RDD.md"
   ]
 }
