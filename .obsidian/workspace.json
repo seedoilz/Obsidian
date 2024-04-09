@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "5f3d1c7693f598db",
+            "id": "0c98421673bb06e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/SparkStreaming.md"
+                "file": "index.md"
               }
             }
           }
@@ -160,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 290.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,11 +203,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5f3d1c7693f598db",
+  "active": "0c98421673bb06e1",
   "lastOpenFiles": [
     "BigData/Spark.md",
-    "BigData/集群SSH免密配置.md",
+    "templates/INDEX_TEMPLATE.md",
+    "index.md",
     "BigData/SparkStreaming.md",
+    "设计与管理/软件系统设计/软件系统架构简述.md",
+    "BigData/集群SSH免密配置.md",
     "BigData/core-site.xml.md",
     "BigData/Hadoop配置.md",
     "BigData/MapReduce.md",
@@ -227,7 +230,6 @@
     "BigData/SparkSQL.md",
     "BigData/MapReduce框架原理.md",
     "BigData/Hadoop组成.md",
-    "BigData/Spark Core.md",
-    "BigData/RDD.md"
+    "BigData/Spark Core.md"
   ]
 }
