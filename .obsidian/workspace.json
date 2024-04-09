@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad5570ece87d82c5",
+            "id": "e9ede09904b7112e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/Hadoop.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,24 +22,12 @@
             }
           },
           {
-            "id": "1a09a2e520287f00",
+            "id": "5f47e95e403c41e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Spark Core.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "acf9bbcb386b9cfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/RDD.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark Core.md"
+                "file": "BigData/MapReduce框架原理.md"
               }
             }
           }
@@ -171,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,8 +172,8 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
+                  "collapse-display": false,
+                  "showArrow": true,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -214,11 +202,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1a09a2e520287f00",
+  "active": "5f47e95e403c41e1",
   "lastOpenFiles": [
-    "BigData/SparkSQL.md",
+    "BigData/MapReduce.md",
+    "BigData/Hadoop组成.md",
+    "BigData/Hadoop.md",
     "BigData/Spark.md",
-    "BigData/RDD.md",
-    "BigData/Spark Core.md"
+    "BigData/Spark Core.md",
+    "BigData/SparkSQL.md",
+    "BigData/RDD.md"
   ]
 }
