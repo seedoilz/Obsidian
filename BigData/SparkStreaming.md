@@ -3,7 +3,7 @@ aliases:
   - Spark Streaming
 title: SparkStreaming
 date created: 2024-04-09 11:04:00
-date modified: 2024-04-09 14:04:54
+date modified: 2024-04-09 15:04:56
 tags: [code/big-data]
 ---
 ## 概念
@@ -72,7 +72,32 @@ class CustomerReceiver(host: String, port: Int) extends Receiver[String](Storage
  }
 ```
 
-### Kafka数据源
+### [[Kafka|Kafka数据源]]
 >DirectAPI：是由计算的Executor 来主动消费Kafka 的数据，速度由自身控制。
 >ReceiverAPI已经不适用了。
+
+```scala
+val kafkaPara: Map[String, Object] = Map[String, Object](
+	ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG ->
+	"hadoop1:9092,hadoop2:9092,hadoop3:9092",
+	ConsumerConfig.GROUP_ID_CONFIG -> "atguigu",
+	"key.deserializer" ->
+	"org.apache.kafka.common.serialization.StringDeserializer",
+	"value.deserializer" ->
+	"org.apache.kafka.common.serialization.StringDeserializer"
+	)
+//4.读取 Kafka数据创建 DStream
+val kafkaDStream: InputDStream[ConsumerRecord[String, String]] =
+KafkaUtils.createDirectStream[String, String](ssc,
+	LocationStrategies.PreferConsistent,
+	ConsumerStrategies.Subscribe[String, String](Set("atguigu"), kafkaPara))
+```
+
+## DStream转换
+DStream 上的操作与 RDD 的类似，分为 Transformations（转换）和 Output Operations（输出）两种。
+### 无状态转化操作
+无状态转化操作就是把简单的RDD 转化操作应用到每个批次上，也就是转化DStream 中的每一个RDD。
+![CleanShot 2024-04-09 at 15.26.15.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-04-09%20at%2015.26.15.png)
+
+### 有状态转化操作
 

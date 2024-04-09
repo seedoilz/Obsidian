@@ -3,6 +3,8 @@ aliases:
 title: 集群SSH免密配置
 date created: 2024-04-09 14:04:00
 date modified: 2024-04-09 15:04:29
+tags:
+  - code/snippet
 ---
 ## xsync脚本编写
 >循环复制文件到所有节点的相同目录下
