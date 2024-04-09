@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#code/snippet",
+                "query": "192.168",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,12 +80,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -204,7 +204,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3785c73361b36b06",
+  "active": "6591524f5c8d7290",
   "lastOpenFiles": [
     "BigData/Spark.md",
     "index.md",
