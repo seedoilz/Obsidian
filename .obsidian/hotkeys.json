@@ -195,15 +195,6 @@
       "key": "C"
     }
   ],
-  "easy-typing-obsidian:easy-typing-paste-without-format": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "V"
-    }
-  ],
   "editor:toggle-checklist-status": [],
   "easy-typing-obsidian:easy-typing-format-article": [
     {
@@ -230,6 +221,15 @@
         "Mod"
       ],
       "key": "L"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-paste-without-format": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "V"
     }
   ]
 }
