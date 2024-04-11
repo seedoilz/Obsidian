@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Spark Core.md",
+                "file": "BigData/Yarn.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BigData/Spark Core.md",
+            "file": "BigData/Yarn.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BigData/Spark Core.md",
+            "file": "BigData/Yarn.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BigData/Spark Core.md"
+            "file": "BigData/Yarn.md"
           }
         }
       }
@@ -129,18 +129,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d5966b72743c5f86",
+  "active": "850d575e9f16d79d",
   "lastOpenFiles": [
-    "BigData/Spark.md",
-    "BigData/大数据学习.md",
-    "BigData/Hadoop.md",
-    "index.md",
-    "BigData/MapReduce.md",
+    "BigData/yarn-site.xml.md",
+    "BigData/Yarn.md",
+    "BigData/SparkStreaming.md",
+    "BigData/HDFS读写流程.md",
+    "BigData/MapReduce框架原理.md",
     "BigData/Hadoop组成.md",
+    "BigData/MapReduce.md",
+    "BigData/Hadoop.md",
+    "BigData/大数据学习.md",
+    "BigData/Spark Core.md",
+    "BigData/Spark.md",
+    "index.md",
     "BigData/HDFS.md",
     "BigData/HDFS文件块.md",
     "BigData/序列化.md",
-    "BigData/MapReduce框架原理.md",
     "code-projects/饿汉模式.md",
     "Web/Spring/IoC.md",
     "Web/Spring/Spring.md",
@@ -153,11 +158,6 @@
     "软件质量管理/软件过程.md",
     "软件质量管理/TSP.md",
     "软件质量管理/工作分解结构.md",
-    "软件质量管理/PSP.md",
-    "软件质量管理/软件质量管理.md",
-    "软件质量管理/软件项目管理.md",
-    "软件质量管理/软件过程管理.md",
-    "CS50/Bayesian Network.md",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",
