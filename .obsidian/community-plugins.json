@@ -5,7 +5,7 @@
   "dataview",
   "templater-obsidian",
   "obsidian-image-auto-upload-plugin",
+  "cm-editor-syntax-highlight-obsidian",
   "obsidian-linter",
-  "easy-typing-obsidian",
-  "cm-editor-syntax-highlight-obsidian"
+  "easy-typing-obsidian"
 ]
