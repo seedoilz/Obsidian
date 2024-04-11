@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/集群SSH免密配置.md",
+                "file": "BigData/SparkStreaming.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "192.168.",
+                "query": "transform",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/集群SSH免密配置.md",
+                "file": "BigData/SparkStreaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/集群SSH免密配置.md",
+                "file": "BigData/SparkStreaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/集群SSH免密配置.md"
+                "file": "BigData/SparkStreaming.md"
               }
             }
           }
@@ -161,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/集群SSH免密配置.md",
+                "file": "BigData/SparkStreaming.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,10 +206,10 @@
   },
   "active": "3df5ea60f57c4d2b",
   "lastOpenFiles": [
+    "BigData/集群SSH免密配置.md",
     "BigData/Hadoop配置.md",
     "BigData/Spark内核.md",
     "BigData/Spark.md",
-    "BigData/集群SSH免密配置.md",
     "BigData/Spark通讯架构.md",
     "BigData/Spark运行机制.md",
     "BigData/SparkStreaming.md",

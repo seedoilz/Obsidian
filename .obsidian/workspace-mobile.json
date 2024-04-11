@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Yarn.md",
+                "file": "BigData/MapReduce.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BigData/Yarn.md",
+            "file": "BigData/MapReduce.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BigData/Yarn.md",
+            "file": "BigData/MapReduce.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BigData/Yarn.md"
+            "file": "BigData/MapReduce.md"
           }
         }
       }
@@ -129,15 +129,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "850d575e9f16d79d",
+  "active": "d5966b72743c5f86",
   "lastOpenFiles": [
-    "BigData/yarn-site.xml.md",
+    "BigData/MapReduce框架原理.md",
+    "BigData/MapReduce.md",
+    "BigData/Hadoop组成.md",
     "BigData/Yarn.md",
+    "BigData/yarn-site.xml.md",
     "BigData/SparkStreaming.md",
     "BigData/HDFS读写流程.md",
-    "BigData/MapReduce框架原理.md",
-    "BigData/Hadoop组成.md",
-    "BigData/MapReduce.md",
     "BigData/Hadoop.md",
     "BigData/大数据学习.md",
     "BigData/Spark Core.md",
