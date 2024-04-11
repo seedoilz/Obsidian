@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "398402c18dbf006b",
+        "id": "e3926d3618ccbe0a",
         "type": "tabs",
         "children": [
           {
-            "id": "bd5ed8ed7bdf6306",
+            "id": "d34bd015efe39b2f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Spark.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BigData/Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BigData/Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BigData/Spark.md"
+              }
             }
           }
         ]
@@ -136,6 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "BigData/Spark.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,7 +188,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bd5ed8ed7bdf6306",
+  "active": "d34bd015efe39b2f",
   "lastOpenFiles": [
     "BigData/Spark.md",
     "BigData/集群SSH免密配置.md",
