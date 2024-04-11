@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "841aef9132bbc95d",
+            "id": "dc7eff8f25f2efd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -213,12 +213,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "841aef9132bbc95d",
+  "active": "dc7eff8f25f2efd5",
   "lastOpenFiles": [
+    "BigData/Spark.md",
     "BigData/Spark通讯架构.md",
+    "CS50/Optimization - Lecture 3.md",
+    "CS50/Uncertainty - Lecture 2.md",
+    "CS50/Introduction - Lecture 0.md",
+    "CS50/Knowledge - Lecture 1.md",
+    "CS50/CS50 AI.md",
     "BigData/Spark内核.md",
     "BigData/Spark运行机制.md",
-    "BigData/Spark.md",
     "BigData/MapReduce.md",
     "BigData/集群SSH免密配置.md",
     "BigData/SparkStreaming.md",
