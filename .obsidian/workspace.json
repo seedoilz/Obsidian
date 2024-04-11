@@ -4,37 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "605c9a97b27d66e5",
+        "id": "398402c18dbf006b",
         "type": "tabs",
         "children": [
           {
-            "id": "ad5570ece87d82c5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Spark.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c5d2407eda4ef72c",
+            "id": "bd5ed8ed7bdf6306",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/SparkStreaming.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dataframe",
+                "query": "ssh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/SparkStreaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/SparkStreaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BigData/SparkStreaming.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,7 +137,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/SparkStreaming.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,12 +180,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c5d2407eda4ef72c",
+  "active": "bd5ed8ed7bdf6306",
   "lastOpenFiles": [
     "BigData/Spark.md",
+    "BigData/集群SSH免密配置.md",
     "BigData/SparkStreaming.md",
     "BigData/SparkSQL.md",
-    "BigData/集群SSH免密配置.md",
     "BigData/Zookeeper集群搭建.md",
     "BigData/Zookeeper.md",
     "BigData/Spark集群搭建.md",
