@@ -113,4 +113,20 @@ DAGScheduler 切割 Job，划分 Stage, 通过调用 submitStage 来提交一个
 
 前面也提到，与外部打交道的是 SchedulerBackend，Task 被提交到 Executor 启动执行后，Executor 会将执行状态上报给 SchedulerBackend，SchedulerBackend 则告诉 TaskScheduler，TaskScheduler 找到该 Task 对应的 TaskSetManager，并通知到该 TaskSetManager，这样 TaskSetManager 就知道 Task 的失败与成功状态，对于失败的 Task，会记录它失败的次数，如果失败次数还没有超过最大重试次数，那么就把它放回待调度的 Task 池子中，否则整个 Application 失败。
 
-在记录Task 失败次数过程中，会记录它上一次失败所在的 Executor Id 和Host，这样下次再调度这个 Task 时，会使用黑名单机制，避免它被调度到上一次失败的节点上，起到一定的容错作用。黑名单记录 Task 上一次失败所在的Executor Id 和Host，以及其对应的“拉黑”时间，“拉黑”时间是指这段时间内不要再往这个节点上调度这个Task 了。
+在记录 Task 失败次数过程中，会记录它上一次失败所在的 Executor Id 和 Host，这样下次再调度这个 Task 时，会使用黑名单机制，避免它被调度到上一次失败的节点上，起到一定的容错作用。黑名单记录 Task 上一次失败所在的 Executor Id 和 Host，以及其对应的“拉黑”时间，“拉黑”时间是指这段时间内不要再往这个节点上调度这个Task 了。
+
+## Spark Shuffle解析
+### HashShuffle解析
+#### 未优化的HashShuffle
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-12-14-31-28.png)
+#### 优化后的HashShuffle
+>优化的 HashShuffle 过程就是启用合并机制，合并机制就是复用 buffer，开启合并机制的配置是 spark.shuffle.consolidateFiles。该参数默认值为 false，将其设置为 true 即可开启优化机制。
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-12-14-34-40.png)
+### SortShuffle解析
+#### 普通SortShuffle
+>在该模式下，数据会先写入一个数据结构，reduceByKey 写入 Map，一边通过 Map 局部聚合，一遍写入内存。
+![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/2024-04-12-15-04-28.png)
+
+#### bypass SortShuffle
+>该过程的磁盘写机制其实跟未经优化的 HashShuffleManager 是一模一样的，因为都要创建数量惊人的磁盘文件，只是在最后会做一个磁盘文件的合并而已。
+>该机制与普通 SortShuffleManager 运行机制的不同在于：不会进行排序。
