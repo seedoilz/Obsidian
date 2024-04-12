@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "join",
+                "query": "Combiner",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -111,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/MapReduce.md"
+                "file": "BigData/MapReduce框架原理.md"
               }
             }
           }
@@ -168,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/MapReduce框架原理.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,11 +215,13 @@
   },
   "active": "d34bd015efe39b2f",
   "lastOpenFiles": [
+    "BigData/MapReduce.md",
+    "BigData/MapReduce框架原理.md",
+    "BigData/Spark内核.md",
     "BigData/Hadoop数据压缩.md",
     "BigData/Spark.md",
     "BigData/Spark面试题.md",
     "BigData/Spark面试题(1).md",
-    "BigData/Spark内核.md",
     "BigData/Spark通讯架构.md",
     "CS50/Optimization - Lecture 3.md",
     "CS50/Uncertainty - Lecture 2.md",
@@ -226,7 +229,6 @@
     "CS50/Knowledge - Lecture 1.md",
     "CS50/CS50 AI.md",
     "BigData/Spark运行机制.md",
-    "BigData/MapReduce.md",
     "BigData/集群SSH免密配置.md",
     "BigData/SparkStreaming.md",
     "BigData/SparkSQL.md",
