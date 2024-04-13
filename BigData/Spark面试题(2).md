@@ -75,8 +75,7 @@ flatMap：对 RDD 每个元素转换，然后再扁平化。
 ### 11、driver 的功能是什么？
 
 1）一个 Spark 作业运行时包括一个 Driver 进程，也是作业的主进程，具有 main 函数，并且有 SparkContext 的实例，是程序的入口点； 
-2）功能：负责向集群申请资源，向 master 注册信息，负责了作业的调度，负责作业的解析、生成 Stage 并调度 Task 到 Executor 上。包括 DAGScheduler， 
-TaskScheduler。
+2）功能：负责向集群申请资源，向 master 注册信息，负责了作业的调度，负责作业的解析、生成 Stage 并调度 Task 到 Executor 上。包括 DAGScheduler， TaskScheduler。
 
 ### 12、Spark 技术栈有哪些组件，每个组件都有什么功能，适合什么应用场景？
 
