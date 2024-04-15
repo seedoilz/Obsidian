@@ -2,7 +2,7 @@
 aliases: 
 title: Spark
 date created: 2024-04-02 19:04:00
-date modified: 2024-04-15 10:04:08
+date modified: 2024-04-15 17:04:56
 tags: [code/big-data, project]
 ---
 [[Spark集群搭建]]
@@ -14,5 +14,3 @@ tags: [code/big-data, project]
 [[SparkStreaming]]
 
 [[Spark内核]]
-
-[[Spark面试题]]
