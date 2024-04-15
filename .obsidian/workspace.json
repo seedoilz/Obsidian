@@ -104,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,7 +228,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "37428648f20f8f3d",
+  "active": "6591524f5c8d7290",
   "lastOpenFiles": [
     "BigData/Hadoop.md",
     "BigData/Hadoop数据压缩.md",
