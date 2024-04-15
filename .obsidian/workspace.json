@@ -44,9 +44,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37428648f20f8f3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/MapReduce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -75,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "directapi",
+                "query": "hashPar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +104,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "BigData/MapReduce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "BigData/MapReduce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/SparkStreaming.md"
+                "file": "BigData/MapReduce.md"
               }
             }
           }
@@ -172,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "BigData/MapReduce.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,17 +227,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bd1c6c4c97bbe331",
+  "active": "37428648f20f8f3d",
   "lastOpenFiles": [
+    "BigData/Hadoop.md",
+    "BigData/Hadoop数据压缩.md",
+    "BigData/RDD.md",
     "BigData/Spark内核.md",
+    "BigData/Spark.md",
+    "BigData/SparkStreaming.md",
     "BigData/Spark Core.md",
     "BigData/Yarn.md",
     "BigData/Yarn实操.md",
-    "BigData/Hadoop.md",
     "BigData/MapReduce.md",
     "BigData/MapReduce框架原理.md",
-    "BigData/Spark.md",
-    "BigData/SparkStreaming.md",
     "BigData/Spark面试题(1).md",
     "BigData/Spark面试题(2).md",
     "BigData/Spark面试题.md",
@@ -241,8 +254,6 @@
     "BigData/hdfs-site.xml.md",
     "BigData/mapred-site.xml.md",
     "BigData/yarn-site.xml.md",
-    "BigData/大数据学习.md",
-    "BigData/Kafka.md",
-    "BigData/Zookeeper.md"
+    "BigData/大数据学习.md"
   ]
 }
