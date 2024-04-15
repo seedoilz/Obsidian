@@ -4,18 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "242d9f7116f1ef2f",
+        "id": "605c9a97b27d66e5",
         "type": "tabs",
         "children": [
           {
-            "id": "fd2fd0ed397817a6",
+            "id": "eb0b4d0a02227f90",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Spark.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "bd1c6c4c97bbe331",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BigData/SparkStreaming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b02536f1c2652fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Spark Core.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "map join",
+                "query": "directapi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 307.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -84,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BigData/SparkStreaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BigData/SparkStreaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,10 +153,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BigData/SparkStreaming.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -137,6 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "BigData/SparkStreaming.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,7 +195,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4420841168513235,
+                  "scale": 0.7683174228123666,
                   "close": true
                 }
               }
@@ -169,7 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
+    "width": 290.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -180,33 +216,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fd2fd0ed397817a6",
+  "active": "bd1c6c4c97bbe331",
   "lastOpenFiles": [
-    "BigData/Spark通讯架构.md",
-    "BigData/MapReduce.md",
     "BigData/Spark内核.md",
-    "BigData/Spark.md",
-    "BigData/MapReduce框架原理.md",
-    "BigData/Hadoop数据压缩.md",
-    "BigData/Spark面试题.md",
-    "BigData/Spark面试题(1).md",
-    "CS50/Optimization - Lecture 3.md",
-    "CS50/Uncertainty - Lecture 2.md",
-    "CS50/Introduction - Lecture 0.md",
-    "CS50/Knowledge - Lecture 1.md",
-    "CS50/CS50 AI.md",
-    "BigData/Spark运行机制.md",
-    "BigData/集群SSH免密配置.md",
-    "BigData/SparkStreaming.md",
-    "BigData/SparkSQL.md",
-    "BigData/Zookeeper集群搭建.md",
-    "BigData/Zookeeper.md",
-    "BigData/Spark集群搭建.md",
-    "BigData/Kafka集群搭建.md",
-    "BigData/Kafka.md",
-    "BigData/Hadoop集群搭建.md",
-    "MachineLearning/EntitySet.md",
     "BigData/Spark Core.md",
-    "BigData/RDD.md"
+    "BigData/Yarn.md",
+    "BigData/Yarn实操.md",
+    "BigData/Hadoop.md",
+    "BigData/MapReduce.md",
+    "BigData/MapReduce框架原理.md",
+    "BigData/Spark.md",
+    "BigData/SparkStreaming.md",
+    "BigData/Spark面试题(1).md",
+    "BigData/Spark面试题(2).md",
+    "BigData/Spark面试题.md",
+    "BigData/集群SSH免密配置.md",
+    "BigData/Hadoop配置.md",
+    "BigData/Spark通讯架构.md",
+    "BigData/Spark运行机制.md",
+    "index.md",
+    "templates/INDEX_TEMPLATE.md",
+    "设计与管理/软件系统设计/软件系统架构简述.md",
+    "BigData/core-site.xml.md",
+    "BigData/hdfs-site.xml.md",
+    "BigData/mapred-site.xml.md",
+    "BigData/yarn-site.xml.md",
+    "BigData/大数据学习.md",
+    "BigData/Kafka.md",
+    "BigData/Zookeeper.md"
   ]
 }
