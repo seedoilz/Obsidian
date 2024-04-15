@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/Spark Core.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hashPar",
+                "query": "优雅关闭",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/MapReduce.md"
+                "file": "BigData/Spark.md"
               }
             }
           }
@@ -184,7 +184,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/MapReduce.md",
+                "file": "BigData/Spark.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,6 +230,7 @@
   },
   "active": "6591524f5c8d7290",
   "lastOpenFiles": [
+    "BigData/MapReduce.md",
     "BigData/Hadoop.md",
     "BigData/Hadoop数据压缩.md",
     "BigData/RDD.md",
@@ -239,7 +240,6 @@
     "BigData/Spark Core.md",
     "BigData/Yarn.md",
     "BigData/Yarn实操.md",
-    "BigData/MapReduce.md",
     "BigData/MapReduce框架原理.md",
     "BigData/Spark面试题(1).md",
     "BigData/Spark面试题(2).md",
