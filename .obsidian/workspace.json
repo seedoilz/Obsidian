@@ -44,9 +44,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "feab940cbfec590a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -114,7 +122,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Flink运行架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +138,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Flink运行架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "BigData/Flink运行架构.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -172,7 +176,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Flink运行架构.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,12 +219,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "90d5ae7259b8107c",
+  "active": "feab940cbfec590a",
   "lastOpenFiles": [
-    "BigData/Flink运行架构.md",
-    "BigData/Flink.md",
-    "BigData/Spark内核.md",
     "BigData/Spark.md",
+    "BigData/Flink.md",
+    "BigData/Flink运行架构.md",
+    "BigData/Spark内核.md",
     "BigData/Spark面试题.md",
     "BigData/Spark面试题(2).md",
     "BigData/Spark面试题(1).md",
