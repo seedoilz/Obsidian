@@ -67,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,8 +193,10 @@
   },
   "active": "eb0b4d0a02227f90",
   "lastOpenFiles": [
-    "BigData/Spark内核.md",
+    "BigData/Spark Core.md",
+    "BigData/SparkSQL.md",
     "BigData/Spark.md",
+    "BigData/Spark内核.md",
     "BigData/SparkStreaming.md",
     "algorithm/排序.md",
     "algorithm/动态规划.md",
@@ -203,7 +204,6 @@
     "BigData/未命名.md",
     "BigData/Flink运行架构.md",
     "BigData/Flink.md",
-    "BigData/Spark Core.md",
     "BigData/Yarn.md",
     "BigData/Yarn实操.md",
     "BigData/Hadoop.md",
@@ -218,7 +218,6 @@
     "BigData/Spark运行机制.md",
     "index.md",
     "templates/INDEX_TEMPLATE.md",
-    "设计与管理/软件系统设计/软件系统架构简述.md",
-    "BigData/core-site.xml.md"
+    "设计与管理/软件系统设计/软件系统架构简述.md"
   ]
 }

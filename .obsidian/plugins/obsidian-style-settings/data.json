@@ -43,10 +43,11 @@
   "maple-basic@@setting-accent-h-light": 200,
   "maple-basic@@setting-accent-h-dark": 260,
   "maple-editor@@link-icon": false,
-  "maple-editor@@setting-editor-bg@@light": "#FFFFFF",
-  "maple-editor@@setting-editor-bg@@dark": "#191B20",
   "maple-editor@@quote-theme": true,
   "maple-editor@@quote-mark": false,
   "maple-plugin@@calendar-weekend": true,
-  "maple-workspace@@status-bar-enable": true
+  "maple-workspace@@status-bar-enable": true,
+  "maple-workspace@@bg-enable": "bg-default",
+  "maple-workspace@@titlebar-colorful": false,
+  "maple-editor@@setting-editor-bg@@dark": "#1E2127"
 }
