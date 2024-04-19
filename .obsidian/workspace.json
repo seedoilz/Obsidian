@@ -20,33 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "bd1c6c4c97bbe331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/SparkStreaming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b02536f1c2652fbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Spark Core.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
+    "width": 255.5,
     "collapsed": true
   },
   "right": {
@@ -115,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "BigData/Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "BigData/Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/SparkStreaming.md"
+                "file": "BigData/Spark.md"
               }
             }
           }
@@ -173,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/SparkStreaming.md",
+                "file": "BigData/Spark.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,23 +192,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "bd1c6c4c97bbe331",
+  "active": "eb0b4d0a02227f90",
   "lastOpenFiles": [
+    "BigData/Spark内核.md",
+    "BigData/Spark.md",
+    "BigData/SparkStreaming.md",
     "algorithm/排序.md",
     "algorithm/动态规划.md",
     "algorithm/algorithm.md",
     "BigData/未命名.md",
     "BigData/Flink运行架构.md",
     "BigData/Flink.md",
-    "BigData/Spark内核.md",
     "BigData/Spark Core.md",
     "BigData/Yarn.md",
     "BigData/Yarn实操.md",
     "BigData/Hadoop.md",
     "BigData/MapReduce.md",
     "BigData/MapReduce框架原理.md",
-    "BigData/Spark.md",
-    "BigData/SparkStreaming.md",
     "BigData/Spark面试题(1).md",
     "BigData/Spark面试题(2).md",
     "BigData/Spark面试题.md",

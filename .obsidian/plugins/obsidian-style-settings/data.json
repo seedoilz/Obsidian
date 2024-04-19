@@ -38,5 +38,15 @@
   "blue-topaz-theme@@accent-em@@dark": "#8BA700",
   "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-default",
   "blue-topaz-theme@@clutter-free-headings": false,
-  "blue-topaz-theme@@auto-serial-number-dvtable": false
+  "blue-topaz-theme@@auto-serial-number-dvtable": false,
+  "maple-basic@@color-use-custom": false,
+  "maple-basic@@setting-accent-h-light": 200,
+  "maple-basic@@setting-accent-h-dark": 260,
+  "maple-editor@@link-icon": false,
+  "maple-editor@@setting-editor-bg@@light": "#FFFFFF",
+  "maple-editor@@setting-editor-bg@@dark": "#191B20",
+  "maple-editor@@quote-theme": true,
+  "maple-editor@@quote-mark": false,
+  "maple-plugin@@calendar-weekend": true,
+  "maple-workspace@@status-bar-enable": true
 }

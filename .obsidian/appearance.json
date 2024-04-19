@@ -1,7 +1,7 @@
 {
   "theme": "system",
-  "accentColor": "",
-  "cssTheme": "Blue Topaz",
+  "accentColor": "#7298b6",
+  "cssTheme": "Maple",
   "translucency": false,
   "enabledCssSnippets": [
     "Yin and Yang",
