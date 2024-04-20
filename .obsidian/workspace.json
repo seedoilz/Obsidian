@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "605c9a97b27d66e5",
+        "id": "93d148dd8111925d",
         "type": "tabs",
         "children": [
           {
-            "id": "eb0b4d0a02227f90",
+            "id": "d17e12955fc07f6c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/大数据学习.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -89,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/大数据学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/大数据学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,12 +127,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark.md"
+                "file": "BigData/大数据学习.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -147,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Spark.md",
+                "file": "BigData/大数据学习.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,13 +188,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eb0b4d0a02227f90",
+  "active": "d17e12955fc07f6c",
   "lastOpenFiles": [
-    "BigData/SparkSQL.md",
+    "BigData/SparkStreaming.md",
     "BigData/Spark.md",
+    "BigData/SparkSQL.md",
     "BigData/Spark Core.md",
     "BigData/Spark内核.md",
-    "BigData/SparkStreaming.md",
     "algorithm/排序.md",
     "algorithm/动态规划.md",
     "algorithm/algorithm.md",
