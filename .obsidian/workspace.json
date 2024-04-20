@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/大数据学习.md",
+                "file": "BigData/Kafka集群搭建.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b5e77ad2ed6f499",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Hadoop集群搭建.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f900c30d33afe606",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Kafka集群搭建.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/大数据学习.md",
+                "file": "BigData/Kafka集群搭建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/大数据学习.md",
+                "file": "BigData/Kafka集群搭建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/大数据学习.md"
+                "file": "BigData/Kafka集群搭建.md"
               }
             }
           }
@@ -145,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/大数据学习.md",
+                "file": "BigData/Kafka集群搭建.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -178,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,6 +215,16 @@
   },
   "active": "d17e12955fc07f6c",
   "lastOpenFiles": [
+    "BigData/Zookeeper集群搭建.md",
+    "BigData/Hadoop配置.md",
+    "BigData/mapred-site.xml.md",
+    "BigData/yarn-site.xml.md",
+    "BigData/core-site.xml.md",
+    "BigData/hdfs-site.xml.md",
+    "BigData/Hadoop集群搭建.md",
+    "BigData/Hadoop.md",
+    "BigData/Kafka集群搭建.md",
+    "BigData/大数据学习.md",
     "BigData/SparkStreaming.md",
     "BigData/Spark.md",
     "BigData/SparkSQL.md",
@@ -203,18 +238,8 @@
     "BigData/Flink.md",
     "BigData/Yarn.md",
     "BigData/Yarn实操.md",
-    "BigData/Hadoop.md",
     "BigData/MapReduce.md",
     "BigData/MapReduce框架原理.md",
-    "BigData/Spark面试题(1).md",
-    "BigData/Spark面试题(2).md",
-    "BigData/Spark面试题.md",
-    "BigData/集群SSH免密配置.md",
-    "BigData/Hadoop配置.md",
-    "BigData/Spark通讯架构.md",
-    "BigData/Spark运行机制.md",
-    "index.md",
-    "templates/INDEX_TEMPLATE.md",
-    "设计与管理/软件系统设计/软件系统架构简述.md"
+    "BigData/Spark面试题(1).md"
   ]
 }
