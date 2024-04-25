@@ -2,7 +2,7 @@
 aliases: 
 title: Hadoop集群搭建
 date created: 2024-04-09 14:04:00
-date modified: 2024-04-24 14:04:81
+date modified: 2024-04-25 20:04:41
 tags: [code/big-data]
 ---
 前期准备：
@@ -173,6 +173,16 @@ hadoop3
           <value>mapreduce_shuffle</value>
   </property>
 </configuration>
+```
+
+#### 4.7 修改my_envs.sh
+```shell
+export HADOOP_USER_NAME=root
+export HDFS_NAMENODE_USER=root
+export HDFS_DATANODE_USER=root
+export HDFS_SECONDARYNAMENODE_USER=root
+export YARN_RESOURCEMANAGER_USER=root
+export YARN_NODEMANAGER_USER=root
 ```
 
 ### 5、把`/opt/module/hadoop`复制到其他节点上

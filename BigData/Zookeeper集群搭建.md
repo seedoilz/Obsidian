@@ -73,7 +73,7 @@ cd /opt/module/zookeeper/conf/data
 vim myid
 ```
 
-### 6、编写操作[zookeeper集群](https://so.csdn.net/so/search?q=zookeeper%E9%9B%86%E7%BE%A4&spm=1001.2101.3001.7020)的脚本
+### 6、编写操作zookeeper集群的脚本
 ```shell
 cd /opt/module/zookeeper/bin
 # 创建zookeeper启动脚本
