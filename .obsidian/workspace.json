@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "5ba8f1f77f49f723",
+    "type": "split",
+    "children": [
+      {
+        "id": "fad57722a22af7e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0d231c04b51fa0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/DataX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5b5a8b133b3038d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/DataX使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "618519bdaddcfa57",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f348e3b5f9f6869",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87b67f87b6ff3f3f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6591524f5c8d7290",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "directapi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "926f358c580da71d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "83b2e18d0608fb93",
+    "type": "split",
+    "children": [
+      {
+        "id": "15090929cf093b12",
+        "type": "tabs",
+        "dimension": 72.1590909090909,
+        "children": [
+          {
+            "id": "e88bf3b7fead1a4b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BigData/DataX.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e85c60814ebde2c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "BigData/DataX.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "41a9c466eb8e43da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4f95e9095ec7c8a0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "BigData/DataX.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "b14d6dfd20d23c67",
+        "type": "tabs",
+        "dimension": 27.84090909090909,
+        "children": [
+          {
+            "id": "0f01f824c76f560d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "BigData/DataX.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7683174228123666,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d0d231c04b51fa0f",
+  "lastOpenFiles": [
+    "index.md",
+    "BigData/DataX.md",
+    "BigData/DataX使用.md",
+    "BigData/DataX配置.md",
+    "BigData/Flume配置.md",
+    "BigData/DataX原理.md",
+    "BigData/大数据学习.md",
+    "BigData/Maxwell.md",
+    "BigData/Flume.md",
+    "BigData/零点漂移问题.md",
+    "BigData/数据同步.md",
+    "BigData/Kafka配置.md",
+    "BigData/Zookeeper配置.md",
+    "BigData/Spark配置.md",
+    "BigData/Maxwell配置.md",
+    "BigData/Hadoop配置.md",
+    "BigData/Hadoop常用内容.md",
+    "BigData/Maxwell原理.md",
+    "BigData/Maxwell-bootstrap.md",
+    "BigData/Spark.md",
+    "BigData/Yarn.md",
+    "BigData/Zookeeper.md",
+    "BigData/core-site.xml.md",
+    "BigData/未命名.md",
+    "algorithm/快速排序.md",
+    "algorithm/快速选择.md"
+  ]
+}

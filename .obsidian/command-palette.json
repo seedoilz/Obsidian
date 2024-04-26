@@ -1,0 +1,9 @@
+{
+  "pinned": [
+    "templater-obsidian:insert-templater",
+    "workspace:export-pdf",
+    "obsidian-git:commit",
+    "obsidian-git:push2",
+    "obsidian-git:pull"
+  ]
+}
