@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Flink/Flink.md",
+                "file": "BigData/Flink/Flink运行架构.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Flink/Flink.md",
+                "file": "BigData/Flink/Flink运行架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Flink/Flink.md",
+                "file": "BigData/Flink/Flink运行架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Flink/Flink.md"
+                "file": "BigData/Flink/Flink运行架构.md"
               }
             }
           }
@@ -144,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Flink/Flink.md",
+                "file": "BigData/Flink/Flink运行架构.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,16 +183,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "d0d231c04b51fa0f",
   "lastOpenFiles": [
-    "BigData/集群SSH免密配置.md",
     "BigData/Flink/Flink.md",
+    "BigData/集群SSH免密配置.md",
     "BigData/Flink/Watermark.md",
     "BigData/Hadoop/DataNode.md",
     "BigData/数据同步.md",
