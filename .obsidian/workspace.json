@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/数据仓库/数据仓库.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d46e92cb4e65b72d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/数据仓库/数据仓库分层.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,20 +56,13 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "926f358c580da71d",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -98,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/数据仓库/数据仓库.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/数据仓库/数据仓库.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/数据仓库/数据仓库.md"
+                "file": "index.md"
               }
             }
           }
@@ -156,7 +137,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/数据仓库/数据仓库.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,8 +183,11 @@
   },
   "active": "d0d231c04b51fa0f",
   "lastOpenFiles": [
-    "BigData/数据仓库/数据仓库构建流程.md",
+    "BigData/数据仓库/维度建模理论.md",
+    "BigData/数据仓库/维度表.md",
+    "BigData/数据仓库/事实表.md",
     "BigData/数据仓库/数据仓库.md",
+    "BigData/数据仓库/数据仓库构建流程.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/数据仓库/数据仓库核心架构.md",
     "BigData/数据仓库/数据仓库建模方法论.md",
@@ -231,9 +215,6 @@
     "BigData/Zookeeper/Zookeeper配置.md",
     "BigData/Zookeeper/Zookeeper.md",
     "BigData/Zookeeper",
-    "BigData/Hadoop/序列化.md",
-    "BigData/Hadoop/core-site.xml.md",
-    "BigData/Hadoop/NameNode和SecondaryNameNode.md",
     "BigData/Spark",
     "BigData/Kafka",
     "BigData/Flink",
