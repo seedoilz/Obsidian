@@ -475,7 +475,7 @@ settings:
     -
         id: setting-message-fg
         title: foreground color
-        title.zh: 前景色
+        title.zh: 文字色
         type: variable-themed-color
         format: rgb-values
         opacity: false
@@ -508,7 +508,7 @@ settings:
         title: set modal header title
         title.zh: 设置面板标题
         type: variable-text
-        default: "'maple 0.7.29'"
+        default: "'maple 0.7.35'"
     -
         id: setting-group-title
         title: add style for left navigation group title
@@ -730,7 +730,7 @@ settings:
         title.zh: 编辑器行高
         description.zh: 文字大小的倍数
         type: variable-number-slider
-        default: 2.1
+        default: 2
         min: 1.5
         max: 2.5
         step: 0.1
@@ -1284,7 +1284,7 @@ settings:
     -
         id: setting-table-header-text
         title: header text color
-        title.zh: 表头前景色
+        title.zh: 表头文字色
         type: variable-themed-color
         format: hex
         opacity: true
@@ -1302,7 +1302,7 @@ settings:
     -
         id: setting-table-line-bg
         title: alt line color
-        title.zh: 交错行背景
+        title.zh: 交错行背景色
         type: variable-themed-color
         format: hex
         opacity: true
@@ -1471,7 +1471,7 @@ settings:
     -
         id: setting-code-inline
         title: inline code color
-        title.zh: 行内代码前景色
+        title.zh: 行内代码文字色
         type: variable-themed-color
         format: hex
         opacity: false
@@ -1578,7 +1578,9 @@ settings:
     -
         id: tag-style
         title: tag style
+        description: tags of obsidian / todo / important / progress / complete will be colorized when use outline or fill
         title.zh: 标签样式
+        description.zh: 当选择 outline 或者 fill 时，obsidian / todo / important / progress / complete 标签会有额外颜色
         type: class-select
         allowEmpty: false
         default: tag-outline
@@ -1589,6 +1591,8 @@ settings:
                 value: tag-plain
             -   label: outline
                 value: tag-outline
+            -   label: fill
+                value: tag-fill
     -
         id: setting-tag-bg
         title: tag background color
@@ -1856,8 +1860,7 @@ body:not(.heading-color-colorful) .setting-item[data-id=heading-color-custom],
 body:not(.table-colorful) .setting-item[data-id^=setting-table],
 body:not(.embed-enable) .setting-item[data-id^=embed-title],
 body:not(.hr-enable) .setting-item[data-id^=setting-hr-icon],
-body:not(.tag-outline) .setting-item[data-id=tag-outline-setting],
-body:not(.tag-colored) .setting-item[data-id=setting-tag-bg] {
+body:not(.tag-outline) .setting-item[data-id=tag-outline-setting] {
   display: none;
 }
 body:not(.line-active-enable) .setting-item[data-id=setting-line-active-color] + .style-settings-container,
@@ -1886,8 +1889,7 @@ body:not(.heading-color-colorful) .setting-item[data-id=heading-color-custom] + 
 body:not(.table-colorful) .setting-item[data-id^=setting-table] + .style-settings-container,
 body:not(.embed-enable) .setting-item[data-id^=embed-title] + .style-settings-container,
 body:not(.hr-enable) .setting-item[data-id^=setting-hr-icon] + .style-settings-container,
-body:not(.tag-outline) .setting-item[data-id=tag-outline-setting] + .style-settings-container,
-body:not(.tag-colored) .setting-item[data-id=setting-tag-bg] + .style-settings-container {
+body:not(.tag-outline) .setting-item[data-id=tag-outline-setting] + .style-settings-container {
   display: none;
 }
 
@@ -1994,6 +1996,7 @@ body.modal-item-animation .style-settings-heading:hover {
   --font-ui-small: 14px;
   --font-ui-medium: 16px;
   --line-height-normal: 2.1;
+  --background-modifier-hover: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) + 4%), 20%);
   --background-modifier-border: var(--accent-inactive);
   --background-modifier-border-focus: var(--accent-inactive);
   --background-modifier-error: rgba(var(--color-red-rgb), 0.8);
@@ -2117,7 +2120,7 @@ html :is(body.obsidian-app, body.obsidian-app .print) {
   --color-red-rgb: 255, 70, 70 !important;
 }
 
-:is(body.theme-light.color-use-custom:not(.color-active-default-light), body.theme-light.color-use-custom:not(.color-active-default-light) .print) {
+:is(.theme-light.color-use-custom:not(.color-active-default-light), .theme-light.color-use-custom:not(.color-active-default-light) .print) {
   --accent-active: var(--setting-color-active-custom-light,
     hsl(calc(var(--accent-h) + 60),
       calc(var(--accent-s) + -12%),
@@ -2128,7 +2131,7 @@ html :is(body.obsidian-app, body.obsidian-app .print) {
       calc(var(--accent-l) + 20%)));
 }
 
-:is(body.theme-light.color-use-custom:not(.color-active-default-dark), body.theme-light.color-use-custom:not(.color-active-default-dark) .print) {
+:is(.theme-dark.color-use-custom:not(.color-active-default-dark), .theme-dark.color-use-custom:not(.color-active-default-dark) .print) {
   --accent-active: var(--setting-color-active-custom-light,
     hsl(calc(var(--accent-h) + 60),
       calc(var(--accent-s) + -12%),
@@ -2228,7 +2231,7 @@ body .markdown-source-view .cm-scroller .cm-line:not(.HyperMD-codeblock) {
 /* #region editor line height */
 .workspace-split.mod-root,
 .markdown-rendered {
-  --line-height-normal: var(--setting-line-height, 2.1) !important;
+  --line-height-normal: var(--setting-line-height, 2) !important;
 }
 
 /* #endregion editor line height */
@@ -3508,6 +3511,7 @@ li[data-task="<"] > p > input:checked {
 
 body.quote-theme {
   --blockquote-border-color: var(--accent-active);
+  /* 引导线高度修复 */
 }
 body.quote-theme :is(.markdown-source-view, .markdown-rendered) {
   --blockquote-border-thickness: var(--size-4-1);
@@ -3521,7 +3525,7 @@ body.quote-theme .markdown-source-view.mod-cm6 :is(.HyperMD-quote, .cm-blockquot
   inset-block: var(--blockquote-radius);
 }
 body.quote-theme .markdown-source-view.mod-cm6 :is(.HyperMD-quote, .cm-blockquote-border) :not(:first-child)::before {
-  transform: translateX(var(--size-4-1));
+  transform: translateX(var(--size-2-1));
 }
 body.quote-theme .markdown-source-view.mod-cm6 .HyperMD-quote {
   border-radius: 0 !important;
@@ -3534,7 +3538,7 @@ body.quote-theme .markdown-source-view.mod-cm6 .HyperMD-quote.cm-active .cm-bloc
   background-color: transparent;
 }
 body.quote-theme .markdown-source-view.mod-cm6 .HyperMD-quote::before {
-  left: var(--blockquote-border-thickness);
+  left: calc(var(--blockquote-border-thickness) / 2);
   z-index: 10;
 }
 body.quote-theme .markdown-source-view.mod-cm6 .HyperMD-quote + .HyperMD-quote::before {
@@ -3618,9 +3622,7 @@ body.quote-theme :is(.markdown-preview-view, .community-modal-readme.markdown-re
 body.quote-theme :is(.markdown-preview-view, .community-modal-readme.markdown-rendered) blockquote :is(p, h1, h2, h3, h4, h5, h6) {
   padding-left: calc(var(--blockquote-border-thickness) * 2);
 }
-
-/* 引导线高度修复 */
-:is(.HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 8))::before {
+body.quote-theme :is(.HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-2 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-3 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-4 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-5 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-6 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-7 .cm-blockquote-border:nth-of-type(-n + 8), .HyperMD-quote-2:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 2), .HyperMD-quote-3:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 3), .HyperMD-quote-4:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 4), .HyperMD-quote-5:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 5), .HyperMD-quote-6:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 6), .HyperMD-quote-7:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 7), .HyperMD-quote-8:not(.cm-active) + .HyperMD-quote-8 .cm-blockquote-border:nth-of-type(-n + 8))::before {
   top: calc(var(--blockquote-radius) * -2);
 }
 
@@ -3630,7 +3632,7 @@ body {
   --table-radius: var(--size-2-3);
   --table-btn-color: var(--text-on-accent);
   --table-btn-bg: var(--accent-inactive);
-  --table-header-bg: var(--setting-table-line-bg, var(--md-container-bg));
+  --table-header-bg: var(--setting-table-header-bg, var(--md-container-bg));
   --table-alt-line-bg: var(--setting-table-line-bg, var(--md-container-bg));
   --table-cell-vertical-alignment: middle;
 }
@@ -3664,6 +3666,9 @@ body {
 }
 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) :is(tr:hover .table-row-drag-handle, th:hover .table-col-drag-handle) {
   opacity: 1;
+}
+:is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) th {
+  background-color: var(--table-header-bg);
 }
 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) th:first-child:not(:has(:is(.table-row-drag-handle, .table-col-drag-handle):hover)) {
   border-top-left-radius: var(--table-radius);
@@ -3719,6 +3724,15 @@ body {
 :is(.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper, .markdown-rendered table) .table-cell-wrapper:has(.is-live-preview .image-embed) [class=cm-line] {
   display: none;
 }
+
+body.table-colorful table {
+  --table-header-color: var(--setting-table-header-text, var(--text-on-accent));
+  --table-header-bg: var(--setting-table-header-bg, var(--accent-active));
+}
+body.table-colorful .markdown-source-view table thead .cm-s-obsidian {
+  color: var(--setting-table-header-text, var(--text-normal));
+}
+
 /* #endregion table */
 /* #region tag */
 body {
@@ -3751,12 +3765,47 @@ body.tag-outline {
   --tag-border-width: var(--size-2-1) !important;
   --tag-color: var(--setting-tag-color, var(--accent-active)) !important;
 }
+body.tag-outline :is(.cm-tag-obsidian, .tag[href="#obsidian"]) {
+  --tag-border-color: var(--setting-tag-obsidian, var(--color-purple)) !important;
+  --tag-color: var(--tag-border-color);
+}
+body.tag-outline :is(.cm-tag-todo, .tag[href="#todo"]) {
+  --tag-border-color: var(--setting-tag-todo, var(--color-green)) !important;
+  --tag-color: var(--tag-border-color);
+}
+body.tag-outline :is(.cm-tag-important, .tag[href="#important"]) {
+  --tag-border-color: var(--setting-tag-important, var(--color-red)) !important;
+  --tag-color: var(--tag-border-color);
+}
+body.tag-outline :is(.cm-tag-progress, .tag[href="#progress"]) {
+  --tag-border-color: var(--setting-tag-progress, var(--color-blue)) !important;
+  --tag-color: var(--tag-border-color);
+}
+body.tag-outline :is(.cm-tag-complete, .tag[href="#complete"]) {
+  --tag-border-color: var(--setting-tag-complete, var(--color-orange)) !important;
+  --tag-color: var(--tag-border-color);
+}
 
-body.tag-colored {
+body.tag-fill {
   --tag-background: var(--setting-tag-bg, var(--accent-active)) !important;
   --tag-background-hover: var(--tag-background);
   --tag-color: var(--text-on-accent);
   --tag-color-hover: var(--tag-color);
+}
+body.tag-fill :is(.cm-tag-obsidian, .tag[href="#obsidian"]) {
+  --tag-background: var(--setting-tag-obsidian, var(--color-purple)) !important ;
+}
+body.tag-fill :is(.cm-tag-todo, .tag[href="#todo"]) {
+  --tag-background: var(--setting-tag-todo, var(--color-green)) !important ;
+}
+body.tag-fill :is(.cm-tag-important, .tag[href="#important"]) {
+  --tag-background: var(--setting-tag-important, var(--color-red)) !important ;
+}
+body.tag-fill :is(.cm-tag-progress, .tag[href="#progress"]) {
+  --tag-background: var(--setting-tag-progress, var(--color-blue)) !important ;
+}
+body.tag-fill :is(.cm-tag-complete, .tag[href="#complete"]) {
+  --tag-background: var(--setting-tag-complete, var(--color-orange)) !important ;
 }
 
 /* #endregion tag */
@@ -4889,15 +4938,23 @@ body .mm-toolbar {
 }
 
 /* #endregion markmap */
+/* #region edit-toolbar */
+body.search-internal-enable :is(.cMenuToolbarpopover + .document-search-container.top,
+.document-search-container:has(+ #cMenuToolbarModalBar.top)) {
+  top: var(--size-4-12);
+  right: var(--size-2-2);
+}
+
+#cMenuToolbarModalBar.top {
+  margin: var(--size-2-2);
+}
+
+/* #endregion edit-toolbar */
 /* #endregion [plugins] */
 /* #region [workspace] */
 /* #region document-search */
 .obsidian-search-match-highlight {
   background-color: var(--background-secondary);
-}
-
-body.search-internal-enable.back-blur-title-bar .document-search-container {
-  top: calc(var(--header-height) + var(--size-4-4));
 }
 
 body.search-internal-enable .document-search-container {
@@ -4927,20 +4984,21 @@ body.search-internal-enable .document-search-container .document-search-close-bu
   position: relative;
   top: 0;
 }
-
-body.search-internal-enable.search-internal-disable-select-all .document-search-container .document-search-buttons button:nth-child(3) {
+body.search-internal-enable .document-search-container.back-blur-title-bar .document-search-container {
+  top: calc(var(--header-height) + var(--size-4-4));
+}
+body.search-internal-enable .document-search-container.search-internal-disable-select-all .document-search-container .document-search-buttons button:nth-child(3) {
   display: none;
 }
-
-body.search-internal-enable.search-internal-expand-on-focus :is(.document-search-input, .document-replace-input) {
+body.search-internal-enable .document-search-container.search-internal-expand-on-focus :is(.document-search-input, .document-replace-input) {
   margin-left: var(--size-2-3);
   width: 100px;
   transition: var(--animation);
 }
-body.search-internal-enable.search-internal-expand-on-focus .document-search-input:focus {
+body.search-internal-enable .document-search-container.search-internal-expand-on-focus .document-search-input:focus {
   width: 180px;
 }
-body.search-internal-enable.search-internal-expand-on-focus .document-replace-input:focus {
+body.search-internal-enable .document-search-container.search-internal-expand-on-focus .document-replace-input:focus {
   width: 220px;
 }
 
@@ -5107,7 +5165,7 @@ body:is(:not(.css-settings-manager), .modal-header):not(.is-mobile) .modal-conta
   container-type: inline-size;
 }
 body:is(:not(.css-settings-manager), .modal-header):not(.is-mobile) .modal-container .mod-settings::before {
-  content: var(--setting-header-title, "maple 0.7.29");
+  content: var(--setting-header-title, "maple 0.7.35");
   position: absolute;
   left: 50%;
   top: var(--size-4-6);
@@ -6324,9 +6382,6 @@ body:is(:not(.css-settings-manager), .explorer-icon) .workspace-leaf-content[dat
   transform: none;
   filter: brightness(var(--folder-inactive));
   transition: var(--animation);
-}
-body:is(:not(.css-settings-manager), .explorer-icon) .workspace-leaf-content[data-type=file-explorer] .nav-files-container .mod-root .nav-file {
-  --nav-item-background-hover: hsl(var(--accent-h), calc(var(--accent-s) * 1.2), min(var(--accent-l) * 1.5, 90%), 50%);
 }
 body:is(:not(.css-settings-manager), .explorer-icon) .workspace-leaf-content[data-type=file-explorer] .nav-files-container .mod-root .nav-file-title-content {
   padding-left: var(--size-2-1);
