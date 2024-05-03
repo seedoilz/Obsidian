@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "大数据学习/HBase/HBase.md",
+                "file": "BigData/HBase/HBase.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "BigData/大数据学习.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b3d05deef43c587",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Doris.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,24 +45,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "0f83ad22d3f5e363",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3b49e78ab29e016c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Hadoop/Hadoop配置.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "directapi",
+                "query": "192.168.36",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +82,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "BigData/大数据学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "BigData/大数据学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "BigData/大数据学习.md"
               }
             }
           }
@@ -168,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "index.md",
+                "file": "BigData/大数据学习.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,19 +209,22 @@
   },
   "active": "aa383758321604d5",
   "lastOpenFiles": [
+    "BigData/Doris.md",
+    "BigData/Doris配置.md",
+    "BigData/HBase/HBase配置.md",
+    "BigData/未命名.md",
+    "BigData/大数据学习.md",
+    "index.md",
     "BigData/Flink/Flink配置.md",
-    "大数据学习/HBase/HBase配置.md",
-    "大数据学习/HBase/HBase.md",
+    "BigData/HBase/HBase.md",
     "BigData/Hadoop/Hadoop配置.md",
     "BigData/Flink/Flink.md",
-    "大数据学习/HBase",
+    "BigData/HBase",
     "大数据学习",
     "BigData/Zookeeper/Zookeeper配置.md",
     "BigData/Kafka/Kafka配置.md",
     "BigData/Spark/Spark配置.md",
     "BigData/Flink/未命名.md",
-    "BigData/大数据学习.md",
-    "index.md",
     "BigData/数据仓库/维度建模理论.md",
     "BigData/数据仓库/维度表.md",
     "BigData/数据仓库/事实表.md",
@@ -240,9 +238,6 @@
     "BigData/Flink/Flink运行架构.md",
     "BigData/数据仓库",
     "BigData/集群SSH免密配置.md",
-    "BigData/Flink/Watermark.md",
-    "BigData/Hadoop/DataNode.md",
-    "BigData/数据同步.md",
     "BigData/Flume",
     "BigData/未命名文件夹",
     "BigData/Maxwell",
