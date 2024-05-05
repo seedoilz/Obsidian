@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/HBase/HBase报错.md",
+                "file": "BigData/Hadoop/hdfs-site.xml.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,13 +70,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/HBase/HBase报错.md",
+                "file": "BigData/Hadoop/hdfs-site.xml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/HBase/HBase报错.md",
+                "file": "BigData/Hadoop/hdfs-site.xml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/HBase/HBase报错.md"
+                "file": "BigData/Hadoop/hdfs-site.xml.md"
               }
             }
           }
@@ -151,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/HBase/HBase报错.md",
+                "file": "BigData/Hadoop/hdfs-site.xml.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -195,10 +193,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ca9323a082752e7d",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
-    "BigData/HBase/HBase报错Master is initializing.md",
+    "BigData/Hadoop/Yarn.md",
+    "BigData/Hadoop/yarn-site.xml.md",
+    "BigData/Hadoop/Yarn调度.md",
+    "BigData/Hadoop/Yarn概述.md",
+    "BigData/Hadoop/Yarn生产环境核心参数.md",
+    "BigData/Hadoop/Hadoop常用内容.md",
+    "BigData/Hadoop/Hadoop配置.md",
+    "BigData/Flink/Flink配置.md",
     "BigData/HBase/HBase报错.md",
+    "BigData/HBase/HBase报错Master is initializing.md",
     "BigData/HBase/HBase.md",
     "Web/Spring/DI.md",
     "Web/Spring/IoC.md",
@@ -211,20 +217,12 @@
     "BigData/Zookeeper/Zookeeper配置.md",
     "BigData/HBase/HBase配置.md",
     "BigData/大数据学习.md",
-    "BigData/Flink/Flink配置.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/数据仓库/数据仓库.md",
     "BigData/Doris.md",
     "BigData/Doris配置.md",
-    "BigData/未命名.md",
-    "index.md",
-    "BigData/Hadoop/Hadoop配置.md",
-    "BigData/Flink/Flink.md",
     "BigData/HBase",
     "大数据学习",
-    "BigData/Kafka/Kafka配置.md",
-    "BigData/Spark/Spark配置.md",
-    "BigData/Flink/未命名.md",
     "BigData/数据仓库",
     "BigData/Flume",
     "BigData/未命名文件夹",
