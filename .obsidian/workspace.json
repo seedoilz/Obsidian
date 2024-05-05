@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "aa383758321604d5",
+            "id": "ca9323a082752e7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/大数据学习.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec37708910ec0834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Flink/Flink配置.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b3d05deef43c587",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Doris.md",
+                "file": "BigData/HBase/HBase报错.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "192.168.36",
+                "query": "tag:#code/snippet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Flink/Flink配置.md",
+                "file": "BigData/HBase/HBase报错.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Flink/Flink配置.md",
+                "file": "BigData/HBase/HBase报错.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,12 +133,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Flink/Flink配置.md"
+                "file": "BigData/HBase/HBase报错.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -175,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Flink/Flink配置.md",
+                "file": "BigData/HBase/HBase报错.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,37 +195,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ec37708910ec0834",
+  "active": "ca9323a082752e7d",
   "lastOpenFiles": [
+    "BigData/HBase/HBase报错Master is initializing.md",
+    "BigData/HBase/HBase报错.md",
+    "BigData/HBase/HBase.md",
+    "Web/Spring/DI.md",
+    "Web/Spring/IoC.md",
+    "Web/Spring/Log4j2.md",
+    "Web/Spring/Spring.md",
+    "Web/Redis.md",
+    "Web/Web.md",
+    "Web/Redis input.md",
+    "BigData/Zookeeper/Zookeeper.md",
+    "BigData/Zookeeper/Zookeeper配置.md",
+    "BigData/HBase/HBase配置.md",
+    "BigData/大数据学习.md",
+    "BigData/Flink/Flink配置.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/数据仓库/数据仓库.md",
-    "BigData/大数据学习.md",
     "BigData/Doris.md",
     "BigData/Doris配置.md",
-    "BigData/HBase/HBase配置.md",
     "BigData/未命名.md",
     "index.md",
-    "BigData/Flink/Flink配置.md",
-    "BigData/HBase/HBase.md",
     "BigData/Hadoop/Hadoop配置.md",
     "BigData/Flink/Flink.md",
     "BigData/HBase",
     "大数据学习",
-    "BigData/Zookeeper/Zookeeper配置.md",
     "BigData/Kafka/Kafka配置.md",
     "BigData/Spark/Spark配置.md",
     "BigData/Flink/未命名.md",
-    "BigData/数据仓库/维度建模理论.md",
-    "BigData/数据仓库/维度表.md",
-    "BigData/数据仓库/事实表.md",
-    "BigData/数据仓库/数据仓库构建流程.md",
-    "BigData/数据仓库/数据仓库核心架构.md",
-    "BigData/数据仓库/数据仓库建模方法论.md",
-    "BigData/数据仓库/维度模型.md",
-    "BigData/数据仓库/ER模型.md",
-    "BigData/Flink/Flink运行架构.md",
     "BigData/数据仓库",
-    "BigData/集群SSH免密配置.md",
     "BigData/Flume",
     "BigData/未命名文件夹",
     "BigData/Maxwell",
