@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a44b2b2284b59ef5",
+        "id": "fad57722a22af7e9",
         "type": "tabs",
         "children": [
           {
-            "id": "7aeb3d48038b982f",
+            "id": "d0d231c04b51fa0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Flink/Flink运行架构.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,13 +48,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#code/snippet",
+                "query": "directapi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "926f358c580da71d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -75,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BigData/Flink/Flink运行架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BigData/Flink/Flink运行架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,11 +126,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BigData/Flink/Flink运行架构.md"
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -129,6 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "BigData/Flink/Flink运行架构.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -172,43 +189,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7aeb3d48038b982f",
+  "active": "d0d231c04b51fa0f",
   "lastOpenFiles": [
-    "BigData/HBase/HBase.md",
-    "BigData/Flink/Watermark.md",
-    "BigData/Hadoop/hdfs-site.xml.md",
-    "BigData/Hadoop/Yarn.md",
-    "BigData/Hadoop/yarn-site.xml.md",
-    "BigData/Hadoop/Yarn调度.md",
-    "BigData/Hadoop/Yarn概述.md",
-    "BigData/Hadoop/Yarn生产环境核心参数.md",
-    "BigData/Hadoop/Hadoop常用内容.md",
-    "BigData/Hadoop/Hadoop配置.md",
-    "BigData/Flink/Flink配置.md",
-    "BigData/HBase/HBase报错.md",
-    "BigData/HBase/HBase报错Master is initializing.md",
-    "Web/Spring/DI.md",
-    "Web/Spring/IoC.md",
-    "Web/Spring/Log4j2.md",
-    "Web/Spring/Spring.md",
-    "Web/Redis.md",
-    "Web/Web.md",
-    "Web/Redis input.md",
-    "BigData/Zookeeper/Zookeeper.md",
-    "BigData/Zookeeper/Zookeeper配置.md",
-    "BigData/HBase/HBase配置.md",
-    "BigData/大数据学习.md",
+    "BigData/数据仓库/维度表.md",
+    "BigData/数据仓库/维度模型.md",
+    "BigData/数据仓库/维度建模理论.md",
+    "BigData/数据仓库/数据仓库核心架构.md",
+    "BigData/数据仓库/数据仓库构建流程.md",
+    "BigData/数据仓库/数据仓库建模方法论.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/数据仓库/数据仓库.md",
-    "BigData/HBase",
-    "大数据学习",
+    "BigData/数据仓库/事实表.md",
+    "BigData/数据仓库/ER模型.md",
     "BigData/数据仓库",
+    "BigData/HBase/HBase配置.md",
+    "BigData/HBase/HBase报错Master is initializing.md",
+    "BigData/HBase/HBase报错.md",
+    "BigData/HBase/HBase.md",
+    "BigData/HBase",
+    "BigData/Flink/未命名.md",
+    "BigData/Flink/Flink配置.md",
+    "BigData/Doris配置.md",
+    "BigData/Doris.md",
+    "BigData/Flink/Flink.md",
+    "BigData/集群SSH免密配置.md",
+    "BigData/Flink/Watermark.md",
+    "BigData/Hadoop/DataNode.md",
+    "BigData/数据同步.md",
+    "BigData/Maxwell/数据同步.md",
+    "BigData/Flink/零点漂移问题.md",
+    "BigData/Flume/Flume配置.md",
     "BigData/Flume",
     "BigData/未命名文件夹",
     "BigData/Maxwell",
     "BigData/未命名文件夹 2",
     "BigData/Zookeeper",
     "BigData/Spark",
-    "BigData/Kafka"
+    "BigData/Kafka",
+    "BigData/Flink"
   ]
 }
