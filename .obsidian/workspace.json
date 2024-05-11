@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -189,7 +188,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d0d231c04b51fa0f",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
     "BigData/数据仓库/维度表.md",
     "BigData/数据仓库/维度模型.md",
