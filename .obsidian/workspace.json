@@ -129,9 +129,17 @@
                 "file": "BigData/Flink/Flink运行架构.md"
               }
             }
+          },
+          {
+            "id": "4490f2bb1e5a1dd8",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -177,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,7 +195,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87b67f87b6ff3f3f",
+  "active": "4490f2bb1e5a1dd8",
   "lastOpenFiles": [
     "BigData/数据仓库/维度表.md",
     "BigData/数据仓库/维度模型.md",
