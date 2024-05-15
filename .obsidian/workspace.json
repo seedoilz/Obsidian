@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "bbd199dfa164c47c",
+            "id": "c4786e71e610722c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Hadoop/Hadoop.md",
+                "file": "BigData/Spark/Spark Core.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Hadoop/Hadoop.md",
+                "file": "BigData/Spark/Spark Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Hadoop/Hadoop.md",
+                "file": "BigData/Spark/Spark Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Hadoop/Hadoop.md"
+                "file": "BigData/Spark/Spark Core.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Hadoop/Hadoop.md",
+                "file": "BigData/Spark/Spark Core.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,9 +215,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bbd199dfa164c47c",
+  "active": "c4786e71e610722c",
   "lastOpenFiles": [
+    "BigData/Spark/Spark.md",
     "BigData/大数据学习.md",
+    "BigData/Hadoop/Hadoop.md",
+    "BigData/Hadoop/Hadoop常用内容.md",
+    "BigData/Hadoop/Hadoop组成.md",
     "BigData/Flink/Watermark.md",
     "BigData/Flink/Flink.md",
     "BigData/Flink/Flink配置.md",
@@ -241,10 +245,6 @@
     "BigData/Flink/未命名.md",
     "BigData/Doris配置.md",
     "BigData/Doris.md",
-    "BigData/集群SSH免密配置.md",
-    "BigData/Hadoop/DataNode.md",
-    "BigData/数据同步.md",
-    "BigData/Maxwell/数据同步.md",
     "BigData/Flume",
     "BigData/未命名文件夹",
     "BigData/Maxwell",
