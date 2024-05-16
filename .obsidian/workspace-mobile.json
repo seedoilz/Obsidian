@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cb45706df3791948",
+        "id": "9faaec41361cc760",
         "type": "tabs",
         "children": [
           {
-            "id": "d5966b72743c5f86",
+            "id": "b732adac917f961a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/SparkStreaming.md",
-                "mode": "preview",
+                "file": "Excalidraw/Drawing 2024-05-15 22.19.06.excalidraw.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "BigData/SparkStreaming.md",
+            "file": "Excalidraw/Drawing 2024-05-15 22.19.06.excalidraw.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "BigData/SparkStreaming.md",
+            "file": "Excalidraw/Drawing 2024-05-15 22.19.06.excalidraw.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": false
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "BigData/SparkStreaming.md"
+            "file": "Excalidraw/Drawing 2024-05-15 22.19.06.excalidraw.md"
           }
         }
       }
@@ -128,8 +128,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d5966b72743c5f86",
+  "active": "b732adac917f961a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-05-15 22.19.06.excalidraw.md",
+    "Excalidraw/Drawing 2024-05-15 22.18.49.excalidraw.md",
+    "Excalidraw",
     "BigData/Spark.md",
     "BigData/SparkSQL.md",
     "BigData/Spark Core.md",
@@ -154,14 +157,11 @@
     "BigData/序列化.md",
     "code-projects/饿汉模式.md",
     "Web/Spring/IoC.md",
-    "Web/Spring/Spring.md",
-    "Web/Spring/DI.md",
     "Web/Spring",
     "未命名.canvas",
     "软件系统设计/设计模式",
     "软件系统设计/设计原则",
     "软件系统设计",
-    "Linux",
-    "Excalidraw"
+    "Linux"
   ]
 }
