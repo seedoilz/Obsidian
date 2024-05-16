@@ -34,37 +34,13 @@
             }
           },
           {
-            "id": "34f1b0d314448f9e",
+            "id": "358ddcd2d3d8f450",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Doris数据模型.md",
+                "file": "BigData/Rollup.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5aa2ebc933f10ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Doris架构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abd4bf193cd9fe1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Doris配置.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -139,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Doris数据模型.md",
+                "file": "BigData/Rollup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Doris数据模型.md",
+                "file": "BigData/Rollup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Doris数据模型.md"
+                "file": "BigData/Rollup.md"
               }
             }
           }
@@ -197,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Doris数据模型.md",
+                "file": "BigData/Rollup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,9 +216,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "34f1b0d314448f9e",
+  "active": "358ddcd2d3d8f450",
   "lastOpenFiles": [
     "BigData/Doris.md",
+    "BigData/Rollup.md",
+    "BigData/Doris分区分桶.md",
     "BigData/Doris数据模型.md",
     "BigData/Doris架构.md",
     "BigData/Doris配置.md",
@@ -266,8 +244,6 @@
     "BigData/Flink/Flink运行架构.md",
     "BigData/数据仓库/维度表.md",
     "BigData/数据仓库/维度模型.md",
-    "BigData/数据仓库/维度建模理论.md",
-    "BigData/数据仓库/数据仓库核心架构.md",
     "BigData/数据仓库",
     "BigData/HBase",
     "BigData/Flume",
