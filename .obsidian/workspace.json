@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Rollup.md",
+                "file": "BigData/大数据学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Rollup.md",
+                "file": "BigData/大数据学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Rollup.md"
+                "file": "BigData/大数据学习.md"
               }
             }
           }
@@ -192,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Rollup.md",
+                "file": "BigData/大数据学习.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,8 +235,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c2f147767cced1e",
+  "active": "d0d231c04b51fa0f",
   "lastOpenFiles": [
+    "BigData/Rollup.md",
     "BigData/Doris.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/Hadoop/MapReduce框架原理.md",
@@ -245,7 +245,6 @@
     "BigData/Hadoop/Hadoop.md",
     "BigData/Hadoop/Hadoop组成.md",
     "BigData/大数据学习.md",
-    "BigData/Rollup.md",
     "BigData/物化视图.md",
     "BigData/Doris架构.md",
     "BigData/Doris数据模型.md",
