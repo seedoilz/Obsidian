@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Doris.md",
+                "file": "BigData/Rollup.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BigData/Rollup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BigData/Rollup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BigData/Rollup.md"
+              }
             }
           }
         ],
@@ -188,6 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "BigData/Rollup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -231,20 +236,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d0acc3f549fd377c",
+  "active": "3c2f147767cced1e",
   "lastOpenFiles": [
+    "BigData/Doris.md",
+    "BigData/数据仓库/数据仓库分层.md",
     "BigData/Hadoop/MapReduce框架原理.md",
     "BigData/Hadoop/MapReduce.md",
     "BigData/Hadoop/Hadoop.md",
     "BigData/Hadoop/Hadoop组成.md",
     "BigData/大数据学习.md",
-    "BigData/Doris.md",
     "BigData/Rollup.md",
     "BigData/物化视图.md",
     "BigData/Doris架构.md",
     "BigData/Doris数据模型.md",
     "BigData/Doris分区分桶.md",
-    "BigData/数据仓库/数据仓库分层.md",
     "BigData/数据仓库/数据仓库.md",
     "BigData/数据仓库/数据仓库核心架构.md",
     "BigData/Doris配置.md",
