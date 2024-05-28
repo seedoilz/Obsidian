@@ -10,7 +10,7 @@
   "showViewHeader": true,
   "baseFontSize": 16,
   "nativeMenus": true,
-  "textFontFamily": "Inter",
-  "interfaceFontFamily": "Inter",
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
   "monospaceFontFamily": ""
 }

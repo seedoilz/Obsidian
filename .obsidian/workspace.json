@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fad57722a22af7e9",
+        "id": "6d9c6b3daa0afb9f",
         "type": "tabs",
         "children": [
           {
-            "id": "d0d231c04b51fa0f",
+            "id": "5b5f70395f1fb57b",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,75 +22,31 @@
             }
           },
           {
-            "id": "3c2f147767cced1e",
+            "id": "7c6a127c9ff3f0da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Rollup.md",
+                "file": "BigData/Spark/SparkStreaming.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fbff6498281ece3d",
+            "id": "de1e87250a4df2e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/数据仓库/数据仓库分层.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0acc3f549fd377c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "58db2d184fc95fe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Hadoop/MapReduce框架原理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "477e87f66b190736",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Doris.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51ac00b00945514a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Doris配置.md",
+                "file": "BigData/Spark/Spark Core.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dws",
+                "query": "Block",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Doris配置.md",
+                "file": "BigData/Spark/SparkStreaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Doris配置.md",
+                "file": "BigData/Spark/SparkStreaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Doris配置.md"
+                "file": "BigData/Spark/SparkStreaming.md"
               }
             }
           }
@@ -216,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Doris配置.md",
+                "file": "BigData/Spark/SparkStreaming.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -260,34 +217,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "51ac00b00945514a",
+  "active": "7c6a127c9ff3f0da",
   "lastOpenFiles": [
-    "BigData/Doris.md",
+    "BigData/Spark/Spark.md",
+    "BigData/Spark/SparkSQL.md",
+    "BigData/Spark/Spark Core.md",
+    "BigData/Spark/Spark运行架构.md",
     "BigData/大数据学习.md",
-    "BigData/Rollup.md",
-    "BigData/数据仓库/数据仓库分层.md",
+    "BigData/数据仓库/数据仓库核心架构.md",
+    "BigData/数据仓库/数据仓库.md",
     "BigData/Hadoop/MapReduce框架原理.md",
     "BigData/Hadoop/MapReduce.md",
-    "BigData/Hadoop/Hadoop.md",
+    "BigData/Hadoop/HDFS.md",
     "BigData/Hadoop/Hadoop组成.md",
+    "BigData/Hadoop/HDFS架构概述.md",
+    "BigData/Hadoop/Hadoop.md",
+    "BigData/Hadoop/Hadoop常用内容.md",
+    "BigData/Hadoop/Hadoop数据压缩.md",
+    "BigData/Hadoop/Hadoop序列化.md",
+    "BigData/Doris配置.md",
+    "BigData/Doris.md",
+    "BigData/数据仓库/数据仓库分层.md",
+    "BigData/Rollup.md",
     "BigData/物化视图.md",
     "BigData/Doris架构.md",
     "BigData/Doris数据模型.md",
     "BigData/Doris分区分桶.md",
-    "BigData/数据仓库/数据仓库.md",
-    "BigData/数据仓库/数据仓库核心架构.md",
-    "BigData/Doris配置.md",
     "BigData/数据仓库/数据仓库构建流程.md",
-    "BigData/Spark/SparkSQL.md",
     "BigData/Spark/RDD.md",
-    "BigData/Spark/Spark Core.md",
-    "BigData/Hadoop/HDFS.md",
-    "BigData/Spark/Spark.md",
-    "BigData/Hadoop/Hadoop常用内容.md",
-    "BigData/Flink/Watermark.md",
-    "BigData/Flink/Flink.md",
-    "BigData/Flink/Flink配置.md",
-    "BigData/Flink/Flink运行架构.md",
     "BigData/数据仓库",
     "BigData/HBase",
     "BigData/Flume",

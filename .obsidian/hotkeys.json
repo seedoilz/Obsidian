@@ -116,14 +116,6 @@
       "key": "T"
     }
   ],
-  "workspace:toggle-pin": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "\\"
-    }
-  ],
   "obsidian-linter:lint-file": [],
   "editor:toggle-blockquote": [
     {
@@ -249,6 +241,14 @@
         "Shift"
       ],
       "key": "="
+    }
+  ],
+  "workspace:toggle-pin": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
     }
   ]
 }
