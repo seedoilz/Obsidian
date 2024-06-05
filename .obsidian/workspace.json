@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "BigData/大数据学习.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Spark/SparkStreaming.md",
+                "file": "BigData/Doris架构.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,9 +44,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "df8d2ca3db1a8945",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Doris.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b0c8dbabd3d54b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Doris配置.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8da1218e967c6990",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BigData/Hadoop/Hadoop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -115,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Spark/SparkStreaming.md",
+                "file": "BigData/Hadoop/Hadoop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Spark/SparkStreaming.md",
+                "file": "BigData/Hadoop/Hadoop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Spark/SparkStreaming.md"
+                "file": "BigData/Hadoop/Hadoop.md"
               }
             }
           }
@@ -173,7 +209,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Spark/SparkStreaming.md",
+                "file": "BigData/Hadoop/Hadoop.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,13 +253,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7c6a127c9ff3f0da",
+  "active": "8da1218e967c6990",
   "lastOpenFiles": [
+    "BigData/大数据学习.md",
+    "BigData/Doris配置.md",
+    "BigData/Doris.md",
+    "BigData/Doris分区分桶.md",
+    "BigData/Doris数据模型.md",
+    "BigData/Doris架构.md",
+    "BigData/Spark/SparkStreaming.md",
     "BigData/Spark/Spark.md",
     "BigData/Spark/SparkSQL.md",
     "BigData/Spark/Spark Core.md",
     "BigData/Spark/Spark运行架构.md",
-    "BigData/大数据学习.md",
     "BigData/数据仓库/数据仓库核心架构.md",
     "BigData/数据仓库/数据仓库.md",
     "BigData/Hadoop/MapReduce框架原理.md",
@@ -235,16 +277,10 @@
     "BigData/Hadoop/Hadoop常用内容.md",
     "BigData/Hadoop/Hadoop数据压缩.md",
     "BigData/Hadoop/Hadoop序列化.md",
-    "BigData/Doris配置.md",
-    "BigData/Doris.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/Rollup.md",
     "BigData/物化视图.md",
-    "BigData/Doris架构.md",
-    "BigData/Doris数据模型.md",
-    "BigData/Doris分区分桶.md",
     "BigData/数据仓库/数据仓库构建流程.md",
-    "BigData/Spark/RDD.md",
     "BigData/数据仓库",
     "BigData/HBase",
     "BigData/Flume",
