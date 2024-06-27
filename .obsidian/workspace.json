@@ -58,31 +58,18 @@
             }
           },
           {
-            "id": "1b0c8dbabd3d54b4",
+            "id": "27866880de47d462",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Doris配置.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8da1218e967c6990",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BigData/Hadoop/HDFS.md",
+                "file": "BigData/Maxwell/Maxwell.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Hadoop/HDFS.md",
+                "file": "BigData/大数据学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Hadoop/HDFS.md",
+                "file": "BigData/大数据学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Hadoop/HDFS.md"
+                "file": "BigData/大数据学习.md"
               }
             }
           }
@@ -209,7 +196,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Hadoop/HDFS.md",
+                "file": "BigData/大数据学习.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,16 +240,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8da1218e967c6990",
+  "active": "5b5f70395f1fb57b",
   "lastOpenFiles": [
+    "BigData/Maxwell/Maxwell.md",
+    "BigData/大数据学习.md",
+    "BigData/Doris.md",
+    "BigData/Hadoop/HDFS.md",
+    "BigData/Doris配置.md",
+    "BigData/Zookeeper/Zookeeper.md",
     "BigData/Hadoop/Hadoop.md",
     "BigData/Hadoop/Hadoop序列化.md",
     "BigData/Hadoop/Hadoop组成.md",
-    "BigData/Hadoop/HDFS.md",
     "BigData/Hadoop/HDFS架构概述.md",
-    "BigData/大数据学习.md",
-    "BigData/Doris配置.md",
-    "BigData/Doris.md",
     "BigData/Doris分区分桶.md",
     "BigData/Doris数据模型.md",
     "BigData/Doris架构.md",
@@ -279,8 +268,6 @@
     "BigData/Hadoop/Hadoop数据压缩.md",
     "BigData/数据仓库/数据仓库分层.md",
     "BigData/Rollup.md",
-    "BigData/物化视图.md",
-    "BigData/数据仓库/数据仓库构建流程.md",
     "BigData/数据仓库",
     "BigData/HBase",
     "BigData/Flume",
