@@ -115,13 +115,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 255.5,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -240,7 +238,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5b5f70395f1fb57b",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
     "BigData/Maxwell/Maxwell.md",
     "BigData/大数据学习.md",
