@@ -4,6 +4,7 @@
   "IntrinsicSymbolPairs": true,
   "BaseObEditEnhance": true,
   "FW2HWEnhance": true,
+  "BetterCodeEdit": true,
   "AutoFormat": false,
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,

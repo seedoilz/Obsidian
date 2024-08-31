@@ -1,6 +1,6 @@
 {
   "theme": "system",
-  "accentColor": "#4898d5",
+  "accentColor": "#2f95e4",
   "cssTheme": "Maple",
   "translucency": false,
   "enabledCssSnippets": [
@@ -10,7 +10,7 @@
   "showViewHeader": true,
   "baseFontSize": 16,
   "nativeMenus": true,
-  "textFontFamily": "",
-  "interfaceFontFamily": "",
+  "textFontFamily": "微软雅黑",
+  "interfaceFontFamily": "微软雅黑",
   "monospaceFontFamily": ""
 }

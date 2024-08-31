@@ -250,5 +250,13 @@
       ],
       "key": "D"
     }
+  ],
+  "editor:clear-formatting": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
   ]
 }

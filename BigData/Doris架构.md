@@ -3,7 +3,7 @@ aliases:
 tags: [code/big-data, code/database]
 title: Doris架构
 date created: 2024-05-16 14:05:00
-date modified: 2024-05-16 14:05:21
+date modified: 2024-07-28 12:07:59
 ---
 ## 架构
 ![CleanShot 2024-05-16 at 14.20.14.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/CleanShot%202024-05-16%20at%2014.20.14.png)

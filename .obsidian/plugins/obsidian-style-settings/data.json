@@ -1,5 +1,4 @@
 {
-  "blue-topaz-theme@@hide-vault-name": true,
   "blue-topaz-theme@@left-ribbon-style": "default-left-ribbon-style",
   "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
   "blue-topaz-theme@@bt-status-on": false,
@@ -39,7 +38,6 @@
   "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-default",
   "blue-topaz-theme@@clutter-free-headings": false,
   "blue-topaz-theme@@auto-serial-number-dvtable": false,
-  "maple-basic@@color-use-custom": false,
   "maple-basic@@setting-accent-h-light": 200,
   "maple-basic@@setting-accent-h-dark": 260,
   "maple-editor@@link-icon": false,
