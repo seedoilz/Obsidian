@@ -2,7 +2,7 @@
 aliases: 
 title: Information Securtiy Input
 date created: 2024-09-03 19:09:00
-date modified: 2024-09-03 19:09:33
+date modified: 2024-09-04 18:09:99
 tags:
   - input
 ---
