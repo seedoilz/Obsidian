@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Flink/Flink Time.md",
+                "file": "Crypto/Crypto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b6ef83597264d0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Crypto/Information Securtiy Input.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Flink/Flink Time.md",
+                "file": "Crypto/Information Securtiy Input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Flink/Flink Time.md",
+                "file": "Crypto/Information Securtiy Input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Flink/Flink Time.md"
+                "file": "Crypto/Information Securtiy Input.md"
               }
             }
           }
@@ -144,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Flink/Flink Time.md",
+                "file": "Crypto/Information Securtiy Input.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,8 +201,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9ba09bf22187e23c",
+  "active": "1b6ef83597264d0e",
   "lastOpenFiles": [
+    "Crypto/Crypto.md",
+    "Crypto/Information Securtiy Input.md",
+    "BigData/Flink/Flink Time.md",
+    "Crypto",
     "BigData/数据仓库/维度模型.md",
     "BigData/Kafka/Kafka配置.md",
     "BigData/Kafka/Kafka.md",
@@ -212,9 +230,6 @@
     "BigData/Flink/Flink流处理算子.md",
     "BigData/Flink/Flink批处理算子.md",
     "BigData/Flink/Flink算子.md",
-    "BigData/Flink/Flink运行架构.md",
-    "BigData/Flink/Flink配置.md",
-    "BigData/Flink/Flink Window.md",
     "面试/计算机网络",
     "I",
     "面试/计算系统基础",
@@ -223,7 +238,6 @@
     "BigData/数据仓库",
     "BigData/HBase",
     "BigData/Flume",
-    "BigData/未命名文件夹",
-    "BigData/Maxwell"
+    "BigData/未命名文件夹"
   ]
 }
