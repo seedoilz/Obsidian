@@ -2,22 +2,22 @@
 aliases: 
 title: Hadoop配置
 date created: 2024-04-09 14:04:00
-date modified: 2024-04-25 20:04:98
+date modified: 2024-09-06 11:09:44
 tags: [code/big-data]
 ---
 前期准备：
-1. 准备三个虚拟机： `192.168.36.121 hadoop1` `192.168.36.122 hadoop2` `192.168.36.123 hadoop3`
+1. 准备三 个虚拟机： `192.168.36.121 hadoop1` `192.168.36.122 hadoop2` `192.168.36.123 hadoop3`
 2. 虚拟机上配置有`ssh`服务，可以进行[[集群SSH免密配置|集群免密登陆]]
 3. [[Hadoop常用内容|一些补充内容]]
 ## 集群规划
 
 我们使用三个虚拟机节点来搭建集群环境：
 
-|ip|主机名|功能|
-|---|---|---|
-|192.168.36.121|hadoop1|NameNode DataNode ResourceManager NodeManager|
-|192.168.36.122|hadoop2|DataNode NodeManager|
-|192.168.36.123|hadoop3|SecondryNameNode DataNode NodeManager|
+| ip             | 主机名     | 功能                                            |
+| -------------- | ------- | --------------------------------------------- |
+| 192.168.36.121 | hadoop1 | NameNode DataNode ResourceManager NodeManager |
+| 192.168.36.122 | hadoop2 | DataNode NodeManager                          |
+| 192.168.36.123 | hadoop3 | SecondryNameNode DataNode NodeManager         |
 
 分别在上述的节点上修改hosts文件，增加IP和主机名的映射关系：
 
