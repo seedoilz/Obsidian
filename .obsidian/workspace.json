@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6d9c6b3daa0afb9f",
+        "id": "c79e4dddee350174",
         "type": "tabs",
         "children": [
           {
-            "id": "1b6ef83597264d0e",
+            "id": "29fc310e86188200",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Hadoop/Hadoop配置.md",
+                "file": "Blockchain/BlockChain And Applications.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "37284e376a445649",
+            "id": "adaa68135614ed2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/集群SSH免密配置.md",
+                "file": "Blockchain/Bitcoin.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Hadoop/Hadoop配置.md",
+                "file": "Blockchain/Bitcoin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Hadoop/Hadoop配置.md",
+                "file": "Blockchain/Bitcoin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Hadoop/Hadoop配置.md"
+                "file": "Blockchain/Bitcoin.md"
               }
             }
           }
@@ -156,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Hadoop/Hadoop配置.md",
+                "file": "Blockchain/Bitcoin.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,10 +201,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b6ef83597264d0e",
+  "active": "adaa68135614ed2c",
   "lastOpenFiles": [
-    "BigData/集群SSH免密配置.md",
+    "Blockchain/BlockChain And Applications.md",
+    "Blockchain/Bitcoin.md",
+    "Blockchain",
     "BigData/Hadoop/Hadoop配置.md",
+    "BigData/集群SSH免密配置.md",
     "BigData/Hadoop/Hadoop.md",
     "index.md",
     "templates/INDEX_TEMPLATE.md",
@@ -227,8 +231,6 @@
     "BigData/Hadoop/hdfs-site.xml.md",
     "BigData/Hadoop/Hadoop常用内容.md",
     "BigData/Hadoop/DataNode.md",
-    "BigData/Hadoop/core-site.xml.md",
-    "BigData/Hadoop/序列化.md",
     "面试/计算机网络",
     "I",
     "面试/计算系统基础",
@@ -236,7 +238,6 @@
     "面试/计算系统基础",
     "BigData/数据仓库",
     "BigData/HBase",
-    "BigData/Flume",
-    "BigData/未命名文件夹"
+    "BigData/Flume"
   ]
 }
