@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29fc310e86188200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/BlockChain And Applications.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "adaa68135614ed2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain/Bitcoin.md",
+                "file": "面试/计算系统基础/同步和异步.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain/Bitcoin.md",
+                "file": "面试/计算系统基础/同步和异步.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain/Bitcoin.md",
+                "file": "面试/计算系统基础/同步和异步.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain/Bitcoin.md"
+                "file": "面试/计算系统基础/同步和异步.md"
               }
             }
           }
@@ -157,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Blockchain/Bitcoin.md",
+                "file": "面试/计算系统基础/同步和异步.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,8 +190,12 @@
   },
   "active": "adaa68135614ed2c",
   "lastOpenFiles": [
-    "Blockchain/BlockChain And Applications.md",
+    "面试/计算系统基础/计算系统基础.md",
+    "面试/计算系统基础/分段和分页.md",
+    "面试/计算系统基础/进程和线程的区别.md",
+    "面试/计算机网络/计算机网络.md",
     "Blockchain/Bitcoin.md",
+    "Blockchain/BlockChain And Applications.md",
     "Blockchain",
     "BigData/Hadoop/Hadoop配置.md",
     "BigData/集群SSH免密配置.md",
@@ -227,10 +218,6 @@
     "BigData/Hadoop/MapReduce.md",
     "BigData/Hadoop/mapred-site.xml.md",
     "BigData/Hadoop/HDFS架构概述.md",
-    "BigData/Hadoop/HDFS读写流程.md",
-    "BigData/Hadoop/hdfs-site.xml.md",
-    "BigData/Hadoop/Hadoop常用内容.md",
-    "BigData/Hadoop/DataNode.md",
     "面试/计算机网络",
     "I",
     "面试/计算系统基础",
