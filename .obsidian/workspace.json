@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code-projects/饿汉模式.md",
+                "file": "Crypto/Stream Cipher & Random Number Generation.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "code-projects/饿汉模式.md",
+                "file": "Crypto/Stream Cipher & Random Number Generation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "code-projects/饿汉模式.md",
+                "file": "Crypto/Stream Cipher & Random Number Generation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code-projects/饿汉模式.md"
+                "file": "Crypto/Stream Cipher & Random Number Generation.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "code-projects/饿汉模式.md",
+                "file": "Crypto/Stream Cipher & Random Number Generation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,8 +188,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87b67f87b6ff3f3f",
+  "active": "adaa68135614ed2c",
   "lastOpenFiles": [
+    "Crypto/Information Securtiy Input.md",
+    "Crypto/Stream Cipher & Random Number Generation.md",
+    "code-projects/饿汉模式.md",
     "code-projects/双检锁.md",
     "面试/计算系统基础/同步和异步.md",
     "面试/计算系统基础/计算系统基础.md",
@@ -206,7 +209,6 @@
     "templates/INDEX_TEMPLATE.md",
     "BigData/Hadoop/HDFS文件块.md",
     "Crypto/Crypto.md",
-    "Crypto/Information Securtiy Input.md",
     "BigData/Flink/Flink Time.md",
     "Crypto",
     "BigData/数据仓库/维度模型.md",
@@ -216,8 +218,6 @@
     "BigData/Hadoop/yarn-site.xml.md",
     "BigData/Hadoop/Yarn.md",
     "BigData/Hadoop/NameNode和SecondaryNameNode.md",
-    "BigData/Hadoop/MapReduce框架原理.md",
-    "BigData/Hadoop/MapReduce.md",
     "面试/计算机网络",
     "I",
     "面试/计算系统基础",
