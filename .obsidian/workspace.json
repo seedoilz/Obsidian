@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/计算系统基础/同步和异步.md",
+                "file": "code-projects/饿汉模式.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/计算系统基础/同步和异步.md",
+                "file": "code-projects/饿汉模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/计算系统基础/同步和异步.md",
+                "file": "code-projects/饿汉模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/计算系统基础/同步和异步.md"
+                "file": "code-projects/饿汉模式.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "面试/计算系统基础/同步和异步.md",
+                "file": "code-projects/饿汉模式.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,8 +188,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "adaa68135614ed2c",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
+    "code-projects/双检锁.md",
+    "面试/计算系统基础/同步和异步.md",
     "面试/计算系统基础/计算系统基础.md",
     "面试/计算系统基础/分段和分页.md",
     "面试/计算系统基础/进程和线程的区别.md",
@@ -216,8 +218,6 @@
     "BigData/Hadoop/NameNode和SecondaryNameNode.md",
     "BigData/Hadoop/MapReduce框架原理.md",
     "BigData/Hadoop/MapReduce.md",
-    "BigData/Hadoop/mapred-site.xml.md",
-    "BigData/Hadoop/HDFS架构概述.md",
     "面试/计算机网络",
     "I",
     "面试/计算系统基础",
