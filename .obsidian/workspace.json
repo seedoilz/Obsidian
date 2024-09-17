@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Flink/Watermark.md",
+                "file": "Crypto/Block Cipher & Encryption Mode.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BigData/Flink/Watermark.md",
+                "file": "Crypto/Block Cipher & Encryption Mode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Flink/Watermark.md",
+                "file": "Crypto/Block Cipher & Encryption Mode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BigData/Flink/Watermark.md"
+                "file": "Crypto/Block Cipher & Encryption Mode.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Flink/Watermark.md",
+                "file": "Crypto/Block Cipher & Encryption Mode.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,6 +190,8 @@
   },
   "active": "adaa68135614ed2c",
   "lastOpenFiles": [
+    "BigData/Flink/Watermark.md",
+    "Crypto/Block Cipher & Encryption Mode.md",
     "BigData/Spark/RDD.md",
     "BigData/Spark/SparkSQL.md",
     "BigData/Spark/Spark通讯架构.md",
@@ -215,8 +217,6 @@
     "BigData/集群SSH免密配置.md",
     "BigData/Hadoop/Hadoop.md",
     "index.md",
-    "templates/INDEX_TEMPLATE.md",
-    "BigData/Hadoop/HDFS文件块.md",
     "Crypto",
     "面试/计算机网络",
     "I",
