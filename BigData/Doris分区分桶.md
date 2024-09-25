@@ -2,8 +2,7 @@
 aliases: 
 title: Doris分区分桶
 date created: 2024-05-16 16:05:00
-date modified: 2024-05-16 17:05:89
----
+date modified: 2024-09-24 18:09:71
 ---
 Doris支持两层的数据划分。第一层是 Partition，支持 Range和List的划分方式。第二层是 Bucket（Tablet），仅支持Hash的划分方式。
 ## 分区（Partition）

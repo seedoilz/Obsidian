@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c79e4dddee350174",
+        "id": "fc80eda603917b19",
         "type": "tabs",
         "children": [
           {
-            "id": "adaa68135614ed2c",
+            "id": "6a2546da23ccda5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto/Block Cipher & Encryption Mode.md",
+                "file": "Crypto/Diffie-Hellman Key Exchange.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Block",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crypto/Block Cipher & Encryption Mode.md",
+                "file": "Crypto/Diffie-Hellman Key Exchange.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crypto/Block Cipher & Encryption Mode.md",
+                "file": "Crypto/Diffie-Hellman Key Exchange.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Crypto/Block Cipher & Encryption Mode.md"
+                "file": "Crypto/Diffie-Hellman Key Exchange.md"
               }
             }
           }
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Crypto/Block Cipher & Encryption Mode.md",
+                "file": "Crypto/Diffie-Hellman Key Exchange.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -182,41 +182,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "adaa68135614ed2c",
+  "active": "6a2546da23ccda5e",
   "lastOpenFiles": [
-    "BigData/Flink/Watermark.md",
-    "Crypto/Block Cipher & Encryption Mode.md",
-    "BigData/Spark/RDD.md",
-    "BigData/Spark/SparkSQL.md",
-    "BigData/Spark/Spark通讯架构.md",
-    "BigData/Spark/SparkStreaming.md",
-    "BigData/Spark/Spark运行机制.md",
-    "BigData/Spark/Spark配置.md",
-    "BigData/Spark/Spark内核.md",
-    "BigData/Spark/Spark Core.md",
-    "BigData/Spark/Spark.md",
-    "Crypto/Stream Cipher & Random Number Generation.md",
+    "Crypto/ElGamal.md",
     "Crypto/Information Securtiy Input.md",
-    "code-projects/饿汉模式.md",
-    "code-projects/双检锁.md",
-    "面试/计算系统基础/同步和异步.md",
-    "面试/计算系统基础/计算系统基础.md",
-    "面试/计算系统基础/分段和分页.md",
-    "面试/计算系统基础/进程和线程的区别.md",
-    "面试/计算机网络/计算机网络.md",
-    "Blockchain/Bitcoin.md",
-    "Blockchain/BlockChain And Applications.md",
+    "Crypto/Diffie-Hellman Key Exchange.md",
+    "Crypto/Block Cipher & Encryption Mode.md",
+    "Crypto/数字签名.md",
+    "Crypto/RSA.md",
+    "BigData/Flink/Flink状态一致性.md",
+    "BigData/Doris分区分桶.md",
+    "BigData/Doris数据模型.md",
+    "BigData/Flink/Flink状态管理.md",
+    "BigData/物化视图.md",
+    "Blockchain/Smart Contract.md",
+    "BigData/Flink/Flink Time.md",
+    "BigData/Flink/Flink CEP.md",
+    "BigData/Flink/Flink.md",
+    "BigData/Flink/Flink状态后端.md",
+    "BigData/Flink/Flink运行架构.md",
+    "BigData/Flink/Flink容错机制.md",
+    "BigData/Flink/检查点.md",
+    "BigData/Flink/键控状态.md",
+    "BigData/Flink/算子状态.md",
+    "BigData/数据仓库/维度建模理论.md",
+    "BigData/数据仓库/事实表.md",
+    "BigData/数据仓库/维度表.md",
+    "BigData/数据仓库/数据仓库.md",
+    "BigData/Maxwell/Maxwell原理.md",
     "Blockchain",
-    "BigData/Hadoop/Hadoop配置.md",
-    "BigData/集群SSH免密配置.md",
-    "BigData/Hadoop/Hadoop.md",
-    "index.md",
     "Crypto",
     "面试/计算机网络",
     "I",
