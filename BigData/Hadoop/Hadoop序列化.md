@@ -2,7 +2,7 @@
 aliases: 
 title: Hadoop序列化
 date created: 2024-03-22 15:03:00
-date modified: 2024-03-22 15:03:28
+date modified: 2024-10-15 15:10:78
 tags: [code/big-data]
 ---
 ### 为什么不用 Java 的[[序列化]]
@@ -21,7 +21,7 @@ Java 的序列化是一个**重量级序列化框架**（Serializable），一�
 3. 重写**序列化**方法
 4. 重写**反序列化**方法 
 5. *注意反序列化的顺序和序列化的顺序完全一致*
-6. 要想把结果显示在文件中，需要**重写 toString()**，可用"\t"分开，方便后续用。
+6. 要想把结果显示在文件中，需要**重写 toString()**，可用"\\t"分开，方便后续用。
 7. 如果需要将自定义的bean 放在 key 中传输，则还需要实现Comparable 接口，因为MapReduce 框中的Shuffle 过程要求对 key 必须能排序。
 ```java
 // 空参构造
