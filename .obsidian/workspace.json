@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Bayesian Network"
             }
-          },
-          {
-            "id": "86b3b199e5bd08d0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,7 +207,7 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "86b3b199e5bd08d0",
+  "active": "6a2546da23ccda5e",
   "lastOpenFiles": [
     "BigData/Spark/SparkSQL.md",
     "2024-11-17.md",
