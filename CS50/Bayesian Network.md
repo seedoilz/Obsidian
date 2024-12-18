@@ -1,7 +1,7 @@
 ---
 aliases: 
 date created: 2023-05-24 14:05:00
-date modified: 2024-03-20 11:03:15
+date modified: 2024-12-07 13:12:87
 title: Bayesian Network
 tags: [code/machine-learning]
 ---

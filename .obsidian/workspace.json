@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fc80eda603917b19",
+        "id": "75421a5014ae0892",
         "type": "tabs",
         "children": [
           {
-            "id": "6a2546da23ccda5e",
+            "id": "8b758b87cf9d5e37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS50/Bayesian Network.md",
+                "file": "algorithm/PCY Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bayesian Network"
+              "title": "PCY Algorithm"
             }
           }
         ]
@@ -62,22 +62,12 @@
               "icon": "lucide-search",
               "title": "搜索"
             }
-          },
-          {
-            "id": "926f358c580da71d",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 249.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -94,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS50/Bayesian Network.md",
+                "file": "algorithm/LSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +94,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bayesian Network 的反向链接列表"
+              "title": "LSH 的反向链接列表"
             }
           },
           {
@@ -113,12 +103,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS50/Bayesian Network.md",
+                "file": "algorithm/PCY Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Bayesian Network 的出链列表"
+              "title": "PCY Algorithm 的出链列表"
             }
           },
           {
@@ -140,14 +130,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS50/Bayesian Network.md"
+                "file": "algorithm/LSH.md"
               },
               "icon": "lucide-list",
-              "title": "Bayesian Network 的大纲"
+              "title": "LSH 的大纲"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -160,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS50/Bayesian Network.md",
+                "file": "algorithm/PCY Algorithm.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,7 +178,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Bayesian Network 的关系图"
+              "title": "PCY Algorithm 的关系图"
             }
           }
         ]
@@ -207,34 +197,36 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "6a2546da23ccda5e",
+  "active": "8b758b87cf9d5e37",
   "lastOpenFiles": [
-    "BigData/Spark/SparkSQL.md",
-    "2024-11-17.md",
-    "面试/计算系统基础/进程调度算法.md",
+    "algorithm/SON algorithm.md",
+    "algorithm/PCY Algorithm.md",
+    "algorithm/LSH.md",
+    "algorithm/A-Priori.md",
+    "MachineLearning/Precision.md",
+    "MachineLearning/Featuretools.md",
+    "MachineLearning/西瓜书.md",
+    "algorithm/协同过滤.md",
+    "algorithm/algorithm.md",
+    "MachineLearning/Recall.md",
+    "MachineLearning/Deep Feature Synthesis.md",
+    "algorithm/SVD.md",
+    "MachineLearning/模型评估与选择.md",
+    "MachineLearning/决策树.md",
+    "MachineLearning/随机森林.md",
+    "MachineLearning/机器学习.md",
+    "MachineLearning/XGBoost.md",
     "BigData/Spark/RDD.md",
-    "BigData/Spark/Spark Core.md",
-    "BigData/Spark/Spark内核.md",
-    "BigData/Spark/Spark配置.md",
-    "BigData/Spark/Spark通讯架构.md",
-    "BigData/Hadoop/Hadoop配置.md",
-    "BigData/Doris.md",
-    "面试/计算机网络/计算机网络.md",
-    "面试/计算机网络/TCP.md",
-    "Crypto/Diffie-Hellman Key Exchange.md",
-    "Crypto/数字签名.md",
-    "BigData/数据仓库/维度建模理论.md",
-    "BigData/数据仓库/维度表.md",
-    "BigData/数据仓库/数据仓库分层.md",
-    "BigData/数据仓库/数据仓库核心架构.md",
-    "BigData/数据仓库/数据仓库建模方法论.md",
-    "BigData/Hadoop/Hadoop序列化.md",
-    "BigData/Hadoop/MapReduce.md",
-    "BigData/Hadoop/HDFS读写流程.md",
     "BigData/数据仓库/事实表.md",
-    "Crypto/Block Cipher & Encryption Mode.md",
-    "Crypto/ElGamal.md",
-    "Crypto/Information Securtiy Input.md",
+    "algorithm/单调队列.md",
+    "algorithm/归并排序.md",
+    "algorithm/快速排序.md",
+    "algorithm/排序.md",
+    "BigData/未命名",
+    "Blockchain/Smart Contract.md",
+    "Blockchain/BlockChain And Applications.md",
+    "CS50/Bayesian Network.md",
+    "BigData/Doris",
     "Blockchain",
     "Crypto",
     "面试/计算机网络",
@@ -242,8 +234,6 @@
     "面试/计算系统基础",
     "面试",
     "面试/计算系统基础",
-    "BigData/数据仓库",
-    "BigData/HBase",
-    "BigData/Flume"
+    "BigData/数据仓库"
   ]
 }
