@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/PCY Algorithm.md",
+                "file": "BigData/Hadoop/HDFS文件块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PCY Algorithm"
+              "title": "HDFS文件块"
             }
           }
         ]
@@ -63,8 +63,7 @@
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -104,12 +103,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/PCY Algorithm.md",
+                "file": "BigData/Hadoop/HDFS文件块.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "PCY Algorithm 的出链列表"
+              "title": "HDFS文件块 的出链列表"
             }
           },
           {
@@ -151,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "algorithm/PCY Algorithm.md",
+                "file": "BigData/Hadoop/HDFS文件块.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,7 +178,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "PCY Algorithm 的关系图"
+              "title": "HDFS文件块 的关系图"
             }
           }
         ]
@@ -200,8 +199,11 @@
   },
   "active": "8b758b87cf9d5e37",
   "lastOpenFiles": [
-    "algorithm/SON algorithm.md",
+    "BigData/Hadoop/Hadoop.md",
+    "BigData/Hadoop/Hadoop常用内容.md",
+    "BigData/Hadoop/Hadoop组成.md",
     "algorithm/PCY Algorithm.md",
+    "algorithm/SON algorithm.md",
     "algorithm/LSH.md",
     "algorithm/A-Priori.md",
     "MachineLearning/Precision.md",
@@ -224,9 +226,6 @@
     "algorithm/快速排序.md",
     "algorithm/排序.md",
     "BigData/未命名",
-    "Blockchain/Smart Contract.md",
-    "Blockchain/BlockChain And Applications.md",
-    "CS50/Bayesian Network.md",
     "BigData/Doris",
     "Blockchain",
     "Crypto",
