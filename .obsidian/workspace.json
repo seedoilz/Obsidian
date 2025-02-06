@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "75421a5014ae0892",
+        "id": "d8d7af00c7af9135",
         "type": "tabs",
         "children": [
           {
-            "id": "8b758b87cf9d5e37",
+            "id": "6308f3daab78c719",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Hadoop/HDFS文件块.md",
+                "file": "MutlimediaCoding/Multimedia Coding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HDFS文件块"
+              "title": "Multimedia Coding"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#code/tools",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +64,8 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -103,12 +105,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BigData/Hadoop/HDFS文件块.md",
+                "file": "MutlimediaCoding/Multimedia Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "HDFS文件块 的出链列表"
+              "title": "Multimedia Coding 的出链列表"
             }
           },
           {
@@ -118,7 +120,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -137,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -150,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "BigData/Hadoop/HDFS文件块.md",
+                "file": "MutlimediaCoding/Multimedia Coding.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -178,7 +182,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "HDFS文件块 的关系图"
+              "title": "Multimedia Coding 的关系图"
             }
           }
         ]
@@ -194,11 +198,20 @@
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "daily-notes:打开/创建今天的日记": true
+      "daily-notes:打开/创建今天的日记": true,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "8b758b87cf9d5e37",
+  "active": "6308f3daab78c719",
   "lastOpenFiles": [
+    "MutlimediaCoding/Multiple-symbols encoding.md",
+    "MutlimediaCoding/Entropy.md",
+    "MutlimediaCoding/Quantization.md",
+    "MutlimediaCoding/Huffman Coding.md",
+    "MutlimediaCoding/Encoding.md",
+    "MutlimediaCoding/Multimedia Coding.md",
+    "MutlimediaCoding",
+    "BigData/Hadoop/HDFS文件块.md",
     "BigData/Hadoop/Hadoop.md",
     "BigData/Hadoop/Hadoop常用内容.md",
     "BigData/Hadoop/Hadoop组成.md",
@@ -218,13 +231,6 @@
     "MachineLearning/决策树.md",
     "MachineLearning/随机森林.md",
     "MachineLearning/机器学习.md",
-    "MachineLearning/XGBoost.md",
-    "BigData/Spark/RDD.md",
-    "BigData/数据仓库/事实表.md",
-    "algorithm/单调队列.md",
-    "algorithm/归并排序.md",
-    "algorithm/快速排序.md",
-    "algorithm/排序.md",
     "BigData/未命名",
     "BigData/Doris",
     "Blockchain",
@@ -233,7 +239,6 @@
     "I",
     "面试/计算系统基础",
     "面试",
-    "面试/计算系统基础",
-    "BigData/数据仓库"
+    "面试/计算系统基础"
   ]
 }
