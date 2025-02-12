@@ -4,7 +4,7 @@ tags:
   - code/coding
 title: JPEG
 date created: 2025-02-08 15:02:00
-date modified: 2025-02-08 15:02:54
+date modified: 2025-02-10 09:02:92
 ---
 1. RGB color model is transformed to CMY color model
 2. DCT is applied on every 8x8 CMY color model
