@@ -4,7 +4,7 @@ tags:
   - catalogue
 title: Multimedia Coding
 date created: 2025-02-06 18:02:00
-date modified: 2025-02-08 15:02:31
+date modified: 2025-02-12 14:02:23
 ---
 [[Encoding]]
 
@@ -23,3 +23,5 @@ date modified: 2025-02-08 15:02:31
 [[Subband Coding]]
 
 [[Video Encoding]]
+
+[[Image Processing]]
