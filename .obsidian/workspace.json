@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MutlimediaCoding/Threshold Coding.md",
+                "file": "MutlimediaCoding/Bilinear Interpolation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Threshold Coding"
+              "title": "Bilinear Interpolation"
             }
           }
         ],
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MutlimediaCoding/Threshold Coding.md",
+                "file": "MutlimediaCoding/Bilinear Interpolation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Threshold Coding 的大纲"
+              "title": "Bilinear Interpolation 的大纲"
             }
           }
         ],
@@ -171,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MutlimediaCoding/Threshold Coding.md",
+                "file": "MutlimediaCoding/Bilinear Interpolation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +199,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Threshold Coding 的关系图"
+              "title": "Bilinear Interpolation 的关系图"
             }
           }
         ]
@@ -220,20 +220,21 @@
   },
   "active": "138733878c4638f2",
   "lastOpenFiles": [
-    "MutlimediaCoding/Subband Coding.md",
+    "MutlimediaCoding/DCT.md",
     "MutlimediaCoding/Quantization.md",
+    "MutlimediaCoding/Subband Coding.md",
     "MutlimediaCoding/Multiple-symbols encoding.md",
-    "MutlimediaCoding/Multimedia Coding.md",
     "MutlimediaCoding/LTI System.md",
+    "MutlimediaCoding/Huffman Coding.md",
+    "MutlimediaCoding/Entropy.md",
+    "MutlimediaCoding/Bilinear Interpolation.md",
     "MutlimediaCoding/2D Filter.md",
     "MutlimediaCoding/Image Processing.md",
-    "MutlimediaCoding/JPEG.md",
-    "MutlimediaCoding/Threshold Coding.md",
-    "MutlimediaCoding/Video Encoding.md",
-    "MutlimediaCoding/DCT.md",
-    "MutlimediaCoding/Entropy.md",
-    "MutlimediaCoding/Huffman Coding.md",
     "MutlimediaCoding/Encoding.md",
+    "MutlimediaCoding/Threshold Coding.md",
+    "MutlimediaCoding/Multimedia Coding.md",
+    "MutlimediaCoding/JPEG.md",
+    "MutlimediaCoding/Video Encoding.md",
     "MutlimediaCoding",
     "BigData/Hadoop/HDFS文件块.md",
     "BigData/Hadoop/Hadoop.md",
@@ -246,7 +247,6 @@
     "MachineLearning/Precision.md",
     "MachineLearning/Featuretools.md",
     "MachineLearning/西瓜书.md",
-    "algorithm/协同过滤.md",
     "BigData/未命名",
     "BigData/Doris",
     "Blockchain",
