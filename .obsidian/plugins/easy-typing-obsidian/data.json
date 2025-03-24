@@ -5,12 +5,14 @@
   "BaseObEditEnhance": true,
   "FW2HWEnhance": true,
   "BetterCodeEdit": true,
+  "BetterBackspace": true,
   "AutoFormat": false,
   "ExcludeFiles": "",
   "ChineseEnglishSpace": true,
   "ChineseNumberSpace": false,
   "EnglishNumberSpace": false,
   "ChineseNoSpace": true,
+  "QuoteSpace": true,
   "PunctuationSpace": true,
   "AutoCapital": false,
   "AutoCapitalMode": "typing",
@@ -44,15 +46,18 @@
     ],
     [
       "、、|",
-      "\\|"
+      "\\"
     ]
   ],
   "userSelRuleSettingsOpen": true,
   "userDelRuleSettingsOpen": true,
   "userCvtRuleSettingsOpen": true,
-  "EnterTwice": false,
+  "StrictModeEnter": false,
+  "StrictLineMode": "enter_twice",
+  "EnhanceModA": false,
   "TryFixChineseIM": false,
   "PuncRectify": false,
   "FixMacOSContextMenu": false,
-  "TryFixMSIME": false
+  "TryFixMSIME": false,
+  "EnterTwice": false
 }

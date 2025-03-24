@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MutlimediaCoding/Multimedia Coding.md",
+                "file": "MutlimediaCoding/Diffusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multimedia Coding"
-            }
-          },
-          {
-            "id": "138733878c4638f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MutlimediaCoding/Bilinear Interpolation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bilinear Interpolation"
+              "title": "Diffusion"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MutlimediaCoding/Bilinear Interpolation.md",
+                "file": "MutlimediaCoding/Diffusion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Bilinear Interpolation 的大纲"
+              "title": "Diffusion 的大纲"
             }
           }
         ],
@@ -171,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MutlimediaCoding/Bilinear Interpolation.md",
+                "file": "MutlimediaCoding/Diffusion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +184,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Bilinear Interpolation 的关系图"
+              "title": "Diffusion 的关系图"
             }
           }
         ]
@@ -218,21 +203,22 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "138733878c4638f2",
+  "active": "6308f3daab78c719",
   "lastOpenFiles": [
-    "MutlimediaCoding/DCT.md",
-    "MutlimediaCoding/Quantization.md",
-    "MutlimediaCoding/Subband Coding.md",
+    "MutlimediaCoding/Multimedia Coding.md",
+    "MutlimediaCoding/Diffusion.md",
     "MutlimediaCoding/Multiple-symbols encoding.md",
-    "MutlimediaCoding/LTI System.md",
+    "MutlimediaCoding/DCT.md",
     "MutlimediaCoding/Huffman Coding.md",
-    "MutlimediaCoding/Entropy.md",
+    "MutlimediaCoding/Encoding.md",
     "MutlimediaCoding/Bilinear Interpolation.md",
+    "MutlimediaCoding/Subband Coding.md",
+    "MutlimediaCoding/Quantization.md",
+    "MutlimediaCoding/LTI System.md",
+    "MutlimediaCoding/Entropy.md",
     "MutlimediaCoding/2D Filter.md",
     "MutlimediaCoding/Image Processing.md",
-    "MutlimediaCoding/Encoding.md",
     "MutlimediaCoding/Threshold Coding.md",
-    "MutlimediaCoding/Multimedia Coding.md",
     "MutlimediaCoding/JPEG.md",
     "MutlimediaCoding/Video Encoding.md",
     "MutlimediaCoding",
@@ -246,7 +232,6 @@
     "algorithm/A-Priori.md",
     "MachineLearning/Precision.md",
     "MachineLearning/Featuretools.md",
-    "MachineLearning/西瓜书.md",
     "BigData/未命名",
     "BigData/Doris",
     "Blockchain",

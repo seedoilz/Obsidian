@@ -1,18 +1,24 @@
 {
   "main": {
-    "id": "9012d1d9065e0c13",
+    "id": "a403b9e6ee67da33",
     "type": "split",
     "children": [
       {
-        "id": "9faaec41361cc760",
+        "id": "c29cc351ec4276f5",
         "type": "tabs",
         "children": [
           {
-            "id": "b732adac917f961a",
+            "id": "2990968a002d82c7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MutlimediaCoding/Diffusion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Diffusion"
             }
           }
         ]
@@ -21,149 +27,121 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3361f73ef4a34a4a",
+    "id": "a9467fc25534be8e",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "850d575e9f16d79d",
+        "id": "6d196f47afae3c84",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
-          }
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
         }
       },
       {
-        "id": "f7057c8904e0d1db",
+        "id": "05ae6f0130ec8af9",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
             "query": "",
-            "matchingCase": true,
+            "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
-          }
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
         }
       },
       {
-        "id": "264ea5d224693e37",
+        "id": "e5ed46f19d35c9dd",
         "type": "leaf",
         "state": {
           "type": "tag",
           "state": {
             "sortOrder": "frequency",
-            "useHierarchy": true
-          }
-        }
-      },
-      {
-        "id": "dfaaeb6148189017",
-        "type": "leaf",
-        "state": {
-          "type": "bookmarks",
-          "state": {}
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
         }
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "b0de52966bd29dd6",
+    "id": "7486feb3cdfe52de",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "1b19fb4fb483241f",
+        "id": "c5198834ccd5579f",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "MutlimediaCoding/Diffusion.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
             "showSearch": false,
             "searchQuery": "",
             "backlinkCollapsed": false,
-            "unlinkedCollapsed": false
-          }
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
         }
       },
       {
-        "id": "e11101dee80b2efc",
+        "id": "b401726d02b73857",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "MutlimediaCoding/Diffusion.md",
             "linksCollapsed": false,
-            "unlinkedCollapsed": false
-          }
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
         }
       },
       {
-        "id": "2473307f721bf4b6",
+        "id": "02061a7e969f581c",
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {}
-        }
-      },
-      {
-        "id": "25b501d4ce776744",
-        "type": "leaf",
-        "state": {
-          "type": "git-view",
-          "state": {}
+          "state": {
+            "file": "MutlimediaCoding/Diffusion.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b732adac917f961a",
-  "lastOpenFiles": [
-    "面试/计算系统基础/计算系统基础.md",
-    "面试/计算系统基础/IO模型.md",
-    "面试/计算系统基础/IO.md",
-    "Excalidraw/Drawing 2024-05-15 22.19.06.excalidraw.md",
-    "Excalidraw/Drawing 2024-05-15 22.18.49.excalidraw.md",
-    "Excalidraw",
-    "BigData/Spark.md",
-    "BigData/SparkSQL.md",
-    "BigData/Spark Core.md",
-    "BigData/Spark集群搭建.md",
-    "BigData/Yarn.md",
-    "BigData/Yarn实操.md",
-    "BigData/Yarn生产环境核心参数.md",
-    "BigData/Hadoop.md",
-    "BigData/Hadoop数据压缩.md",
-    "BigData/Hadoop序列化.md",
-    "BigData/MapReduce.md",
-    "BigData/MapReduce框架原理.md",
-    "algorithm/归并排序.md",
-    "BigData/HDFS.md",
-    "BigData/Hadoop组成.md",
-    "BigData/yarn-site.xml.md",
-    "BigData/SparkStreaming.md",
-    "BigData/HDFS读写流程.md",
-    "BigData/大数据学习.md",
-    "index.md",
-    "BigData/HDFS文件块.md",
-    "Web/Spring",
-    "未命名.canvas",
-    "软件系统设计/设计模式",
-    "软件系统设计/设计原则",
-    "软件系统设计",
-    "Linux"
-  ]
+  "active": "2990968a002d82c7",
+  "lastOpenFiles": []
 }
