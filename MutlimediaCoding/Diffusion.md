@@ -20,7 +20,7 @@ $x_0$ 是原始图片，其满足初始分布$q(x_0)$，即$x_0 \sim q(x_0)$
 对于$t \in [1,T]$ 时刻，$x_t$ 和$x_{t-1}$ 满足如下关系式
 
 $$
-\displaylines{x_t = \sqrt{1-\beta_t}x_{t-1} + \sqrt{\beta_t}\epsilon \\ \epsilon \sim N(0,1)\epsilon \sim N(0,1)}
+\displaylines{x_t = \sqrt{1-\beta_t}x_{t-1} + \sqrt{\beta_t}\epsilon \\ \epsilon \sim N(0,1)}
 $$
 
 令$\alpha_t = 1 - \beta_t$，则公式变形为
@@ -138,17 +138,17 @@ DDPM 看起来似乎很完美，但其有一个致命的缺点便是**推理速�
 
 下面我们就来分析 DDIM 的原理，从一个假设出发，假设$P(x_{t-1}|x_t,x_0)$ 满足如下正态分布则
 
-$$P(x_{t-1}|x_t,x_0) \sim N(kx_0+mx_t,\sigma^2) \\ x_{t-1} = kx_0 + mx_t + \sigma\epsilon \epsilon \sim N(0,1) \\
+$$\displaylines{P(x_{t-1}|x_t,x_0) \sim N(kx_0+mx_t,\sigma^2) \\ x_{t-1} = kx_0 + mx_t + \sigma\epsilon \\ \epsilon \sim N(0,1) \\}
 $$
 
 又因为加噪过程满足公式
 
-$$x_t = \sqrt{\bar{\alpha_t}}x_0 + \sqrt{1-\bar{\alpha_t}}\epsilon \epsilon \sim N(0,1) \\
+$$\displaylines{x_t = \sqrt{\bar{\alpha_t}}x_0 + \sqrt{1-\bar{\alpha_t}}\epsilon \\ \epsilon \sim N(0,1) \\}
 $$
 
 进行代入和合并同类项
 
-$$x_{t-1} = kx_0 + m[\sqrt{\bar{\alpha_t}}x_0 + \sqrt{1-\bar{\alpha_t}}\epsilon] + \sigma\epsilon \\ x_{t-1} = (k+m\sqrt{\bar{\alpha_t}})x_0 + \epsilon' \epsilon' \sim N(0,m^2(1-\bar{\alpha_t})+\sigma^2) \\
+$$\displaylines{x_{t-1} = kx_0 + m[\sqrt{\bar{\alpha_t}}x_0 + \sqrt{1-\bar{\alpha_t}}\epsilon] + \sigma\epsilon \\ x_{t-1} = (k+m\sqrt{\bar{\alpha_t}})x_0 + \epsilon' \\ \epsilon' \sim N(0,m^2(1-\bar{\alpha_t})+\sigma^2) \\}
 $$
 
 同样地，
