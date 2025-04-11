@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MutlimediaCoding/Diffusion.md",
+                "file": "BigData/Hadoop/Hadoop常用内容.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diffusion"
+              "title": "Hadoop常用内容"
+            }
+          },
+          {
+            "id": "f774557368bc1ff7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#code/tools",
+                "query": "常用端口",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,12 +77,12 @@
               "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -134,13 +147,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MutlimediaCoding/Diffusion.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Diffusion 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -157,7 +169,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MutlimediaCoding/Diffusion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,15 +196,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Diffusion 的关系图"
+              "title": "关系图谱"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,10 +215,12 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "6308f3daab78c719",
+  "active": "f774557368bc1ff7",
   "lastOpenFiles": [
-    "MutlimediaCoding/Multimedia Coding.md",
+    "设计与管理/软件质量管理/软件过程管理.md",
+    "设计与管理/软件质量管理/软件项目管理.md",
     "MutlimediaCoding/Diffusion.md",
+    "MutlimediaCoding/Multimedia Coding.md",
     "MutlimediaCoding/Multiple-symbols encoding.md",
     "MutlimediaCoding/DCT.md",
     "MutlimediaCoding/Huffman Coding.md",
@@ -232,8 +244,6 @@
     "algorithm/SON algorithm.md",
     "algorithm/LSH.md",
     "algorithm/A-Priori.md",
-    "MachineLearning/Precision.md",
-    "MachineLearning/Featuretools.md",
     "BigData/未命名",
     "BigData/Doris",
     "Blockchain",

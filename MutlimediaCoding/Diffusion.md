@@ -4,7 +4,7 @@ tags:
   - code/coding
 title: Diffusion
 date created: 2025-03-23 13:03:00
-date modified: 2025-03-23 15:03:15
+date modified: 2025-04-11 19:04:31
 ---
 ## DDPM算法
 ![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20250323133331.png)
@@ -158,12 +158,12 @@ $$
 
 则满足对应系数相同
 
-$$k + m\sqrt{\bar{\alpha_t}} = \sqrt{\bar{\alpha_{t-1}}} \\ m^2(1-\bar{\alpha_t})+\sigma^2 = 1 - \bar{\alpha_{t-1}} \\
+$$\displaylines{k + m\sqrt{\bar{\alpha_t}} = \sqrt{\bar{\alpha_{t-1}}} \\ m^2(1-\bar{\alpha_t})+\sigma^2 = 1 - \bar{\alpha_{t-1}} \\}
 $$
 
 求得
 
-$$m = \frac{\sqrt{1-\bar{\alpha_{t-1}}-\sigma^2}}{\sqrt{1-\bar{\alpha_t}}} \\ k = \sqrt{\bar{\alpha_{t-1}}} - \frac{\sqrt{1-\bar{\alpha_{t-1}}-\sigma^2}}{\sqrt{1-\bar{\alpha_t}}}\sqrt{\bar{\alpha_t}} \\
+$$\displaylines{m = \frac{\sqrt{1-\bar{\alpha_{t-1}}-\sigma^2}}{\sqrt{1-\bar{\alpha_t}}} \\ k = \sqrt{\bar{\alpha_{t-1}}} - \frac{\sqrt{1-\bar{\alpha_{t-1}}-\sigma^2}}{\sqrt{1-\bar{\alpha_t}}}\sqrt{\bar{\alpha_t}} \\}
 $$
 
 则表达式为
@@ -172,7 +172,7 @@ $P(x_{t-1}|x_t,x_0) \sim N((\sqrt{\bar{\alpha_{t-1}}} - \frac{\sqrt{1-\bar{\alph
 
 **采用与反向去噪同样的原理**，将上述公式的$x_0$ 进行替换，这里采用$\epsilon_t$ 是因为前文已经说明过采用的是模型$model$ 预测的正态分布
 
-$$x_0 = \frac{x_t - \sqrt{1-\bar{\alpha_t}}\epsilon_t}{\sqrt{\bar{\alpha_t}}} \\ \epsilon_t = \frac{x_t - \sqrt{\bar{\alpha_t}}x_0}{\sqrt{1-\bar{\alpha_t}}} \\
+$$\displaylines{x_0 = \frac{x_t - \sqrt{1-\bar{\alpha_t}}\epsilon_t}{\sqrt{\bar{\alpha_t}}} \\ \epsilon_t = \frac{x_t - \sqrt{\bar{\alpha_t}}x_0}{\sqrt{1-\bar{\alpha_t}}} \\}
 $$
 
 最终得到结果，后面的$\epsilon$ 采用的是随机采样`torch.randn_like(x_t)`
