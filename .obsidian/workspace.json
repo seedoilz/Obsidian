@@ -11,24 +11,10 @@
             "id": "ed985350d76818bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reinforcement Learning/Mechanism Design.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Mechanism Design"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -224,11 +210,16 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "share-to-notionnext:分享到 NotionNext": false,
+      "obsidian-to-notion:Share to notion": false
     }
   },
-  "active": "87b67f87b6ff3f3f",
+  "active": "ed985350d76818bf",
   "lastOpenFiles": [
+    "Cubox",
+    "cubox",
+    "Reinforcement Learning/Mechanism Design.md",
     "Web/高并发",
     "Reinforcement Learning/Markov Reward Processes.md",
     "Reinforcement Learning/Value Function.md",
@@ -254,7 +245,6 @@
     "Reinforcement Learning/Agent Cooperation.md",
     "Reinforcement Learning/Deep Q-Networks.md",
     "Reinforcement Learning/Bellman Equation.md",
-    "Reinforcement Learning/Agent.md",
     "Reinforcement Learning/images/mdp/state-action-bellman.png",
     "Reinforcement Learning/images/Policy-vsValue-iter.png",
     "Reinforcement Learning/images/model-free/lake.png",
@@ -272,8 +262,6 @@
     "Crypto",
     "面试/计算机网络",
     "I",
-    "面试/计算系统基础",
-    "面试",
     "面试/计算系统基础"
   ]
 }
