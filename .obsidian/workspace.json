@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reinforcement Learning/Value Function.md",
+                "file": "Reinforcement Learning/Mechanism Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Value Function"
+              "title": "Mechanism Design"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -152,6 +151,20 @@
               "icon": "lucide-list",
               "title": "Value Function 的大纲"
             }
+          },
+          {
+            "id": "3d9eeeb9a6009365",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
           }
         ],
         "currentTab": 2
@@ -211,17 +224,18 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "daily-notes:打开/创建今天的日记": true
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "ed985350d76818bf",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
+    "Web/高并发",
+    "Reinforcement Learning/Markov Reward Processes.md",
+    "Reinforcement Learning/Value Function.md",
     "Reinforcement Learning/Reinforcement Learning.md",
     "Reinforcement Learning/State Action Space Formalism.md",
     "Reinforcement Learning/Policy iteration.md",
     "Reinforcement Learning/Policy.md",
-    "Reinforcement Learning/Markov Reward Processes.md",
     "Reinforcement Learning/Markov Property.md",
     "Reinforcement Learning/Markov Decision Process.md",
     "Reinforcement Learning/Markov Chain.md",
@@ -241,8 +255,6 @@
     "Reinforcement Learning/Deep Q-Networks.md",
     "Reinforcement Learning/Bellman Equation.md",
     "Reinforcement Learning/Agent.md",
-    "Reinforcement Learning/Action.md",
-    "Reinforcement Learning/Curse of Dimensionality.md",
     "Reinforcement Learning/images/mdp/state-action-bellman.png",
     "Reinforcement Learning/images/Policy-vsValue-iter.png",
     "Reinforcement Learning/images/model-free/lake.png",
