@@ -4,37 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "d8d7af00c7af9135",
+        "id": "2ec55a6f52c6afd8",
         "type": "tabs",
         "children": [
           {
-            "id": "6308f3daab78c719",
+            "id": "ed985350d76818bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BigData/Hadoop/Hadoop常用内容.md",
+                "file": "Reinforcement Learning/Value Function.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Hadoop常用内容"
-            }
-          },
-          {
-            "id": "f774557368bc1ff7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "Value Function"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,19 +63,18 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "常用端口",
+                "query": "tag:#GameTheory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "搜索"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/LSH.md",
+                "file": "Reinforcement Learning/Value Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "LSH 的反向链接列表"
+              "title": "Value Function 的反向链接列表"
             }
           },
           {
@@ -118,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MutlimediaCoding/JPEG.md",
+                "file": "Reinforcement Learning/Value Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "JPEG 的出链列表"
+              "title": "Value Function 的出链列表"
             }
           },
           {
@@ -147,16 +143,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Reinforcement Learning/Value Function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Value Function 的大纲"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -169,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Reinforcement Learning/Value Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,12 +189,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7683174228123666,
+                  "scale": 0.2788126883526665,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "Value Function 的关系图"
             }
           }
         ]
@@ -215,35 +213,45 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "f774557368bc1ff7",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
-    "设计与管理/软件质量管理/软件过程管理.md",
-    "设计与管理/软件质量管理/软件项目管理.md",
-    "MutlimediaCoding/Diffusion.md",
-    "MutlimediaCoding/Multimedia Coding.md",
-    "MutlimediaCoding/Multiple-symbols encoding.md",
-    "MutlimediaCoding/DCT.md",
-    "MutlimediaCoding/Huffman Coding.md",
-    "MutlimediaCoding/Encoding.md",
-    "MutlimediaCoding/Bilinear Interpolation.md",
-    "MutlimediaCoding/Subband Coding.md",
-    "MutlimediaCoding/Quantization.md",
-    "MutlimediaCoding/LTI System.md",
-    "MutlimediaCoding/Entropy.md",
-    "MutlimediaCoding/2D Filter.md",
-    "MutlimediaCoding/Image Processing.md",
-    "MutlimediaCoding/Threshold Coding.md",
-    "MutlimediaCoding/JPEG.md",
-    "MutlimediaCoding/Video Encoding.md",
+    "Reinforcement Learning/Reinforcement Learning.md",
+    "Reinforcement Learning/State Action Space Formalism.md",
+    "Reinforcement Learning/Policy iteration.md",
+    "Reinforcement Learning/Policy.md",
+    "Reinforcement Learning/Markov Reward Processes.md",
+    "Reinforcement Learning/Markov Property.md",
+    "Reinforcement Learning/Markov Decision Process.md",
+    "Reinforcement Learning/Markov Chain.md",
+    "Reinforcement Learning/Q-Learning.md",
+    "Reinforcement Learning/Model Free Reinforcement Learning.md",
+    "Reinforcement Learning/Value Iteration.md",
+    "Reinforcement Learning/Model Based Reinforcement Learning.md",
+    "Reinforcement Learning/Dynamic Programming.md",
+    "Reinforcement Learning/Temporal Difference.md",
+    "Reinforcement Learning/Sarsa.md",
+    "Reinforcement Learning/On-Policy vs Off-Policy.md",
+    "Reinforcement Learning/Exploration vs Exploitation.md",
+    "Reinforcement Learning/Deep Reinforcement Learning.md",
+    "Reinforcement Learning/Value-based vs Policy-based.md",
+    "Reinforcement Learning/Game Theory.md",
+    "Reinforcement Learning/Agent Cooperation.md",
+    "Reinforcement Learning/Deep Q-Networks.md",
+    "Reinforcement Learning/Bellman Equation.md",
+    "Reinforcement Learning/Agent.md",
+    "Reinforcement Learning/Action.md",
+    "Reinforcement Learning/Curse of Dimensionality.md",
+    "Reinforcement Learning/images/mdp/state-action-bellman.png",
+    "Reinforcement Learning/images/Policy-vsValue-iter.png",
+    "Reinforcement Learning/images/model-free/lake.png",
+    "Reinforcement Learning/images/mdp/policy-iteration-1.png",
+    "Reinforcement Learning/images/mdp/optimal-policy.png",
+    "Reinforcement Learning/images/mdp/action.png",
+    "Reinforcement Learning/images/mdp/sync-dynamic-prog.png",
+    "Reinforcement Learning/images/mdp/value-function.png",
+    "Reinforcement Learning/images/mdp/student-mdp.png",
+    "Reinforcement Learning/images/mdp/state-valuue-bellman.png",
     "MutlimediaCoding",
-    "BigData/Hadoop/HDFS文件块.md",
-    "BigData/Hadoop/Hadoop.md",
-    "BigData/Hadoop/Hadoop常用内容.md",
-    "BigData/Hadoop/Hadoop组成.md",
-    "algorithm/PCY Algorithm.md",
-    "algorithm/SON algorithm.md",
-    "algorithm/LSH.md",
-    "algorithm/A-Priori.md",
     "BigData/未命名",
     "BigData/Doris",
     "Blockchain",
