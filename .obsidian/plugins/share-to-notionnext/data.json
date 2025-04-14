@@ -1,0 +1,33 @@
+{
+  "NextButton": true,
+  "notionAPINext": "",
+  "databaseIDNext": "",
+  "bannerUrl": "",
+  "notionUser": "",
+  "NotionLinkDisplay": true,
+  "proxy": "",
+  "GeneralButton": true,
+  "tagButton": true,
+  "customTitleButton": false,
+  "customTitleName": "",
+  "notionAPIGeneral": "",
+  "databaseIDGeneral": "",
+  "CustomButton": false,
+  "CustomValues": "",
+  "notionAPICustom": "",
+  "databaseIDCustom": "",
+  "databaseDetails": {
+    "Obsidian": {
+      "format": "general",
+      "fullName": "Obsidian-Sync",
+      "abName": "Obsidian",
+      "notionAPI": "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",
+      "databaseID": "1d555ad69c3a808bab07d6e2069574f7",
+      "tagButton": true,
+      "customTitleButton": false,
+      "customTitleName": "",
+      "customProperties": [],
+      "saved": true
+    }
+  }
+}

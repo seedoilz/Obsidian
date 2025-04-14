@@ -11,10 +11,24 @@
             "id": "ed985350d76818bf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "Python Mastery/Classes and Objects.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Classes and Objects"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#GameTheory",
+                "query": "tag:GameTheory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reinforcement Learning/Value Function.md",
+                "file": "Python Mastery/Classes and Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Value Function 的反向链接列表"
+              "title": "Classes and Objects 的反向链接列表"
             }
           },
           {
@@ -100,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reinforcement Learning/Value Function.md",
+                "file": "Reinforcement Learning/Markov Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Value Function 的出链列表"
+              "title": "Markov Chain 的出链列表"
             }
           },
           {
@@ -152,8 +166,7 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -166,7 +179,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reinforcement Learning/Value Function.md",
+                "file": "Python Mastery/Classes and Objects.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,15 +207,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Value Function 的关系图"
+              "title": "Classes and Objects 的关系图"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,41 +222,40 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
-      "share-to-notionnext:分享到 NotionNext": false,
-      "obsidian-to-notion:Share to notion": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "ed985350d76818bf",
   "lastOpenFiles": [
+    "Python Mastery/Data Handling.md",
+    "Reinforcement Learning/Agent.md",
+    "Reinforcement Learning/Auctions.md",
+    "Reinforcement Learning/Deep Q-Networks.md",
+    "Reinforcement Learning/Curse of Dimensionality.md",
+    "Reinforcement Learning/Taxonomy.md",
+    "MutlimediaCoding/Entropy.md",
+    "Reinforcement Learning/Zero Sum Game.md",
+    "Reinforcement Learning/Tragedy of the commons.md",
+    "Reinforcement Learning/Prisioners Dilema.md",
+    "Reinforcement Learning/Non Zero Sum.md",
+    "Reinforcement Learning/Nash Equilibrium.md",
+    "Reinforcement Learning/Iterated Prisoner’s Dilemma.md",
+    "Reinforcement Learning/Agent Cooperation.md",
+    "Reinforcement Learning/Untitled.md",
+    "Web/Redis input.md",
+    "Web/Web.md",
+    "Web/Redis.md",
+    "MutlimediaCoding/Bilinear Interpolation.md",
+    "Python Mastery/Classes and Objects.md",
+    "Reinforcement Learning/Markov Chain.md",
+    "index.md",
+    "code-projects/Picocli.md",
+    "BigData/Zookeeper/Zookeeper配置.md",
+    "BigData/Zookeeper/Zookeeper.md",
+    "Reinforcement Learning/Action.md",
     "Cubox",
     "cubox",
-    "Reinforcement Learning/Mechanism Design.md",
     "Web/高并发",
-    "Reinforcement Learning/Markov Reward Processes.md",
-    "Reinforcement Learning/Value Function.md",
-    "Reinforcement Learning/Reinforcement Learning.md",
-    "Reinforcement Learning/State Action Space Formalism.md",
-    "Reinforcement Learning/Policy iteration.md",
-    "Reinforcement Learning/Policy.md",
-    "Reinforcement Learning/Markov Property.md",
-    "Reinforcement Learning/Markov Decision Process.md",
-    "Reinforcement Learning/Markov Chain.md",
-    "Reinforcement Learning/Q-Learning.md",
-    "Reinforcement Learning/Model Free Reinforcement Learning.md",
-    "Reinforcement Learning/Value Iteration.md",
-    "Reinforcement Learning/Model Based Reinforcement Learning.md",
-    "Reinforcement Learning/Dynamic Programming.md",
-    "Reinforcement Learning/Temporal Difference.md",
-    "Reinforcement Learning/Sarsa.md",
-    "Reinforcement Learning/On-Policy vs Off-Policy.md",
-    "Reinforcement Learning/Exploration vs Exploitation.md",
-    "Reinforcement Learning/Deep Reinforcement Learning.md",
-    "Reinforcement Learning/Value-based vs Policy-based.md",
-    "Reinforcement Learning/Game Theory.md",
-    "Reinforcement Learning/Agent Cooperation.md",
-    "Reinforcement Learning/Deep Q-Networks.md",
-    "Reinforcement Learning/Bellman Equation.md",
     "Reinforcement Learning/images/mdp/state-action-bellman.png",
     "Reinforcement Learning/images/Policy-vsValue-iter.png",
     "Reinforcement Learning/images/model-free/lake.png",
@@ -261,7 +272,6 @@
     "Blockchain",
     "Crypto",
     "面试/计算机网络",
-    "I",
-    "面试/计算系统基础"
+    "I"
   ]
 }
