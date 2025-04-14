@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Mastery/Classes and Objects.md",
+                "file": "Web/双检锁.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Classes and Objects"
+              "title": "双检锁"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Mastery/Classes and Objects.md",
+                "file": "Web/双检锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Classes and Objects 的反向链接列表"
+              "title": "双检锁 的反向链接列表"
             }
           },
           {
@@ -179,7 +179,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Python Mastery/Classes and Objects.md",
+                "file": "Web/双检锁.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,7 +207,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Classes and Objects 的关系图"
+              "title": "双检锁 的关系图"
             }
           }
         ]
@@ -225,8 +225,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ed985350d76818bf",
+  "active": "87b67f87b6ff3f3f",
   "lastOpenFiles": [
+    "Web/饿汉模式.md",
+    "code-projects/本地代码生成.md",
+    "code-projects/命令行开发.md",
+    "Web/双检锁.md",
+    "code-projects/制作工具开发.md",
+    "Web/Picocli.md",
+    "Web/FreeMarker.md",
+    "code-projects/code-generator.md",
+    "code-projects/code projects.md",
+    "MachineLearning/CS50/Hidden Markov Models.md",
+    "MachineLearning/CS50/Introduction - Lecture 0.md",
+    "MachineLearning/CS50/CS50 AI.md",
+    "Python Mastery/Classes and Objects.md",
     "Python Mastery/Data Handling.md",
     "Reinforcement Learning/Agent.md",
     "Reinforcement Learning/Auctions.md",
@@ -240,19 +253,6 @@
     "Reinforcement Learning/Non Zero Sum.md",
     "Reinforcement Learning/Nash Equilibrium.md",
     "Reinforcement Learning/Iterated Prisoner’s Dilemma.md",
-    "Reinforcement Learning/Agent Cooperation.md",
-    "Reinforcement Learning/Untitled.md",
-    "Web/Redis input.md",
-    "Web/Web.md",
-    "Web/Redis.md",
-    "MutlimediaCoding/Bilinear Interpolation.md",
-    "Python Mastery/Classes and Objects.md",
-    "Reinforcement Learning/Markov Chain.md",
-    "index.md",
-    "code-projects/Picocli.md",
-    "BigData/Zookeeper/Zookeeper配置.md",
-    "BigData/Zookeeper/Zookeeper.md",
-    "Reinforcement Learning/Action.md",
     "Cubox",
     "cubox",
     "Web/高并发",

@@ -32,7 +32,7 @@ A hidden Markov model can be represented in a Markov chain with two layers. The 
 ![image.png](https://typora-tes.oss-cn-shanghai.aliyuncs.com/picgo/20230524140939.png)
 
 
-Based on hidden [[Markov models]], multiple tasks can be achieved:
+Based on hidden [[Markov Models]], multiple tasks can be achieved:
 - Filtering: given observations from start until now, calculate the probability distribution for the current state. For example, given information on when people bring umbrellas form the start of time until today, we generate a probability distribution for whether it is raining today or not.
 - Prediction: given observations from start until now, calculate the probability distribution for a future state.
 - Smoothing: given observations from start until now, calculate the probability distribution for a past state. For example, calculating the probability of rain yesterday given that people brought umbrellas today.

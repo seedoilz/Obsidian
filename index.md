@@ -23,7 +23,7 @@ tags:
 - [[Web/Spring/Spring.md|Spring]]
 - [[Python Mastery/Python Mastery.md|Python Mastery]]
 - [[MachineLearning/机器学习.md|机器学习]]
-- [[CS50/CS50 AI.md|CS50 AI]]
+- [[CS50 AI|CS50 AI]]
 - [[code-projects/code-generator.md|code-generator]]
 ## Recently Edited
 | File                                           | Last Edited Time    | tags                          |
