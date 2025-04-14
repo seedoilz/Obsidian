@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -201,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,7 +215,7 @@
       "daily-notes:打开/创建今天的日记": true
     }
   },
-  "active": "87b67f87b6ff3f3f",
+  "active": "ed985350d76818bf",
   "lastOpenFiles": [
     "Reinforcement Learning/Reinforcement Learning.md",
     "Reinforcement Learning/State Action Space Formalism.md",
