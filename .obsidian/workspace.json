@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/双检锁.md",
+                "file": "Web/高并发/高并发.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "双检锁"
+              "title": "高并发"
+            }
+          },
+          {
+            "id": "45fa42758e3e2219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/高并发/Java线程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java线程"
+            }
+          },
+          {
+            "id": "60571a44b5954ad7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/计算系统基础/线程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "线程"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -95,17 +145,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/双检锁.md",
+                "file": "Web/高并发/Java线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "双检锁 的反向链接列表"
+              "title": "Java线程 的反向链接列表"
             }
           },
           {
@@ -114,12 +164,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reinforcement Learning/Markov Chain.md",
+                "file": "Web/高并发/Java线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Markov Chain 的出链列表"
+              "title": "Java线程 的出链列表"
             }
           },
           {
@@ -166,7 +216,8 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b14d6dfd20d23c67",
@@ -179,7 +230,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Web/双检锁.md",
+                "file": "Web/高并发/Java线程.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,14 +258,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "双检锁 的关系图"
+              "title": "Java线程 的关系图"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 278.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,15 +274,20 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "87b67f87b6ff3f3f",
+  "active": "45fa42758e3e2219",
   "lastOpenFiles": [
+    "Web/高并发/高并发.md",
+    "Web/高并发/Java线程.md",
+    "面试/计算系统基础/线程.md",
+    "Web/高并发/多线程挑战.md",
+    "Web/双检锁.md",
     "Web/饿汉模式.md",
     "code-projects/本地代码生成.md",
     "code-projects/命令行开发.md",
-    "Web/双检锁.md",
     "code-projects/制作工具开发.md",
     "Web/Picocli.md",
     "Web/FreeMarker.md",
@@ -249,10 +306,6 @@
     "MutlimediaCoding/Entropy.md",
     "Reinforcement Learning/Zero Sum Game.md",
     "Reinforcement Learning/Tragedy of the commons.md",
-    "Reinforcement Learning/Prisioners Dilema.md",
-    "Reinforcement Learning/Non Zero Sum.md",
-    "Reinforcement Learning/Nash Equilibrium.md",
-    "Reinforcement Learning/Iterated Prisoner’s Dilemma.md",
     "Cubox",
     "cubox",
     "Web/高并发",
