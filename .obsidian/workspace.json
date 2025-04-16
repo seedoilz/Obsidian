@@ -80,6 +80,54 @@
             }
           },
           {
+            "id": "07a06e09559266c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/高并发/Java锁.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Java锁"
+            }
+          },
+          {
+            "id": "c268f02131554c74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/高并发/多线程挑战.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "多线程挑战"
+            }
+          },
+          {
             "id": "11bd2c9eb8f883ed",
             "type": "leaf",
             "state": {
@@ -151,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "right": {
     "id": "83b2e18d0608fb93",
@@ -300,14 +349,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "11bd2c9eb8f883ed",
+  "active": "07a06e09559266c8",
   "lastOpenFiles": [
-    "Web/高并发/多线程挑战.md",
+    "Web/高并发/Java锁.md",
     "Web/高并发/高并发.md",
+    "Web/高并发/多线程挑战.md",
     "Web/高并发/Java线程.md",
+    "BigData/大数据学习.md",
     "BigData/Hadoop/Hadoop.md",
     "面试/计算系统基础/线程.md",
-    "BigData/大数据学习.md",
     "BigData/数据仓库/数据仓库.md",
     "Web/双检锁.md",
     "Web/饿汉模式.md",
@@ -327,7 +377,6 @@
     "Reinforcement Learning/Auctions.md",
     "Reinforcement Learning/Deep Q-Networks.md",
     "Reinforcement Learning/Curse of Dimensionality.md",
-    "Reinforcement Learning/Taxonomy.md",
     "Cubox",
     "cubox",
     "Web/高并发",
